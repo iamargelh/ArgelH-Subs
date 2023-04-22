@@ -3,8 +3,8 @@
     <th colspan="4">SAN HOLO, CHET PORTER - YOU’VE CHANGED, I’VE CHANGED</th>
   </tr>
   <tr>
-    <th style="text-align: right;">INGLÉS</th>
-    <th style="text-align: left;">ESPAÑOL</th>
+    <th colspan="2" style="text-align: right;">INGLÉS</th>
+    <th colspan="2" style="text-align: left;">ESPAÑOL</th>
   </tr>
   <tr>
     <td colspan="2" style="text-align: right;">
