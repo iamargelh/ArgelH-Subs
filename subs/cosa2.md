@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <script>
 
@@ -52,9 +51,13 @@
     </script>
 <head>
 <style>
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 62.5%;
+}
 table {
-  border-collapse: collapse;
-  font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    font-size: 2.1rem;
 }
 th, td {
   padding: 8px;
@@ -105,7 +108,7 @@ th, td {
 <td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi video)</span><span id="FuenteW1">Oficial: bitbird</span></span></td>
 <td class="top-align"><span id="UrlsArtista1"></span></td>
 <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
-<td class="top-align"><img src="https://yt3.googleusercontent.com/ytc/AL5GRJU6KG3YodACDg8MLMNgUKmdrA6QWQsa00CIflQx8_0=s176-c-k-c0x00ffffff-no-rj" width="60" height="60"></td>
+<td class="top-align"><img src="./../resources/g6qk73.gif" width="40ch" height="40ch"></td>
 </tr>
 </table>
 <script>
