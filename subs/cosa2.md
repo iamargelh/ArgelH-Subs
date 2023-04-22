@@ -91,11 +91,15 @@ th, td {
 .top-align {
   vertical-align: top;
 }
+.mid-align {
+  vertical-align: middle;
+}
 </style>
 </head>
 
 <!-- CUERPO CON LA TABLA -->
 <body>
+<<<<<<< HEAD
     <table>
         <tr>
             <th colspan="4" class="titulo">Título</th>
@@ -117,6 +121,140 @@ th, td {
             <td class="top-align"><img src="https://files.catbox.moe/g6qk73.gif" width="60" height="60"></td>
         </tr>
     </table>
+=======
+<table>
+<tr>
+<th colspan="4" class="titulo">Título</th>
+</tr>
+<tr>
+<th colspan="2" class="ingles borde-derecho">English</th>
+<th colspan="2" class="espanol">Español</th>
+</tr>
+<tr>
+<td colspan="2" class="ingles borde-derecho top-align">
+    I Don't Wanna Lose My Mind Again<br>I Remember Every Word You Said<br>If There Was A Way, I Would Go Back<br>If There Was A Way, I Would Go Back<br>I Don't Wanna Lose My Mind Again<br>Even If I Try, I Can't Forget<br>If There Was A Way, I Would Go Back<br>If There Was A Way, I Would Go Back<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>I Don't Wanna Lose My Mind Again<br>I Remember Every Word You Said<br>If There Was A Way, I Would Go Back<br>If There Was A Way, I Would Go Back<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>It's Not The Same<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>It's Not The Same<br>You've Changed, I've Changed<br>You've Changed, It's Not The Same<br>You've Changed, I've Changed<br>You've Changed
+</td>
+<td colspan="2" class="espanol top-align">
+    No Quiero Enloquecer Otra Vez<br>Aún Recuerdo Cada Palabra Que Dijiste<br>Si Pudiera, Volvería Atrás‎ ‎ ‎ ‎ ‎‎ ‎ ‎  <br>Si Hubiese La Manera, Regresaría Contigo<br>No Quiero Perder La Razón Como Antes<br>Aunque Lo Intento, No Puedo Olvidar<br>Si Hubiese La Manera, Regresaría Contigo<br>Si Pudiera, Volvería Atrás‎ ‎ ‎ ‎ ‎ ‎ <br>Tú Has Cambiado, Yo He Cambiado<br>Has Cambiado, Y No Es Lo Mismo<br>Has Cambiado, He Cambiado<br>Tú Has Cambiado, Es Tan Distinto<br>No Quiero Enloquecer Otra Vez<br>Aún Recuerdo Cada Palabra Que Dijiste<br>Si Pudiera, Volvería Atrás‎ ‎ ‎ ‎ ‎‎ ‎ ‎  <br>Si Hubiese La Manera, Regresaría Contigo<br>Tú Has Cambiado, Yo He Cambiado<br>Has Cambiado, No Es Lo Mismo<br>Has Cambiado, He Cambiado<br>Te Has Transformado, Es Tan Distinto<br>No Es Lo Mismo<br>Tú Has Cambiado, Hemos Cambiado<br>Has Cambiado, No Es Lo Mismo<br>Es Tan Distinto<br>Tú Has Cambiado, Yo He Cambiado<br>Has Cambiado, No Es Lo Mismo<br>Has Cambiado, He Cambiado<br>Ya No Eres La Misma.
+</td>
+</tr>
+<tr>
+<td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi video)</span><span id="FuenteW1">Oficial: bitbird</span></span></td>
+<td class="top-align"><span id="UrlsArtista1"></span></td>
+<td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
+<td class="mid-align"><img src="./../resources/g6qk73.gif" width="70ch"></td>
+</tr>
+</table>
+<script>
+    var tituloc = document.querySelector(".titulo");
+    tituloc.textContent = cancion;
+    tituloc.style.textAlign = "center";
+    var fuenteW1 = document.getElementById("FuenteW1");
+    fuenteW1.innerHTML = titulo + ": ";
+    var enlace = document.createElement("a");
+    enlace.href = wfuente;
+    enlace.textContent = texto;
+    enlace.style.fontStyle = "italic";
+    fuenteW1.appendChild(enlace);
+    if (vocals || instrumental) {
+    var spanWallpaper = document.getElementById("spanWallpaper");
+    spanWallpaper.appendChild(document.createElement("br"));
+    var audiosSpan = document.createElement("span");
+    audiosSpan.innerHTML = "<strong>Audios:</strong>";
+    spanWallpaper.parentNode.insertBefore(audiosSpan, spanWallpaper.nextSibling);
+    var extractedText = document.createElement("span");
+    extractedText.textContent = "(Extraídos de la canción)";
+    extractedText.style.fontSize = "50%";
+    extractedText.style.display = "block";
+    extractedText.style.marginTop = "-2px";
+    extractedText.style.marginBottom = "0px";
+    audiosSpan.appendChild(extractedText);
+    if (vocals) {
+        var vocalsLink = document.createElement("a");
+        vocalsLink.href = vocals;
+        vocalsLink.textContent = "Acapella";
+        audiosSpan.appendChild(vocalsLink);
+        audiosSpan.appendChild(document.createElement("br"));
+    }
+    if (instrumental) {
+        var instrumentalLink = document.createElement("a");
+        instrumentalLink.href = instrumental;
+        instrumentalLink.textContent = "Instrumental";
+        audiosSpan.appendChild(instrumentalLink);
+    }
+}
+</script>
+<script>
+var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");
+var artistName = document.createElement("strong");
+artistName.textContent = artist + ":";
+celdaUrlsArtista1.appendChild(artistName);
+celdaUrlsArtista1.appendChild(document.createElement("br")); // add a line break after the artist name
+if (tidal) {
+  var enlaceTidal = document.createElement("a");
+  enlaceTidal.href = tidal;
+  enlaceTidal.textContent = "Tidal";
+  celdaUrlsArtista1.appendChild(enlaceTidal);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (spotify) {
+  var UrlsArtista1potify = document.createElement("a");
+  UrlsArtista1potify.href = spotify;
+  UrlsArtista1potify.textContent = "Spotify";
+  celdaUrlsArtista1.appendChild(UrlsArtista1potify);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (soundcloud) {
+  var UrlsArtista1oundCloud = document.createElement("a");
+  UrlsArtista1oundCloud.href = soundcloud;
+  UrlsArtista1oundCloud.textContent = "SoundCloud";
+  celdaUrlsArtista1.appendChild(UrlsArtista1oundCloud);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (youtube) {
+  var enlaceYouTube = document.createElement("a");
+  enlaceYouTube.href = youtube;
+  enlaceYouTube.textContent = "YouTube";
+  celdaUrlsArtista1.appendChild(enlaceYouTube);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (website) {
+  var enlaceWebsite = document.createElement("a");
+  enlaceWebsite.href = website;
+  enlaceWebsite.textContent = "Website";
+  celdaUrlsArtista1.appendChild(enlaceWebsite);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (discord) {
+    var enlacediscord= document.createElement("a");
+    enlacediscord.href= discord;
+    enlacediscord.textContent= "Discord";
+    celdaUrlsArtista1.appendChild(enlacediscord);
+    celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (instagram) {
+  var enlaceInstagram = document.createElement("a");
+  enlaceInstagram.href = instagram;
+  enlaceInstagram.textContent = "Instagram";
+  celdaUrlsArtista1.appendChild(enlaceInstagram);
+  celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (facebook) {
+    var enlaceFacebook= document.createElement("a");
+    enlaceFacebook.href= facebook;
+    enlaceFacebook.textContent= "Facebook";
+    celdaUrlsArtista1.appendChild(enlaceFacebook);
+    celdaUrlsArtista1.appendChild(document.createElement("br"));
+}
+if (twitter) {
+    var enlacetwitter= document.createElement("a");
+    enlacetwitter.href= twitter;
+    enlacetwitter.textContent= "Twitter";
+    celdaUrlsArtista1.appendChild(enlacetwitter);
+}
+</script>
+<script>
+>>>>>>> f6d54a9c9bcdef7e49321f56636d70c45816fd45
 
 
     <!-- INFIERNO DE LOS SCIRPT -->
