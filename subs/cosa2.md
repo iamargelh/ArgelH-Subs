@@ -69,7 +69,7 @@ th, td {
 }
 .ingles {
   text-align: right;
-  width: 50%;
+  width: 20%;
 }
 .espanol {
   text-align: left;
