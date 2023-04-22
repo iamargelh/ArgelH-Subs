@@ -57,7 +57,7 @@ body {
 }
 table {
     border-collapse: collapse;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 th, td {
   padding: 8px;
@@ -108,7 +108,7 @@ th, td {
 <td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi video)</span><span id="FuenteW1">Oficial: bitbird</span></span></td>
 <td class="top-align"><span id="UrlsArtista1"></span></td>
 <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
-<td class="top-align"><img src="./../resources/g6qk73.gif" width="40ch" height="40ch"></td>
+<td class="top-align"><img src="./../resources/g6qk73.gif" width="40ch"></td>
 </tr>
 </table>
 <script>
