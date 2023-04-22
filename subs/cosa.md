@@ -69,3 +69,4 @@
     </td>
   </tr>
 </table>
+<img src="./../resources/g6qk73.gif" width="60" height="60">
