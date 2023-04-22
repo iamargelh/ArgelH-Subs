@@ -102,12 +102,12 @@
             <th colspan="4" class="titulo">Título</th>
          </tr>
          <tr>
-            <th colspan="2" class="ingles borde-derecho top-align">English</th>
-            <th colspan="2" class="espanol top-align">Español</th>
+            <th colspan="2" class="ingles borde-derecho">English</th>
+            <th colspan="2" class="espanol">Español</th>
          </tr>
          <tr>
-            <td colspan="2" class="ingles borde-derecho"><a id="LyricEng"></a></td>
-            <td colspan="2" class="espanol"><a id="LyricEsp"></a></td>
+            <td colspan="2" class="ingles borde-derecho top-align"><a id="LyricEng"></a></td>
+            <td colspan="2" class="espanol top-align"><a id="LyricEsp"></a></td>
          </tr>
          <tr>
             <td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi
