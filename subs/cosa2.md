@@ -58,6 +58,7 @@ body {
 table {
     border-collapse: collapse;
     font-size: 1rem;
+    width: 100%;
 }
 th, td {
   padding: 8px;
