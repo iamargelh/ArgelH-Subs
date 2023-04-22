@@ -110,7 +110,7 @@ th, td {
 <td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi video)</span><span id="FuenteW1">Oficial: bitbird</span></span></td>
 <td class="top-align"><span id="UrlsArtista1"></span></td>
 <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
-<td class="top-align"><img src="./../resources/g6qk73.gif" width="80rem"></td>
+<td class="top-align"><img src="./../resources/g6qk73.gif" width="160rem"></td>
 </tr>
 </table>
 <script>
