@@ -54,6 +54,7 @@
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 62.5%;
+    width: 100%;
 }
 table {
     border-collapse: collapse;
