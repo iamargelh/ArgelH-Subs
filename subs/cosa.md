@@ -1,13 +1,13 @@
 <table>
   <tr>
-    <th colspan="2">SAN HOLO, CHET PORTER - YOU’VE CHANGED, I’VE CHANGED</th>
+    <th colspan="4">SAN HOLO, CHET PORTER - YOU’VE CHANGED, I’VE CHANGED</th>
   </tr>
   <tr>
     <th style="text-align: right;">INGLÉS</th>
     <th style="text-align: left;">ESPAÑOL</th>
   </tr>
   <tr>
-    <td style="text-align: right;">
+    <td colspan="2" style="text-align: right;">
         I DON'T WANNA LOSE MY MIND AGAIN<br>
         I REMEMBER EVERY WORD YOU SAID<br>
         IF THERE WAS A WAY, I WOULD GO BACK<br>
@@ -37,7 +37,7 @@
         YOU'VE CHANGED, I'VE CHANGED<br>
         YOU'VE CHANGED
     </td>
-    <td style="text-align: left;">
+    <td colspan="2" style="text-align: left;">
         NO QUIERO ENLOQUECER OTRA VEZ<br>
         AÚN RECUERDO CADA PALABRA QUE DIJISTE<br>
         SI PUDIERA, VOLVERÍA ATRÁS<br>
@@ -70,11 +70,12 @@
   </tr>
   <tr>
     <td>
-        <img src="./../resources/g6qk73.gif" width="60" height="60">
     </td>
     <td>
     </td>
+        Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a>
     <td>
+        <img src="./../resources/g6qk73.gif" width="80" height="80">
     </td>
   </tr>
 </table>
