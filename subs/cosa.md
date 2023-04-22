@@ -3,11 +3,11 @@
     <th colspan="2">SAN HOLO, CHET PORTER - YOU’VE CHANGED, I’VE CHANGED</th>
   </tr>
   <tr>
-    <th>INGLÉS</th>
-    <th>ESPAÑOL</th>
+    <th style="text-align: right;">INGLÉS</th>
+    <th style="text-align: left;">ESPAÑOL</th>
   </tr>
   <tr>
-    <td>
+    <td style="text-align: right;">
         I DON'T WANNA LOSE MY MIND AGAIN<br>
         I REMEMBER EVERY WORD YOU SAID<br>
         IF THERE WAS A WAY, I WOULD GO BACK<br>
@@ -37,7 +37,7 @@
         YOU'VE CHANGED, I'VE CHANGED<br>
         YOU'VE CHANGED
     </td>
-    <td>
+    <td style="text-align: left;">
         NO QUIERO ENLOQUECER OTRA VEZ<br>
         AÚN RECUERDO CADA PALABRA QUE DIJISTE<br>
         SI PUDIERA, VOLVERÍA ATRÁS<br>
