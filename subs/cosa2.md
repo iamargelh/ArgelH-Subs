@@ -124,12 +124,12 @@
          var celdaLyricEsp = document.getElementById("LyricEsp");
          var artistName = document.createElement("strong");
          artistName.textContent = artist + ":";
-         
+         //
          var celdaLyricEsp = document.getElementById("LyricEsp");
          celdaLyricEsp.innerHTML = esp;
          var celdaLyricEng = document.getElementById("LyricEng");
          celdaLyricEng.innerHTML = eng;
-         
+         //
          var tituloc = document.querySelector(".titulo");
          tituloc.textContent = cancion;
          tituloc.style.textAlign = "center";
