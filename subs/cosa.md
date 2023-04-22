@@ -7,7 +7,7 @@
     <th colspan="2" style="text-align: left;">ESPAÑOL</th>
   </tr>
   <tr>
-    <td colspan="2" style="text-align: right;">
+    <td style="text-align: right;" colspan="2" >
         I DON'T WANNA LOSE MY MIND AGAIN<br>
         I REMEMBER EVERY WORD YOU SAID<br>
         IF THERE WAS A WAY, I WOULD GO BACK<br>
@@ -37,7 +37,7 @@
         YOU'VE CHANGED, I'VE CHANGED<br>
         YOU'VE CHANGED
     </td>
-    <td colspan="2" style="text-align: left;">
+    <td style="text-align: left;" colspan="2" >
         NO QUIERO ENLOQUECER OTRA VEZ<br>
         AÚN RECUERDO CADA PALABRA QUE DIJISTE<br>
         SI PUDIERA, VOLVERÍA ATRÁS<br>
@@ -73,11 +73,11 @@
     </td>
     <td>
     </td>
-        Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a>
     <td>
-        <img src="./../resources/g6qk73.gif" width="80" height="80">
+        Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a>
     </td>
     <td>
+        <img src="./../resources/g6qk73.gif" width="80" height="80">
     </td>
   </tr>
 </table>
