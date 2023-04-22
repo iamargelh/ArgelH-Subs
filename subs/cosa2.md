@@ -175,7 +175,7 @@
          var artistName = document.createElement("strong");
          artistName.textContent = artist + ":";
          celdaUrlsArtista1.appendChild(artistName);
-         celdaUrlsArtista1.appendChild(document.createElement("br")); // add a line break after the artist name
+         celdaUrlsArtista1.appendChild(document.createElement("br")); // AÑADE UN SALTO DE LINEA DESPUES DEL ARTISTA
          if (tidal) {
              var enlaceTidal = document.createElement("a");
              enlaceTidal.href = tidal;
