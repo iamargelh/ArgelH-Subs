@@ -67,11 +67,11 @@ th, td {
 }
 .ingles {
   text-align: right;
-  width: 363px;
+  width: 50%;
 }
 .espanol {
   text-align: left;
-  width: 363px;
+  width: 50%;
 }
 .borde-derecho {
   border-right: 1px solid black;
