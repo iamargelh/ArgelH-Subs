@@ -68,5 +68,13 @@
         YA NO ERES LA MISMA.
     </td>
   </tr>
+  <tr>
+    <td>
+        <img src="./../resources/g6qk73.gif" width="60" height="60">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
 </table>
-<img src="./../resources/g6qk73.gif" width="60" height="60">
