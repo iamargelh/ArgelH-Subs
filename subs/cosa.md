@@ -74,8 +74,8 @@
     <td>
     </td>
     <td colspan="2">
-        <div>Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></div>
-        <div><img src="./../resources/g6qk73.gif" width="80" height="80"></div>
+        <div style="position: absolute;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></div>
+        <div style="position: absolute;"><img src="./../resources/g6qk73.gif" width="80" height="80"></div>
     </td>
   </tr>
 </table>
