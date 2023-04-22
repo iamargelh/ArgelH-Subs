@@ -77,5 +77,7 @@
     <td>
         <img src="./../resources/g6qk73.gif" width="80" height="80">
     </td>
+    <td>
+    </td>
   </tr>
 </table>
