@@ -9,7 +9,12 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: List files
-        run: ls -al
       - name: Generate index.html
         run: bash ./generate-index.sh
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "iamargelh"
+          git config --global user.email "fernandohu93@gmail.com"
+          git add index.html
+          git commit -m "Update index.html"
+          git push
