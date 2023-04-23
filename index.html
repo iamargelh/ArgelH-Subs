@@ -1,1 +1,21 @@
-<!DOCTYPE html>ESPACIADO<html>ESPACIADO<body>ESPACIADO<h1>Hello World</h1>ESPACIADO<p>I'm hosted with GitHub Pages.</p>ESPACIADO</body>ESPACIADO</html>ESPACIADO
+<!DOCTYPE html>
+
+<script>
+    const owner = 'iamargelh';
+    const repo = 'ArgelH-Subs';
+    const path = 'subs';
+
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+        .then(response => response.json())
+        .then(data => {
+            const ul = document.createElement('ul');
+            data.forEach(file => {
+                const li = document.createElement('li');
+                li.textContent = file.name;
+                ul.appendChild(li);
+            });
+            document.body.appendChild(ul);
+        });
+</script>
+
+</html>
