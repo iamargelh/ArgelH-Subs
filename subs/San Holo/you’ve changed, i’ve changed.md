@@ -16,6 +16,10 @@ layout: default
     var vocals = "";
     var instrumental = "";
     //
+    //VIDEO LOSSELESS
+    var videoText = "Catbox"; 
+    var videoLink = "https://files.catbox.moe/6lu1qo.mp4";
+    //
     //ARTISTA 1
     var artist = "San Holo";
     var tidal = "https://tidal.com/browse/artist/5951279";
@@ -447,6 +451,25 @@ layout: default
                 enlacetwitter.textContent = "Twitter";
                 celdaUrlsArtista3.appendChild(enlacetwitter);
             }
+        }
+    </script>
+    <script>
+        if (videoLink) {
+            var audiosSpan = document.querySelector("#spanWallpaper + span");
+            if (!audiosSpan) {
+                audiosSpan = document.querySelector("#spanWallpaper");
+            }
+            var br = document.createElement("br");
+            audiosSpan.parentNode.insertBefore(br, audiosSpan.nextSibling);
+            var videoSpan = document.createElement("span");
+            videoSpan.innerHTML = "<strong>Video Con Mejor Calidad:</strong>";
+            br.parentNode.insertBefore(videoSpan, br.nextSibling);
+            videoSpan.appendChild(document.createElement("br"));
+            var videoLinkElement = document.createElement("a");
+            videoLinkElement.href = videoLink;
+            videoLinkElement.target = "_blank";
+            videoLinkElement.textContent = videoText;
+            videoSpan.appendChild(videoLinkElement);
         }
     </script>
 </body>

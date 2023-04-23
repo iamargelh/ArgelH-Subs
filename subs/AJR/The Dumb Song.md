@@ -17,6 +17,10 @@ layout: default
     var vocals = "https://files.catbox.moe/xilscn.flac";
     var instrumental = "https://files.catbox.moe/0fwwtx.flac";
     //
+    //VIDEO LOSSELESS
+    var videoText = "Catbox"; 
+    var videoLink = "https://files.catbox.moe/p8furx.mp4";
+    //
     //ARTISTA 1
     var artist = "AJR";
     var tidal = "https://tidal.com/browse/artist/5073699";
@@ -382,7 +386,8 @@ layout: default
             <td colspan="2">Soy Demasiado Tonto.</td>
         </tr>
         <tr>
-            <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
+            <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span
+                        class="mitad-tamano">(Usado
                         en mi
                         video)</span><span id="FuenteW1">Oficial: bitbird</span></span>
             </td>
@@ -689,6 +694,25 @@ layout: default
                 enlacetwitter.textContent = "Twitter";
                 celdaUrlsArtista3.appendChild(enlacetwitter);
             }
+        }
+    </script>
+    <script>
+        if (videoLink) {
+            var audiosSpan = document.querySelector("#spanWallpaper + span");
+            if (!audiosSpan) {
+                audiosSpan = document.querySelector("#spanWallpaper");
+            }
+            var br = document.createElement("br");
+            audiosSpan.parentNode.insertBefore(br, audiosSpan.nextSibling);
+            var videoSpan = document.createElement("span");
+            videoSpan.innerHTML = "<strong>Video Con Mejor Calidad:</strong>";
+            br.parentNode.insertBefore(videoSpan, br.nextSibling);
+            videoSpan.appendChild(document.createElement("br"));
+            var videoLinkElement = document.createElement("a");
+            videoLinkElement.href = videoLink;
+            videoLinkElement.target = "_blank";
+            videoLinkElement.textContent = videoText;
+            videoSpan.appendChild(videoLinkElement);
         }
     </script>
 </body>

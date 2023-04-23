@@ -1,1 +1,472 @@
-<html>ESPACIADO   <!-- VARIABLES -->ESPACIADO   <script>ESPACIADO      //ESPACIADO      //CANCIONESPACIADO      var cancion = "AJR - The Dumb Song";ESPACIADO      //ESPACIADO      //WALLPAPERESPACIADO      var titulo = "Artstation";ESPACIADO      var texto = "Yun Yin";ESPACIADO      var wfuente = "";ESPACIADO      //ESPACIADO      //PISTASESPACIADO      var vocals = "";ESPACIADO      var instrumental = "";ESPACIADO      //ESPACIADO      //ARTISTA 1ESPACIADO      var artist = "AJR";ESPACIADO      var tidal = "a";ESPACIADO      var spotify = "";ESPACIADO      var instagram = "";ESPACIADO      var twitter = "";ESPACIADO      var soundcloud = "";ESPACIADO      var website = "";ESPACIADO      var facebook = "";ESPACIADO      var youtube = "";ESPACIADO      var discord = "";ESPACIADO      //ESPACIADO      //ARTISTA 2ESPACIADO      var artist2 = "";ESPACIADO      var tidal2 = "";ESPACIADO      var spotify2 = "";ESPACIADO      var instagram2 = "";ESPACIADO      var twitter2 = "";ESPACIADO      var soundcloud2 = "";ESPACIADO      var website2 = "";ESPACIADO      var facebook2 = "";ESPACIADO      var youtube2 = "";ESPACIADO      var discord2 = "";ESPACIADO      //ESPACIADO      //ARTISTA 3ESPACIADO      var artist3 = "";ESPACIADO      var tidal3 = "";ESPACIADO      var spotify3 = "";ESPACIADO      var instagram3 = "";ESPACIADO      var twitter3 = "";ESPACIADO      var soundcloud3 = "";ESPACIADO      var website3 = "";ESPACIADO      var facebook3 = "";ESPACIADO      var youtube3 = "";ESPACIADO      var discord3 = "";ESPACIADO      //ESPACIADO   </script>ESPACIADO   <!-- ESTILOS -->ESPACIADO   <head>ESPACIADO      <style>ESPACIADO         body {ESPACIADO            font-family: "Times New Roman", Times, serif;ESPACIADO            font-size: 62.5%;ESPACIADO            width: 100%;ESPACIADO        }ESPACIADO        table {ESPACIADO            border-collapse: collapse;ESPACIADO            font-size: 1rem;ESPACIADO            width: 120ch;ESPACIADO        }ESPACIADO        th,td {ESPACIADO            padding: 8px;ESPACIADO        }ESPACIADO        tr td:first-child {ESPACIADO        text-align: right;ESPACIADO        }ESPACIADO        tr td:nth-child(2) {ESPACIADO        text-align: left;ESPACIADO        }ESPACIADO        .titulo {ESPACIADO            text-align: center;ESPACIADO        }ESPACIADO        .ingles {ESPACIADO            text-align: right;ESPACIADO            width: 50%;ESPACIADO        }ESPACIADO         .espanol {ESPACIADO         text-align: left;ESPACIADO         width: 50%;ESPACIADO         }ESPACIADO         .borde-derecho {ESPACIADO         border-right: 1px solid black;ESPACIADO         }ESPACIADO         .mitad-tamano {ESPACIADO         font-size: 50%;ESPACIADO         display: block;ESPACIADO         margin-top: -2px;ESPACIADO         margin-bottom: 0px;ESPACIADO         }ESPACIADO         .top-align {ESPACIADO         vertical-align: top;ESPACIADO         }ESPACIADO         .align-left{ESPACIADO            text-align: left;ESPACIADO         }ESPACIADO         .mid-align {ESPACIADO         vertical-align: middle;ESPACIADO         }ESPACIADO         .tab { ESPACIADO            display:inline-block; ESPACIADO            margin-left: 1.5rem; ESPACIADO        }ESPACIADO      </style>ESPACIADO   </head>ESPACIADO   <!-- CUERPO CON LA TABLA -->ESPACIADO   <body>ESPACIADO      <table>ESPACIADO         <tr>ESPACIADO            <th colspan="4" class="titulo">Título</th>ESPACIADO         </tr>ESPACIADO         <tr>ESPACIADO            <th colspan="2" class="ingles borde-derecho">English</th>ESPACIADO            <th colspan="2" class="espanol">Español</th>ESPACIADO         </tr>ESPACIADO           <!-- INSERTE AQUI LA LETRA <td colspan="2"> -->ESPACIADO         <tr>ESPACIADO            <td class="top-align align-left"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en miESPACIADO               video)</span><span id="FuenteW1">Oficial: bitbird</span></span>ESPACIADO            </td>ESPACIADO            <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>ESPACIADO            <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br />Redes:<br /><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>ESPACIADO            <td class="mid-align align-left"><img src="/resources/g6qk73.gif" width="70ch" /></td>ESPACIADO         </tr>ESPACIADO      </table>ESPACIADO      <!-- INFIERNO DE LOS SCIRPT -->ESPACIADO      <script>ESPACIADO         var tituloc = document.querySelector(".titulo");ESPACIADO         tituloc.textContent = cancion;ESPACIADO         tituloc.style.textAlign = "center";ESPACIADO         var fuenteW1 = document.getElementById("FuenteW1");ESPACIADO         fuenteW1.innerHTML = titulo + ": ";ESPACIADO         var enlace = document.createElement("a");ESPACIADO         if (wfuente) {ESPACIADO             enlace.href = wfuente;ESPACIADO         }ESPACIADO         enlace.textContent = texto;ESPACIADO         enlace.style.fontStyle = "italic";ESPACIADO         fuenteW1.appendChild(enlace);ESPACIADO         if (vocals || instrumental) {ESPACIADO             var spanWallpaper = document.getElementById("spanWallpaper");ESPACIADO             spanWallpaper.appendChild(document.createElement("br"));ESPACIADO             var audiosSpan = document.createElement("span");ESPACIADO             audiosSpan.innerHTML = "<strong>Audios:</strong>";ESPACIADO             spanWallpaper.parentNode.insertBefore(audiosSpan, spanWallpaper.nextSibling);ESPACIADO             var extractedText = document.createElement("span");ESPACIADO             extractedText.textContent = "(Extraídos de la canción)";ESPACIADO             extractedText.style.fontSize = "50%";ESPACIADO             extractedText.style.display = "block";ESPACIADO             extractedText.style.marginTop = "-2px";ESPACIADO             extractedText.style.marginBottom = "0px";ESPACIADO             audiosSpan.appendChild(extractedText);ESPACIADO             if (vocals) {ESPACIADO                 var vocalsLink = document.createElement("a");ESPACIADO                 vocalsLink.href = vocals;ESPACIADO                 vocalsLink.textContent = "Acapella";ESPACIADO                 audiosSpan.appendChild(vocalsLink);ESPACIADO                 audiosSpan.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (instrumental) {ESPACIADO                 var instrumentalLink = document.createElement("a");ESPACIADO                 instrumentalLink.href = instrumental;ESPACIADO                 instrumentalLink.textContent = "Instrumental";ESPACIADO                 audiosSpan.appendChild(instrumentalLink);ESPACIADO             }ESPACIADO         }ESPACIADO      </script>ESPACIADO      <script>ESPACIADO         var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");ESPACIADO         var artistName = document.createElement("strong");ESPACIADO         artistName.textContent = artist + ":";ESPACIADO         celdaUrlsArtista1.appendChild(artistName);ESPACIADO         celdaUrlsArtista1.appendChild(document.createElement("br")); // AÑADE UN SALTO DE LINEA DESPUES DEL ARTISTAESPACIADO         if (tidal) {ESPACIADO             var enlaceTidal = document.createElement("a");ESPACIADO             enlaceTidal.href = tidal;ESPACIADO             enlaceTidal.textContent = "Tidal";ESPACIADO             celdaUrlsArtista1.appendChild(enlaceTidal);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (spotify) {ESPACIADO             var UrlsArtista1potify = document.createElement("a");ESPACIADO             UrlsArtista1potify.href = spotify;ESPACIADO             UrlsArtista1potify.textContent = "Spotify";ESPACIADO             celdaUrlsArtista1.appendChild(UrlsArtista1potify);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (soundcloud) {ESPACIADO             var UrlsArtista1oundCloud = document.createElement("a");ESPACIADO             UrlsArtista1oundCloud.href = soundcloud;ESPACIADO             UrlsArtista1oundCloud.textContent = "SoundCloud";ESPACIADO             celdaUrlsArtista1.appendChild(UrlsArtista1oundCloud);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (youtube) {ESPACIADO             var enlaceYouTube = document.createElement("a");ESPACIADO             enlaceYouTube.href = youtube;ESPACIADO             enlaceYouTube.textContent = "YouTube";ESPACIADO             celdaUrlsArtista1.appendChild(enlaceYouTube);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (website) {ESPACIADO             var enlaceWebsite = document.createElement("a");ESPACIADO             enlaceWebsite.href = website;ESPACIADO             enlaceWebsite.textContent = "Website";ESPACIADO             celdaUrlsArtista1.appendChild(enlaceWebsite);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (discord) {ESPACIADO             var enlacediscord = document.createElement("a");ESPACIADO             enlacediscord.href = discord;ESPACIADO             enlacediscord.textContent = "Discord";ESPACIADO             celdaUrlsArtista1.appendChild(enlacediscord);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (instagram) {ESPACIADO             var enlaceInstagram = document.createElement("a");ESPACIADO             enlaceInstagram.href = instagram;ESPACIADO             enlaceInstagram.textContent = "Instagram";ESPACIADO             celdaUrlsArtista1.appendChild(enlaceInstagram);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (facebook) {ESPACIADO             var enlaceFacebook = document.createElement("a");ESPACIADO             enlaceFacebook.href = facebook;ESPACIADO             enlaceFacebook.textContent = "Facebook";ESPACIADO             celdaUrlsArtista1.appendChild(enlaceFacebook);ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO         }ESPACIADO         if (twitter) {ESPACIADO             var enlacetwitter = document.createElement("a");ESPACIADO             enlacetwitter.href = twitter;ESPACIADO             enlacetwitter.textContent = "Twitter";ESPACIADO             celdaUrlsArtista1.appendChild(enlacetwitter);ESPACIADO         }ESPACIADO      </script>ESPACIADO      <script>ESPACIADO         if (artist2) {ESPACIADO             var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO             celdaUrlsArtista1.appendChild(document.createElement("br"));ESPACIADO             var celdaUrlsArtista2 = document.createElement("span");ESPACIADO             celdaUrlsArtista2.id = "UrlsArtista2";ESPACIADO             celdaUrlsArtista1.parentNode.insertBefore(celdaUrlsArtista2, celdaUrlsArtista1.nextSibling);ESPACIADO             var artistName2 = document.createElement("strong");ESPACIADO             artistName2.textContent = artist2 + ":";ESPACIADO             celdaUrlsArtista2.appendChild(artistName2);ESPACIADO             celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             if (tidal2) {ESPACIADO                 var enlaceTidal = document.createElement("a");ESPACIADO                 enlaceTidal.href = tidal2;ESPACIADO                 enlaceTidal.textContent = "Tidal";ESPACIADO                 celdaUrlsArtista2.appendChild(enlaceTidal);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (spotify2) {ESPACIADO                 var UrlsArtista1potify = document.createElement("a");ESPACIADO                 UrlsArtista1potify.href = spotify2;ESPACIADO                 UrlsArtista1potify.textContent = "Spotify";ESPACIADO                 celdaUrlsArtista2.appendChild(UrlsArtista1potify);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (soundcloud2) {ESPACIADO                 var UrlsArtista1oundCloud = document.createElement("a");ESPACIADO                 UrlsArtista1oundCloud.href = soundcloud2;ESPACIADO                 UrlsArtista1oundCloud.textContent = "SoundCloud";ESPACIADO                 celdaUrlsArtista2.appendChild(UrlsArtista1oundCloud);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (youtube2) {ESPACIADO                 var enlaceYouTube = document.createElement("a");ESPACIADO                 enlaceYouTube.href = youtube2;ESPACIADO                 enlaceYouTube.textContent = "YouTube";ESPACIADO                 celdaUrlsArtista2.appendChild(enlaceYouTube);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (website2) {ESPACIADO                 var enlaceWebsite = document.createElement("a");ESPACIADO                 enlaceWebsite.href = website;ESPACIADO                 enlaceWebsite.textContent = "Website";ESPACIADO                 celdaUrlsArtista2.appendChild(enlaceWebsite);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (discord2) {ESPACIADO                 var enlacediscord = document.createElement("a");ESPACIADO                 enlacediscord.href = discord2;ESPACIADO                 enlacediscord.textContent = "Discord";ESPACIADO                 celdaUrlsArtista2.appendChild(enlacediscord);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (instagram) {ESPACIADO                 var enlaceInstagram = document.createElement("a");ESPACIADO                 enlaceInstagram.href = instagram;ESPACIADO                 enlaceInstagram.textContent = "Instagram";ESPACIADO                 celdaUrlsArtista2.appendChild(enlaceInstagram);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (facebook2) {ESPACIADO                 var enlaceFacebook = document.createElement("a");ESPACIADO                 enlaceFacebook.href = facebook2;ESPACIADO                 enlaceFacebook.textContent = "Facebook";ESPACIADO                 celdaUrlsArtista2.appendChild(enlaceFacebook);ESPACIADO                 celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (twitter2) {ESPACIADO                 var enlacetwitter = document.createElement("a");ESPACIADO                 enlacetwitter.href = twitter2;ESPACIADO                 enlacetwitter.textContent = "Twitter";ESPACIADO                 celdaUrlsArtista2.appendChild(enlacetwitter);ESPACIADO             }ESPACIADO         }ESPACIADO      </script>ESPACIADO      <script>ESPACIADO         if (artist3) {ESPACIADO             var celdaUrlsArtista2 = document.getElementById("UrlsArtista2");ESPACIADO             celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             celdaUrlsArtista2.appendChild(document.createElement("br"));ESPACIADO             var celdaUrlsArtista3 = document.createElement("span");ESPACIADO             celdaUrlsArtista3.id = "UrlsArtista3";ESPACIADO             celdaUrlsArtista2.parentNode.insertBefore(celdaUrlsArtista3, celdaUrlsArtista2.nextSibling);ESPACIADO             var artistName3 = document.createElement("strong");ESPACIADO             artistName3.textContent = artist3 + ":";ESPACIADO             celdaUrlsArtista3.appendChild(artistName3);ESPACIADO             celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             if (tidal3) {ESPACIADO                 var enlaceTidal = document.createElement("a");ESPACIADO                 enlaceTidal.href = tidal3;ESPACIADO                 enlaceTidal.textContent = "Tidal";ESPACIADO                 celdaUrlsArtista3.appendChild(enlaceTidal);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (spotify3) {ESPACIADO                 var UrlsArtista1potify = document.createElement("a");ESPACIADO                 UrlsArtista1potify.href = spotify3;ESPACIADO                 UrlsArtista1potify.textContent = "Spotify";ESPACIADO                 celdaUrlsArtista3.appendChild(UrlsArtista1potify);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (soundcloud3) {ESPACIADO                 var UrlsArtista1oundCloud = document.createElement("a");ESPACIADO                 UrlsArtista1oundCloud.href = soundcloud;ESPACIADO                 UrlsArtista1oundCloud.textContent = "SoundCloud";ESPACIADO                 celdaUrlsArtista3.appendChild(UrlsArtista1oundCloud);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (youtube) {ESPACIADO                 var enlaceYouTube = document.createElement("a");ESPACIADO                 enlaceYouTube.href = youtube;ESPACIADO                 enlaceYouTube.textContent = "YouTube";ESPACIADO                 celdaUrlsArtista3.appendChild(enlaceYouTube);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (website3) {ESPACIADO                 var enlaceWebsite = document.createElement("a");ESPACIADO                 enlaceWebsite.href = website3;ESPACIADO                 enlaceWebsite.textContent = "Website";ESPACIADO                 celdaUrlsArtista3.appendChild(enlaceWebsite);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (discord3) {ESPACIADO                 var enlacediscord = document.createElement("a");ESPACIADO                 enlacediscord.href = discord3;ESPACIADO                 enlacediscord.textContent = "Discord";ESPACIADO                 celdaUrlsArtista3.appendChild(enlacediscord);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (instagram3) {ESPACIADO                 var enlaceInstagram = document.createElement("a");ESPACIADO                 enlaceInstagram.href = instagram3;ESPACIADO                 enlaceInstagram.textContent = "Instagram";ESPACIADO                 celdaUrlsArtista3.appendChild(enlaceInstagram);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (facebook3) {ESPACIADO                 var enlaceFacebook = document.createElement("a");ESPACIADO                 enlaceFacebook.href = facebook3;ESPACIADO                 enlaceFacebook.textContent = "Facebook";ESPACIADO                 celdaUrlsArtista3.appendChild(enlaceFacebook);ESPACIADO                 celdaUrlsArtista3.appendChild(document.createElement("br"));ESPACIADO             }ESPACIADO             if (twitter3) {ESPACIADO                 var enlacetwitter = document.createElement("a");ESPACIADO                 enlacetwitter.href = twitter3;ESPACIADO                 enlacetwitter.textContent = "Twitter";ESPACIADO                 celdaUrlsArtista3.appendChild(enlacetwitter);ESPACIADO             }ESPACIADO         }ESPACIADO      </script>ESPACIADO   </body>ESPACIADO</html>ESPACIADO
+<!-- VARIABLES -->
+<script>
+    //
+    //CANCION
+    var cancion = "AJR - The Dumb Song";
+    //
+    //WALLPAPER
+    var titulo = "Artstation";
+    var texto = "Yun Yin";
+    var wfuente = "";
+    //
+    //PISTAS
+    var vocals = "";
+    var instrumental = "";
+    //
+    //VIDEO LOSSELESS
+    var videoText = "Catbox"; 
+    var videoLink = "";
+    //
+    //ARTISTA 1
+    var artist = "AJR";
+    var tidal = "a";
+    var spotify = "";
+    var instagram = "";
+    var twitter = "";
+    var soundcloud = "";
+    var website = "";
+    var facebook = "";
+    var youtube = "";
+    var discord = "";
+    //
+    //ARTISTA 2
+    var artist2 = "";
+    var tidal2 = "";
+    var spotify2 = "";
+    var instagram2 = "";
+    var twitter2 = "";
+    var soundcloud2 = "";
+    var website2 = "";
+    var facebook2 = "";
+    var youtube2 = "";
+    var discord2 = "";
+    //
+    //ARTISTA 3
+    var artist3 = "";
+    var tidal3 = "";
+    var spotify3 = "";
+    var instagram3 = "";
+    var twitter3 = "";
+    var soundcloud3 = "";
+    var website3 = "";
+    var facebook3 = "";
+    var youtube3 = "";
+    var discord3 = "";
+   //
+</script>
+
+<!-- ESTILOS -->
+
+<head>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 1rem;
+            width: 120ch;
+        }
+
+        th,
+        td {
+            padding: 8px;
+        }
+
+        tr td:first-child {
+            text-align: right;
+        }
+
+        tr td:nth-child(2) {
+            text-align: left;
+        }
+
+        .titulo {
+            text-align: center;
+        }
+
+        .ingles {
+            text-align: right;
+            width: 50%;
+        }
+
+        .espanol {
+            text-align: left;
+            width: 50%;
+        }
+
+        .borde-derecho {
+            border-right: 1px solid black;
+        }
+
+        .mitad-tamano {
+            font-size: 50%;
+            display: block;
+            margin-top: -2px;
+            margin-bottom: 0px;
+        }
+
+        .top-align {
+            vertical-align: top;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .mid-align {
+            vertical-align: middle;
+        }
+
+        .tab {
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
+    </style>
+</head>
+<!-- CUERPO CON LA TABLA -->
+
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="titulo">Título</th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ingles borde-derecho">English</th>
+            <th colspan="2" class="espanol">Español</th>
+        </tr>
+        <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
+        <!-- INSERTAR AQUI LA LETRA <td colspan="2"> -->
+        <!-- FINAL DE LA LETRA <td colspan="2"> -->
+        <tr>
+            <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
+                        en mi
+                        video)</span><span id="FuenteW1">Placeholder</span></span>
+            </td>
+            <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
+            <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br />Redes:<br /><a href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
+            <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch" /></td>
+        </tr>
+    </table>
+    <!-- INFIERNO DE LOS SCIRPT -->
+    <script>
+        var tituloc = document.querySelector(".titulo");
+        tituloc.textContent = cancion;
+        tituloc.style.textAlign = "center";
+        document.title = "(ArgelH-Subs) " + cancion;
+        var fuenteW1 = document.getElementById("FuenteW1");
+        fuenteW1.innerHTML = titulo + ": ";
+        var enlace = document.createElement("a");
+        var link = document.querySelector("link[rel~='icon']");
+        link = document.createElement("link");
+        link.rel = "icon";
+        document.head.appendChild(link);
+        link.href = "https://i.imgur.com/jycGdTy.png";
+        if (wfuente) {
+            enlace.href = wfuente;
+            enlace.target = "_blank";
+        }
+        enlace.textContent = texto;
+        enlace.style.fontStyle = "italic";
+        fuenteW1.appendChild(enlace);
+        if (vocals || instrumental) {
+            var spanWallpaper = document.getElementById("spanWallpaper");
+            spanWallpaper.appendChild(document.createElement("br"));
+            var audiosSpan = document.createElement("span");
+            audiosSpan.innerHTML = "<strong>Audios:</strong>";
+            spanWallpaper.parentNode.insertBefore(audiosSpan, spanWallpaper.nextSibling);
+            var extractedText = document.createElement("span");
+            extractedText.textContent = "(Extraídos de la canción)";
+            extractedText.style.fontSize = "50%";
+            extractedText.style.display = "block";
+            extractedText.style.marginTop = "-2px";
+            extractedText.style.marginBottom = "0px";
+            audiosSpan.appendChild(extractedText);
+            if (vocals) {
+                var vocalsLink = document.createElement("a");
+                vocalsLink.href = vocals;
+                vocalsLink.target = "_blank";
+                vocalsLink.textContent = "Acapella";
+                audiosSpan.appendChild(vocalsLink);
+                audiosSpan.appendChild(document.createElement("br"));
+            }
+            if (instrumental) {
+                var instrumentalLink = document.createElement("a");
+                instrumentalLink.href = instrumental;
+                instrumentalLink.target = "_blank";
+                instrumentalLink.textContent = "Instrumental";
+                audiosSpan.appendChild(instrumentalLink);
+            }
+        }
+    </script>
+    <script>
+        var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");
+        var artistName = document.createElement("strong");
+        artistName.textContent = artist + ":";
+        celdaUrlsArtista1.appendChild(artistName);
+        celdaUrlsArtista1.appendChild(document.createElement("br")); // AÑADE UN SALTO DE LINEA DESPUES DEL ARTISTA
+        if (tidal) {
+            var enlaceTidal = document.createElement("a");
+            enlaceTidal.href = tidal;
+            enlaceTidal.target = "_blank";
+            enlaceTidal.textContent = "Tidal";
+            celdaUrlsArtista1.appendChild(enlaceTidal);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (spotify) {
+            var UrlsArtista1potify = document.createElement("a");
+            UrlsArtista1potify.href = spotify;
+            UrlsArtista1potify.target = "_blank";
+            UrlsArtista1potify.textContent = "Spotify";
+            celdaUrlsArtista1.appendChild(UrlsArtista1potify);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (soundcloud) {
+            var UrlsArtista1oundCloud = document.createElement("a");
+            UrlsArtista1oundCloud.href = soundcloud;
+            UrlsArtista1oundCloud.target = "_blank";
+            UrlsArtista1oundCloud.textContent = "SoundCloud";
+            celdaUrlsArtista1.appendChild(UrlsArtista1oundCloud);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (youtube) {
+            var enlaceYouTube = document.createElement("a");
+            enlaceYouTube.href = youtube;
+            enlaceYouTube.target = "_blank";
+            enlaceYouTube.textContent = "YouTube";
+            celdaUrlsArtista1.appendChild(enlaceYouTube);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (website) {
+            var enlaceWebsite = document.createElement("a");
+            enlaceWebsite.href = website;
+            enlaceWebsite.target = "_blank";
+            enlaceWebsite.textContent = "Website";
+            celdaUrlsArtista1.appendChild(enlaceWebsite);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (discord) {
+            var enlacediscord = document.createElement("a");
+            enlacediscord.href = discord;
+            enlacediscord.target = "_blank";
+            enlacediscord.textContent = "Discord";
+            celdaUrlsArtista1.appendChild(enlacediscord);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (instagram) {
+            var enlaceInstagram = document.createElement("a");
+            enlaceInstagram.href = instagram;
+            enlaceInstagram.target = "_blank";
+            enlaceInstagram.textContent = "Instagram";
+            celdaUrlsArtista1.appendChild(enlaceInstagram);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (facebook) {
+            var enlaceFacebook = document.createElement("a");
+            enlaceFacebook.href = facebook;
+            enlaceFacebook.target = "_blank";
+            enlaceFacebook.textContent = "Facebook";
+            celdaUrlsArtista1.appendChild(enlaceFacebook);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (twitter) {
+            var enlacetwitter = document.createElement("a");
+            enlacetwitter.href = twitter;
+            enlacetwitter.target = "_blank";
+            enlacetwitter.textContent = "Twitter";
+            celdaUrlsArtista1.appendChild(enlacetwitter);
+        }
+    </script>
+    <script>
+        if (artist2) {
+            var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+            var celdaUrlsArtista2 = document.createElement("span");
+            celdaUrlsArtista2.id = "UrlsArtista2";
+            celdaUrlsArtista1.parentNode.insertBefore(celdaUrlsArtista2, celdaUrlsArtista1.nextSibling);
+            var artistName2 = document.createElement("strong");
+            artistName2.textContent = artist2 + ":";
+            celdaUrlsArtista2.appendChild(artistName2);
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            if (tidal2) {
+                var enlaceTidal = document.createElement("a");
+                enlaceTidal.href = tidal2;
+                enlaceTidal.target = "_blank";
+                enlaceTidal.textContent = "Tidal";
+                celdaUrlsArtista2.appendChild(enlaceTidal);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (spotify2) {
+                var UrlsArtista1potify = document.createElement("a");
+                UrlsArtista1potify.href = spotify2;
+                UrlsArtista1potify.target = "_blank";
+                UrlsArtista1potify.textContent = "Spotify";
+                celdaUrlsArtista2.appendChild(UrlsArtista1potify);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (soundcloud2) {
+                var UrlsArtista1oundCloud = document.createElement("a");
+                UrlsArtista1oundCloud.href = soundcloud2;
+                UrlsArtista1oundCloud.target = "_blank";
+                UrlsArtista1oundCloud.textContent = "SoundCloud";
+                celdaUrlsArtista2.appendChild(UrlsArtista1oundCloud);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (youtube2) {
+                var enlaceYouTube = document.createElement("a");
+                enlaceYouTube.href = youtube2;
+                enlaceYouTube.target = "_blank";
+                enlaceYouTube.textContent = "YouTube";
+                celdaUrlsArtista2.appendChild(enlaceYouTube);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (website2) {
+                var enlaceWebsite = document.createElement("a");
+                enlaceWebsite.href = website;
+                enlaceWebsite.target = "_blank";
+                enlaceWebsite.textContent = "Website";
+                celdaUrlsArtista2.appendChild(enlaceWebsite);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (discord2) {
+                var enlacediscord = document.createElement("a");
+                enlacediscord.href = discord2;
+                enlacediscord.target = "_blank";
+                enlacediscord.textContent = "Discord";
+                celdaUrlsArtista2.appendChild(enlacediscord);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (instagram) {
+                var enlaceInstagram = document.createElement("a");
+                enlaceInstagram.href = instagram;
+                enlaceInstagram.target = "_blank";
+                enlaceInstagram.textContent = "Instagram";
+                celdaUrlsArtista2.appendChild(enlaceInstagram);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (facebook2) {
+                var enlaceFacebook = document.createElement("a");
+                enlaceFacebook.href = facebook2;
+                enlaceFacebook.target = "_blank";
+                enlaceFacebook.textContent = "Facebook";
+                celdaUrlsArtista2.appendChild(enlaceFacebook);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (twitter2) {
+                var enlacetwitter = document.createElement("a");
+                enlacetwitter.href = twitter2;
+                enlacetwitter.target = "_blank";
+                enlacetwitter.textContent = "Twitter";
+                celdaUrlsArtista2.appendChild(enlacetwitter);
+            }
+        }
+    </script>
+    <script>
+        if (artist3) {
+            var celdaUrlsArtista2 = document.getElementById("UrlsArtista2");
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            var celdaUrlsArtista3 = document.createElement("span");
+            celdaUrlsArtista3.id = "UrlsArtista3";
+            celdaUrlsArtista2.parentNode.insertBefore(celdaUrlsArtista3, celdaUrlsArtista2.nextSibling);
+            var artistName3 = document.createElement("strong");
+            artistName3.textContent = artist3 + ":";
+            celdaUrlsArtista3.appendChild(artistName3);
+            celdaUrlsArtista3.appendChild(document.createElement("br"));
+            if (tidal3) {
+                var enlaceTidal = document.createElement("a");
+                enlaceTidal.href = tidal3;
+                enlaceTidal.target = "_blank";
+                enlaceTidal.textContent = "Tidal";
+                celdaUrlsArtista3.appendChild(enlaceTidal);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (spotify3) {
+                var UrlsArtista1potify = document.createElement("a");
+                UrlsArtista1potify.href = spotify3;
+                UrlsArtista1potify.target = "_blank";
+                UrlsArtista1potify.textContent = "Spotify";
+                celdaUrlsArtista3.appendChild(UrlsArtista1potify);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (soundcloud3) {
+                var UrlsArtista1oundCloud = document.createElement("a");
+                UrlsArtista1oundCloud.href = soundcloud;
+                UrlsArtista1oundCloud.target = "_blank";
+                UrlsArtista1oundCloud.textContent = "SoundCloud";
+                celdaUrlsArtista3.appendChild(UrlsArtista1oundCloud);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (youtube) {
+                var enlaceYouTube = document.createElement("a");
+                enlaceYouTube.href = youtube;
+                enlaceYouTube.target = "_blank";
+                enlaceYouTube.textContent = "YouTube";
+                celdaUrlsArtista3.appendChild(enlaceYouTube);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (website3) {
+                var enlaceWebsite = document.createElement("a");
+                enlaceWebsite.href = website3;
+                enlaceWebsite.target = "_blank";
+                enlaceWebsite.textContent = "Website";
+                celdaUrlsArtista3.appendChild(enlaceWebsite);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (discord3) {
+                var enlacediscord = document.createElement("a");
+                enlacediscord.href = discord3;
+                enlacediscord.target = "_blank";
+                enlacediscord.textContent = "Discord";
+                celdaUrlsArtista3.appendChild(enlacediscord);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (instagram3) {
+                var enlaceInstagram = document.createElement("a");
+                enlaceInstagram.href = instagram3;
+                enlaceInstagram.target = "_blank";
+                enlaceInstagram.textContent = "Instagram";
+                celdaUrlsArtista3.appendChild(enlaceInstagram);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (facebook3) {
+                var enlaceFacebook = document.createElement("a");
+                enlaceFacebook.href = facebook3;
+                enlaceFacebook.target = "_blank";
+                enlaceFacebook.textContent = "Facebook";
+                celdaUrlsArtista3.appendChild(enlaceFacebook);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (twitter3) {
+                var enlacetwitter = document.createElement("a");
+                enlacetwitter.href = twitter3;
+                enlacetwitter.target = "_blank";
+                enlacetwitter.textContent = "Twitter";
+                celdaUrlsArtista3.appendChild(enlacetwitter);
+            }
+        }
+    </script>
+    <script>
+        if (videoLink) {
+            var audiosSpan = document.querySelector("#spanWallpaper + span");
+            if (!audiosSpan) {
+                audiosSpan = document.querySelector("#spanWallpaper");
+            }
+            var br = document.createElement("br");
+            audiosSpan.parentNode.insertBefore(br, audiosSpan.nextSibling);
+            var videoSpan = document.createElement("span");
+            videoSpan.innerHTML = "<strong>Video Con Mejor Calidad:</strong>";
+            br.parentNode.insertBefore(videoSpan, br.nextSibling);
+            videoSpan.appendChild(document.createElement("br"));
+            var videoLinkElement = document.createElement("a");
+            videoLinkElement.href = videoLink;
+            videoLinkElement.target = "_blank";
+            videoLinkElement.textContent = videoText;
+            videoSpan.appendChild(videoLinkElement);
+        }
+    </script>
+</body>

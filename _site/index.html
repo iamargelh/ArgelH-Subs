@@ -1,1 +1,106 @@
-<!DOCTYPE html>ESPACIADO<html>ESPACIADO<body>ESPACIADO<h1>Hello World</h1>ESPACIADO<p>I'm hosted with GitHub Pages.</p>ESPACIADO</body>ESPACIADO</html>ESPACIADO
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>(ArgelH-Subs)</title>
+    <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
+    <style>
+        html {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+        }
+
+        body {
+            font-size: 3.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="list-container"></div>
+
+    <script>
+        const owner = 'iamargelh';
+        const repo = 'ArgelH-Subs';
+        const rootPath = 'subs';
+        let currentPath = rootPath;
+
+        function fetchDirectoryContents(path) {
+            return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+                .then(response => response.json())
+                .then(data => {
+                    const ul = document.createElement('ul');
+                    const currentDirLi = document.createElement('li');
+                    currentDirLi.textContent = path.split('/').pop();
+                    currentDirLi.textContent = "⤴ 📂 " + currentDirLi.textContent;
+                    ul.appendChild(currentDirLi);
+                    if (currentPath !== rootPath) {
+                        currentDirLi.style.color = 'blue';
+                        currentDirLi.style.cursor = 'pointer';
+                        currentDirLi.addEventListener('click', () => {
+                            const pathParts = currentPath.split('/');
+                            currentPath = pathParts.slice(0, -1).join('/');
+                            fetchDirectoryContents(currentPath).then(updateList);
+                        });
+                    }
+                    currentDirLi.style.listStyleType = 'none';
+                    currentDirLi.style.userSelect = 'none';
+                    const innerUl = document.createElement('ul');
+                    innerUl.style.listStyleType = 'none';
+                    data.forEach(item => {
+                        const li = document.createElement('li');
+                        if (item.type === 'file') {
+                            li.textContent = '↪ 📄 ';
+                            const a = document.createElement('a');
+                            a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
+                            a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
+                            li.appendChild(a);
+                        } else if (item.type === 'dir') {
+                            li.textContent = '↪ 📁 ';
+                            li.style.cursor = 'pointer';
+                            li.style.color = 'blue';
+                            li.appendChild(document.createTextNode(item.name));
+                            li.addEventListener('click', () => {
+                                currentPath = item.path;
+                                fetchDirectoryContents(item.path).then(updateList);
+                            });
+                        }
+                        innerUl.appendChild(li);
+                    });
+                    currentDirLi.appendChild(innerUl);
+                    return ul;
+                });
+        }
+
+        function updateList(ul) {
+            const container = document.getElementById('list-container');
+            container.innerHTML = '';
+            // Dirección actual
+            const currentDirIndicator = document.createElement('p');
+            currentDirIndicator.style.userSelect = 'none';
+            currentDirIndicator.textContent = 'Argel-H/';
+            const pathParts = currentPath.split('/');
+            pathParts.forEach((part, index) => {
+                const a = document.createElement('a');
+                a.textContent = part;
+                a.style.color = 'blue';
+                a.style.textDecoration = 'underline';
+                a.style.cursor = 'pointer';
+                a.addEventListener('click', () => {
+                    currentPath = pathParts.slice(0, index + 1).join('/');
+                    fetchDirectoryContents(currentPath).then(updateList);
+                });
+                currentDirIndicator.appendChild(a);
+                if (index < pathParts.length - 1) {
+                    currentDirIndicator.appendChild(document.createTextNode('/'));
+                }
+            });
+            container.appendChild(currentDirIndicator);
+            container.appendChild(ul);
+        }
+
+        fetchDirectoryContents(rootPath).then(updateList);
+    </script>
+</body>
+
+</html>
