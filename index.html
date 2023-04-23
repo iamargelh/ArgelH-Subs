@@ -1,50 +1,96 @@
 <!DOCTYPE html>
+<html>
 
-<div id="list-container"></div>
-<script>
-    document.title = "(ArgelH-Subs)";
-    var link = document.querySelector("link[rel~='icon']");
-    link = document.createElement("link");
-    link.rel = "icon";
-    document.head.appendChild(link);
-    link.href = "https://i.imgur.com/jycGdTy.png";
-</script>
-<script>
-    const owner = 'iamargelh';
-    const repo = 'ArgelH-Subs';
-    const path = 'subs';
-    function fetchDirectoryContents(path) {
-        return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
-            .then(response => response.json())
-            .then(data => {
-                const ul = document.createElement('ul');
-                data.forEach(item => {
-                    const li = document.createElement('li');
-                    if (item.type === 'file') {
-                        const a = document.createElement('a');
-                        a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
-                        a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
-                        li.appendChild(a);
-                    } else if (item.type === 'dir') {
-                        li.textContent = item.name;
-                        li.style.cursor = 'pointer';
-                        li.addEventListener('click', () => {
-                            fetchDirectoryContents(item.path).then(updateList);
+<head>
+    <title>(ArgelH-Subs)</title>
+    <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
+</head>
+
+<body>
+    <div id="list-container"></div>
+
+    <script>
+        const owner = 'iamargelh';
+        const repo = 'ArgelH-Subs';
+        const rootPath = 'subs';
+        let currentPath = rootPath;
+
+        function fetchDirectoryContents(path) {
+            return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+                .then(response => response.json())
+                .then(data => {
+                    const ul = document.createElement('ul');
+                    const currentDirLi = document.createElement('li');
+                    currentDirLi.textContent = path.split('/').pop();
+                    currentDirLi.textContent = "⤴ " + currentDirLi.textContent;
+                    ul.appendChild(currentDirLi);
+                    if (currentPath !== rootPath) {
+                        currentDirLi.style.color = 'blue';
+                        currentDirLi.style.cursor = 'pointer';
+                        currentDirLi.addEventListener('click', () => {
+                            const pathParts = currentPath.split('/');
+                            currentPath = pathParts.slice(0, -1).join('/');
+                            fetchDirectoryContents(currentPath).then(updateList);
                         });
                     }
-                    ul.appendChild(li);
+                    currentDirLi.style.listStyleType = 'none';
+                    const innerUl = document.createElement('ul');
+                    innerUl.style.listStyleType = 'none';
+                    data.forEach(item => {
+                        const li = document.createElement('li');
+                        if (item.type === 'file') {
+                            li.textContent = '↪ 📄 ';
+                            const a = document.createElement('a');
+                            a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
+                            a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
+                            li.appendChild(a);
+                        } else if (item.type === 'dir') {
+                            li.textContent = '↪ 📁 ';
+                            const a = document.createElement('a');
+                            a.style.color = 'blue';
+                            a.textContent = item.name;
+                            a.style.cursor = 'pointer';
+                            a.addEventListener('click', () => {
+                                currentPath = item.path;
+                                fetchDirectoryContents(item.path).then(updateList);
+                            });
+                            li.appendChild(a);
+                        }
+                        innerUl.appendChild(li);
+                    });
+                    currentDirLi.appendChild(innerUl);
+                    return ul;
                 });
-                return ul;
+        }
+
+        function updateList(ul) {
+            const container = document.getElementById('list-container');
+            container.innerHTML = '';
+            // Indicador de directorio
+            const currentDirIndicator = document.createElement('p');
+            currentDirIndicator.textContent = 'ArgelH/';
+            const pathParts = currentPath.split('/');
+            pathParts.forEach((part, index) => {
+                const a = document.createElement('a');
+                a.textContent = part;
+                a.style.color = 'blue';
+                a.style.textDecoration = 'underline';
+                a.style.cursor = 'pointer';
+                a.addEventListener('click', () => {
+                    currentPath = pathParts.slice(0, index + 1).join('/');
+                    fetchDirectoryContents(currentPath).then(updateList);
+                });
+                currentDirIndicator.appendChild(a);
+                if (index < pathParts.length - 1) {
+                    currentDirIndicator.appendChild(document.createTextNode('/'));
+                }
             });
-    }
+            container.appendChild(currentDirIndicator);
+            container.appendChild(ul);
+        }
 
-    function updateList(ul) {
-        const container = document.getElementById('list-container');
-        container.innerHTML = '';
-        container.appendChild(ul);
-    }
-
-    fetchDirectoryContents(rootPath).then(updateList);
-</script>
+        fetchDirectoryContents(rootPath).then(updateList);
+    </script>
+</body>
 
 </html>
