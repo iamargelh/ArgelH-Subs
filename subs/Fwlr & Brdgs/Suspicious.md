@@ -473,3 +473,4 @@ layout: default
         }
     </script>
 </body>
+> Si me dí cuenta que el minuto 2:48 pasa algo extraño con el coro de atrás, no me dieron ganas de arreglarlo.
