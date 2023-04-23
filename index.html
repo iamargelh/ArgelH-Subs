@@ -11,7 +11,10 @@
             const ul = document.createElement('ul');
             data.forEach(file => {
                 const li = document.createElement('li');
-                li.textContent = file.name;
+                const a = document.createElement('a');
+                a.href = `https://${owner}.github.io/${repo}/${file.path}`;
+                a.textContent = file.name;
+                li.appendChild(a);
                 ul.appendChild(li);
             });
             document.body.appendChild(ul);
