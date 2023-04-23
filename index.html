@@ -14,8 +14,8 @@
         const li = document.createElement('li');
         if (item.type === 'file') {
           const a = document.createElement('a');
-          a.href = `https://${owner}.github.io/${repo}/${item.path}`;
-          a.textContent = item.name;
+          a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
+          a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
           li.appendChild(a);
         } else if (item.type === 'dir') {
           li.textContent = item.name;
