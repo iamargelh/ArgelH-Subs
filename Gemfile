@@ -1,7 +1,1 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-# gem "rails"
-
-gem "jekyll", "~> 4.3"
+# frozen_string_literal: trueESPACIADOESPACIADOsource "https://rubygems.org"ESPACIADOESPACIADO# gem "rails"ESPACIADOESPACIADOgem "jekyll", "~> 4.3"ESPACIADO
