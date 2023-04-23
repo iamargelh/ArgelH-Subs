@@ -4,6 +4,16 @@
 <head>
     <title>(ArgelH-Subs)</title>
     <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
+    <style>
+        html {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+        }
+
+        body {
+            font-size: 3.2rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,7 +32,7 @@
                     const ul = document.createElement('ul');
                     const currentDirLi = document.createElement('li');
                     currentDirLi.textContent = path.split('/').pop();
-                    currentDirLi.textContent = "⤴ " + currentDirLi.textContent;
+                    currentDirLi.textContent = "⤴ 📂 " + currentDirLi.textContent;
                     ul.appendChild(currentDirLi);
                     if (currentPath !== rootPath) {
                         currentDirLi.style.color = 'blue';
@@ -34,6 +44,7 @@
                         });
                     }
                     currentDirLi.style.listStyleType = 'none';
+                    currentDirLi.style.userSelect = 'none';
                     const innerUl = document.createElement('ul');
                     innerUl.style.listStyleType = 'none';
                     data.forEach(item => {
@@ -46,15 +57,13 @@
                             li.appendChild(a);
                         } else if (item.type === 'dir') {
                             li.textContent = '↪ 📁 ';
-                            const a = document.createElement('a');
-                            a.style.color = 'blue';
-                            a.textContent = item.name;
-                            a.style.cursor = 'pointer';
-                            a.addEventListener('click', () => {
+                            li.style.cursor = 'pointer';
+                            li.style.color = 'blue';
+                            li.appendChild(document.createTextNode(item.name));
+                            li.addEventListener('click', () => {
                                 currentPath = item.path;
                                 fetchDirectoryContents(item.path).then(updateList);
                             });
-                            li.appendChild(a);
                         }
                         innerUl.appendChild(li);
                     });
@@ -66,9 +75,10 @@
         function updateList(ul) {
             const container = document.getElementById('list-container');
             container.innerHTML = '';
-            // Indicador de directorio
+            // Dirección actual
             const currentDirIndicator = document.createElement('p');
-            currentDirIndicator.textContent = 'ArgelH/';
+            currentDirIndicator.style.userSelect = 'none';
+            currentDirIndicator.textContent = 'Argel-H/';
             const pathParts = currentPath.split('/');
             pathParts.forEach((part, index) => {
                 const a = document.createElement('a');
