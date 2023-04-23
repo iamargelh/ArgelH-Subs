@@ -1,4 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <meta http-equiv="Refresh" content="0; url='https://iamargelh.github.io/ArgelH-Subs/subs/'" />
+
+<head>
+    <title>(ArgelH-Subs)</title>
+    <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
+    <style>
+        html {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+        }
+
+        body {
+            font-size: 3.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="path"></div>
+    <div id="contents"></div>
+
+    <script>
+        const owner = 'iamargelh';
+        const repo = 'ArgelH-Subs';
+        const folder = 'subs';
+
+        async function getContents(path) {
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${folder}/${path}`);
+            const data = await response.json();
+            return data;
+        }
+
+        async function renderContents(path) {
+            const contents = await getContents(path);
+            let html = '';
+            for (const item of contents) {
+                if (item.type === 'dir') {
+                    html += `<div class="item"><a href="#" onclick="renderContents('${path + item.name + '/'}')">↪ 📁 ${item.name}</a></div>`;
+                } else if (item.type === 'file') {
+                    const fileName = item.name.replace('.md', '');
+                    const fileUrl = `https://${owner}.github.io/${repo}/${folder}/${path}${fileName}`;
+                    html += `<div class="item"><a href="${fileUrl}" target="_blank">↪ 📄 ${fileName}</a></div>`;
+                }
+            }
+
+            const pathParts = path.split('/');
+            let pathHtml = `<a href="#" onclick="renderContents('')">${folder}</a>`;
+            let currentPath = '';
+            for (const part of pathParts) {
+                if (part) {
+                    currentPath += part + '/';
+                    pathHtml += ` / <a href="#" onclick="renderContents('${currentPath}')">${part}</a>`;
+                }
+            }
+            document.querySelector('#path').innerHTML = pathHtml;
+            document.querySelector('#contents').innerHTML = html;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderContents('');
+        });
+    </script>
+</body>
+
 </html>
