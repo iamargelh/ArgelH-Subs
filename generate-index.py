@@ -6,7 +6,8 @@ repo = 'ArgelH-Subs'
 root_folder = 'subs'
 
 def get_repo_tree():
-    response = requests.get(f'https://api.github.com/repos/{owner}/{repo}/git/trees/master?recursive=1')
+    headers = {'Authorization': f'token {os.environ["MY_ACCESS_TOKEN"]}'}
+    response = requests.get(f'https://api.github.com/repos/{owner}/{repo}/git/trees/master?recursive=1', headers=headers)
     data = response.json()
     return data['tree']
 
