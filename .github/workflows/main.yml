@@ -11,10 +11,14 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate index.html
         run: bash ./generate-index.sh
-      - name: Commit and push changes
+      - name: Set up Git
         run: |
           git config --global user.name "iamargelh"
-          git config --global user.email "iamargelh@gmail.com"
+          git config --global user.email "youremail@example.com"
+          git config --global credential.helper store
+          echo "protocol=https\nhost=github.com\nusername=iamargelh\npassword=${{ secrets.MY_ACCESS_TOKEN }}" > $HOME/.git-credentials
+      - name: Commit and push changes
+        run: |
           git add index.html
           git commit -m "Update index.html"
           git push
