@@ -125,7 +125,7 @@ layout: default
             margin-left: 1.5rem;
         }
     </style>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/jycGdTy.png">
+    <link rel="icon" type="image/png" href="favicon.ico">
 </head>
 <!-- CUERPO CON LA TABLA -->
 
@@ -268,11 +268,11 @@ layout: default
         </tr>
         <tr>
             <td colspan="2">So If That′s What You′Re Saying</td>
-            <td colspan="2">ㅤ</td>
+            <td colspan="2">Así Que Si Eso Es Lo Que Piensas</td>
         </tr>
         <tr>
             <td colspan="2">ㅤ</td>
-            <td colspan="2">Así Que Si Eso Es Lo Que Piensas</td>
+            <td colspan="2">ㅤ</td>
         </tr>
         <tr>
             <td colspan="2">When We Go Down</td>
@@ -383,7 +383,7 @@ layout: default
             <td colspan="2">Soy Demasiado Tonto.</td>
         </tr>
         <tr>
-            <td class="top-align align-left"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
+            <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
                         en mi
                         video)</span><span id="FuenteW1">Oficial: bitbird</span></span>
             </td>
