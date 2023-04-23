@@ -1,6 +1,57 @@
 ---
 layout: default
 ---
+| **English** 	| **Spanish** 	|
+|---:	|---	|
+| Oh, In My Head 	| Oh, En Mi Cabeza 	|
+| You Said With Certainty 	| Dijiste Con Seguridad 	|
+| I May Be The Dumbest Person That You′Ve Ever Seen 	| Que Podría Ser La Persona Más Tonta Que Hayas Visto 	|
+| You Think You're Hurting Me 	| Piensas Que Me Haces Sufrir 	|
+| Bet You Won′t Believe It, But You Kinda Set Me Free 	| Tal Vez Te Sorprenda, Pero Me Liberaste Un Poco 	|
+| You've Mentioned Adderall 	| Mencionaste Unos Fármacos 	|
+| Slip This Guy A Sedative, He's Bouncing Off The Wall 	| "Seden A Ese Chico, Está A Punto De Explotar De Tanta Energía" 	|
+| Honey, It′s No Big Deal 	| Tranquila, No Es Para Tanto 	|
+| We′ll Get You Back To College, You Could Study Somethin' Real 	| "Te Devolveremos A La Universidad, Así Podrás Estudiar Algo De Verdad" 	|
+| So If That′s How You Feel 	| Así Que Si Eso Es Lo Que Piensas 	|
+| When We Go Down 	| Cuando Estamos Débiles 	|
+| When Kingdom Come 	| Cuando Todo Se Desmorona 	|
+| Don't Look At Me, Don′t Look At Me 	| No Me Mires A Mi, No Me Mires A Mi 	|
+| I'm Just Too Dumb 	| Soy Demasiado Tonto 	|
+| I′D Love To Stay (Love To Stay) 	| Me Encantaría Quedarme (Me Encantaría Quedarme) 	|
+| But Like You Said (Like You Said) 	| Pero Como Dijiste (Como Dijiste) 	|
+| Don't Look At Me, 'Cause I Got Nothin′ In My Head 	| No Me Mires, Porque No Tengo Nada En Mi Cabeza 	|
+| Oh, In My Head 	| Oh, En Mi Cabeza 	|
+| Too Dumb For Breakin′ Up 	| Soy Demasiado Tonto Para Terminarte 	|
+| I'd Do It In Person, But I′d Probably Mess It Up 	| Lo Haría En Persona, Pero Probablemente Lo Arruinaría 	|
+| I'll Text You, That′s Enough 	| Te Enviaré Un Mensaje De Texto, Eso Es Suficiente 	|
+| That's How Empty-Headed People Get Through Stuff 	| Así Es Como Las Personas Con Nada En La Cabeza Se Las Arreglan 	|
+| Your World Is Ending Soon 	| Tu Mundo Se Está Terminando Pronto 	|
+| Mine′s A Little Better 'Cause I Never Watch The News 	| El Mío Está Un Poco Mejor Porque Nunca Veo Las Noticias 	|
+| You Make My Lunch Today 	| Me Preparaste El Almuerzo Hoy 	|
+| I Would Do It, But I Couldn't Work My Microwave 	| Lo Haría Yo, Pero No Podría Hacer Funcionar Mi Microondas :D 	|
+| So If That′s What You′Re Saying 	| Así Que Si Eso Es Lo Que Piensas 	|
+| When We Go Down 	| Cuando Estamos Débiles 	|
+| When Kingdom Come 	| Cuando Todo Se Desmorona 	|
+| Don't Look At Me, Don′t Look At Me 	| No Me Mires A Mi, No Me Mires A Mi 	|
+| I'm Just Too Dumb 	| Soy Demasiado Tonto 	|
+| I′d Love To Stay (Love To Stay) 	| Me Encantaría Quedarme (Me Encantaría Quedarme) 	|
+| But Like You Said (Like You Said) 	| Pero Como Dijiste (Como Dijiste) 	|
+| Don't Look At Me, ′Cause I Got Nothin' In My Head 	| No Me Mires, Porque No Tengo Nada En Mi Cabeza 	|
+| Oh, In My Head 	| Oh, En Mi Cabeza 	|
+| You Should Not Have Done That 	| No Deberías Haber Hecho Eso :D 	|
+| When We Go Down (We Go Down) 	| Cuando Estamos Débiles (Estamos Débiles) 	|
+| When Kingdom Come (Kingdom Come) 	| Cuando Todo Se Desmorona (Se Desmorona) 	|
+| Don't Look At Me, Don′t Look At Me 	| No Me Mires A Mi, No Me Mires A Mi 	|
+| I′m Much Too Dumb 	| Soy Tonto Mucho Demasiado 	|
+| I'd Love To Stay (Love To Stay) 	| Me Encantaría Quedarme (Me Encantaría Quedarme) 	|
+| But Like You Said (Like You Said) 	| Pero Como Dijiste (Como Dijiste) 	|
+| Don′T Look At Me, 'Cause I Got Nothin′ In My Head 	| No Me Mires, Porque No Tengo Nada En Mi Cabeza 	|
+| Oh, In My Head 	| Oh, En Mi Cabeza 	|
+| Oh, In My Head 	| Oh, En Mi Cabeza 	|
+| When We Go Down 	| Cuando Estamos Débiles 	|
+| When Kingdom Come 	| Cuando Todo Se Desmorona 	|
+| Don't Look At Me, Don′t Look At Me 	| No Me Mires A Mi, No Me Mires A Mi 	|
+| I'm Just Too Dumb. 	| Soy Demasiado Tonto. 	|
 <html>
    <!-- VARIABLES -->
    <script>
