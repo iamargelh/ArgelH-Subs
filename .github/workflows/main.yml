@@ -13,8 +13,8 @@ jobs:
         run: bash ./generate-index.sh
       - name: Commit and push changes
         run: |
-          git config --global user.name "iamargelh"
-          git config --global user.email "fernandohu93@gmail.com"
+          git config --global user.name ""
+          git config --global user.email ""
           git add index.html
           git commit -m "Update index.html"
           git push
