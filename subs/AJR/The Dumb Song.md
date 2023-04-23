@@ -110,7 +110,7 @@ layout: default
             margin-left: 1.5rem; 
         }
       </style>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico">
+      <link rel="icon" type="image/x-icon" href="https://i.imgur.com/jycGdTy.png">
    </head>
    <!-- CUERPO CON LA TABLA -->
    <body>
@@ -144,6 +144,7 @@ layout: default
          var enlace = document.createElement("a");
          if (wfuente) {
              enlace.href = wfuente;
+             enlace.target="_blank";
          }
          enlace.textContent = texto;
          enlace.style.fontStyle = "italic";
@@ -164,6 +165,7 @@ layout: default
              if (vocals) {
                  var vocalsLink = document.createElement("a");
                  vocalsLink.href = vocals;
+                 vocalsLink.target="_blank";
                  vocalsLink.textContent = "Acapella";
                  audiosSpan.appendChild(vocalsLink);
                  audiosSpan.appendChild(document.createElement("br"));
@@ -171,6 +173,7 @@ layout: default
              if (instrumental) {
                  var instrumentalLink = document.createElement("a");
                  instrumentalLink.href = instrumental;
+                 instrumentalLink.target="_blank";
                  instrumentalLink.textContent = "Instrumental";
                  audiosSpan.appendChild(instrumentalLink);
              }
@@ -185,6 +188,7 @@ layout: default
          if (tidal) {
              var enlaceTidal = document.createElement("a");
              enlaceTidal.href = tidal;
+             enlaceTidal.target="_blank";
              enlaceTidal.textContent = "Tidal";
              celdaUrlsArtista1.appendChild(enlaceTidal);
              celdaUrlsArtista1.appendChild(document.createElement("br"));
@@ -260,6 +264,7 @@ layout: default
              if (tidal2) {
                  var enlaceTidal = document.createElement("a");
                  enlaceTidal.href = tidal2;
+                 enlaceTidal.target="_blank";
                  enlaceTidal.textContent = "Tidal";
                  celdaUrlsArtista2.appendChild(enlaceTidal);
                  celdaUrlsArtista2.appendChild(document.createElement("br"));
@@ -336,6 +341,7 @@ layout: default
              if (tidal3) {
                  var enlaceTidal = document.createElement("a");
                  enlaceTidal.href = tidal3;
+                 enlaceTidal.target="_blank";
                  enlaceTidal.textContent = "Tidal";
                  celdaUrlsArtista3.appendChild(enlaceTidal);
                  celdaUrlsArtista3.appendChild(document.createElement("br"));
