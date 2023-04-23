@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+      - name: List files
+        run: ls -al
       - name: Generate index.html
-        run: bash generate-index.sh
+        run: bash ./generate-index.sh
