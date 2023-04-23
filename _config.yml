@@ -1,0 +1,2 @@
+kramdown:
+  gfm_quirks: [paragraph_end]

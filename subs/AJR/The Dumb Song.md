@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <html>
    <!-- VARIABLES -->
    <script>
@@ -51,18 +54,23 @@
       var discord3 = "";
       //
       //LYRICS
-      var eng = "Oh, In My Head<br><br>You Said With Certainty<br>I May Be The Dumbest Person That You′Ve Ever Seen<br>You Think You're Hurting Me<br>Bet You Won′t Believe It, But You Kinda Set Me Free<br><br>You've Mentioned Adderall<br>Slip This Guy A Sedative, He's Bouncing Off The Wall<br>Honey, It′s No Big Deal<br>We′ll Get You Back To College, You Could Study Somethin' Real<br><br>So If That′s How You Feel<br>When We Go Down<br>When Kingdom Come<br><br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb<br>I′D Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don't Look At Me, 'Cause I Got Nothin′ In My Head<br>Oh, In My Head<br><br>Too Dumb For Breakin′ Up<br>I'd Do It In Person, But I′d Probably Mess It Up<br>I'll Text You, That′s Enough<br>That's How Empty-Headed People Get Through Stuff<br><br>Your World Is Ending Soon<br>Mine′s A Little Better 'Cause I Never Watch The News<br>You Make My Lunch Today<br>I Would Do It, But I Couldn't Work My Microwave<br>So If That′s What You′Re Saying<br><br>When We Go Down<br>When Kingdom Come<br><br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb<br>I′d Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don't Look At Me, ′Cause I Got Nothin' In My Head<br>Oh, In My Head<br><br>You Should Not Have Done That<br><br>When We Go Down (We Go Down)<br>When Kingdom Come (Kingdom Come)<br><br>Don't Look At Me, Don′t Look At Me<br>I′m Much Too Dumb<br>I'd Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don′T Look At Me, 'Cause I Got Nothin′ In My Head<br>Oh, In My Head<br>Oh, In My Head<br><br>When We Go Down<br>When Kingdom Come<br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb.";
+      var eng = "Oh, In My Head<br><br>You Said With Certainty<br>I May Be The Dumbest Person That You′Ve Ever Seen<br>You Think You're Hurting Me<br>Bet You Won′t Believe It, But You Kinda Set Me Free<br><br>You've Mentioned Adderall<br>Slip This Guy A Sedative, He's Bouncing Off The Wall<br>Honey, It′s No Big Deal<br> We′ll Get You Back To College, You Could Study Somethin' Real<br><br>So If That′s How You Feel<br>When We Go Down<br>When Kingdom Come<br><br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb<br>I′D Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don't Look At Me, 'Cause I Got Nothin′ In My Head<br>Oh, In My Head<br><br>Too Dumb For Breakin′ Up<br>I'd Do It In Person, But I′d Probably Mess It Up<br>I'll Text You, That′s Enough<br>That's How Empty-Headed People Get Through Stuff<br><br>Your World Is Ending Soon<br>Mine′s A Little Better 'Cause I Never Watch The News<br>You Make My Lunch Today<br>I Would Do It, But I Couldn't Work My Microwave<br>So If That′s What You′Re Saying<br><br>When We Go Down<br>When Kingdom Come<br><br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb<br>I′d Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don't Look At Me, ′Cause I Got Nothin' In My Head<br>Oh, In My Head<br><br>You Should Not Have Done That<br><br>When We Go Down (We Go Down)<br>When Kingdom Come (Kingdom Come)<br><br>Don't Look At Me, Don′t Look At Me<br>I′m Much Too Dumb<br>I'd Love To Stay (Love To Stay)<br>But Like You Said (Like You Said)<br>Don′T Look At Me, 'Cause I Got Nothin′ In My Head<br>Oh, In My Head<br>Oh, In My Head<br><br>When We Go Down<br>When Kingdom Come<br>Don't Look At Me, Don′t Look At Me<br>I'm Just Too Dumb.";
       //
-      var esp = "Oh, En Mi Cabeza<br><br>Dijiste Con Seguridadㅤㅤ<br>Que Podría Ser La Persona Más Tonta Que Hayas Visto<br>Piensas Que Me Haces Sufrir<br>Tal Vez Te Sorprenda, Pero Me Liberaste Un Pocoㅤㅤㅤㅤ<br><br>Mencionaste Unos Fármacos<br>\"Seden A Ese Chico, Está A Punto De Explotar De Tanta Energía\"<br>Tranquila, No Es Para Tanto<br>\"Te Devolveremos A La Universidad, Así Podrás Estudiar Algo De Verdad\"<br><br>Así Que Si Eso Es Lo Que Piensas<br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>Soy Demasiado Tonto Para Terminarte<br>Lo Haría En Persona, Pero Probablemente Lo Arruinaría<br>Te Enviaré Un Mensaje De Texto, Eso Es Suficiente<br>Así Es Como Las Personas Con Nada En La Cabeza Se Las Arreglan<br><br>Tu Mundo Se Está Terminando Pronto<br>El Mío Está Un Poco Mejor Porque Nunca Veo Las Noticias<br>Me Preparaste El Almuerzo Hoy<br>Lo Haría Yo, Pero No Podría Hacer Funcionar Mi Microondas :D<br><br>Así Que Si Eso Es Lo Que Piensas<br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>No Deberías Haber Hecho Eso :D<br><br>Cuando Estamos Débiles (Estamos Débiles)<br>Cuando Todo Se Desmorona (Se Desmorona)<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Tonto Mucho Demasiado<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto.";
+      var esp = "Oh, En Mi Cabeza<br><br>Dijiste Con Seguridad<br>Que Podría Ser La Persona Más Tonta Que Hayas Visto<br>Piensas Que Me Haces Sufrir<br>Tal Vez Te Sorprenda, Pero Me Liberaste Un Poco<br><br>Mencionaste Unos Fármacos<br>\"Seden A Ese Chico, Está A Punto De Explotar De Tanta Energía\"<br>Tranquila, No Es Para Tanto<br>\"Te Devolveremos A La Universidad, Así Podrás Estudiar Algo De Verdad\"<br><br>Así Que Si Eso Es Lo Que Piensas<br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>Soy Demasiado Tonto Para Terminarte<br>Lo Haría En Persona, Pero Probablemente Lo Arruinaría<br>Te Enviaré Un Mensaje De Texto, Eso Es Suficiente<br>Así Es Como Las Personas Con Nada En La Cabeza Se Las Arreglan<br><br>Tu Mundo Se Está Terminando Pronto<br>El Mío Está Un Poco Mejor Porque Nunca Veo Las Noticias<br>Me Preparaste El Almuerzo Hoy<br>Lo Haría Yo, Pero No Podría Hacer Funcionar Mi Microondas :D<br><br>Así Que Si Eso Es Lo Que Piensas<br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>No Deberías Haber Hecho Eso :D<br><br>Cuando Estamos Débiles (Estamos Débiles)<br>Cuando Todo Se Desmorona (Se Desmorona)<br><br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Tonto Mucho Demasiado<br>Me Encantaría Quedarme (Me Encantaría Quedarme)<br>Pero Como Dijiste (Como Dijiste)<br>No Me Mires, Porque No Tengo Nada En Mi Cabeza<br>Oh, En Mi Cabeza<br>Oh, En Mi Cabeza<br><br>Cuando Estamos Débiles<br>Cuando Todo Se Desmorona<br>No Me Mires A Mi, No Me Mires A Mi<br>Soy Demasiado Tonto.";
    </script>
    <!-- ESTILOS -->
    <head>
       <style>
-         table {
-         border-collapse: collapse;
-         font-family: "Times New Roman", Times, serif;
-         width: 760px;
-         }
+         body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+            width: 100%;
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 1rem;
+            width: 120ch;
+        }
          th,
          td {
          padding: 8px;
@@ -72,11 +80,11 @@
          }
          .ingles {
          text-align: right;
-         width: 380px;
+         width: 50%;
          }
          .espanol {
          text-align: left;
-         width: 380px;
+         width: 50%;
          }
          .borde-derecho {
          border-right: 1px solid black;
@@ -93,6 +101,10 @@
          .mid-align {
          vertical-align: middle;
          }
+         .tab { 
+            display:inline-block; 
+            margin-left: 1.5rem; 
+        }
       </style>
    </head>
    <!-- CUERPO CON LA TABLA -->
@@ -116,7 +128,7 @@
             <td class="top-align"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
                href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
-            <td class="mid-align"><img src="//resources/g6qk73.gif" width="70ch"></td>
+            <td class="mid-align"><img src="/resources/g6qk73.gif" width="70ch"></td>
          </tr>
       </table>
       <!-- INFIERNO DE LOS SCIRPT -->
