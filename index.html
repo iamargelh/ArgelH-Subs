@@ -17,89 +17,49 @@
 </head>
 
 <body>
-    <div id="list-container"></div>
+    <div id="path"></div>
+    <div id="contents"></div>
 
     <script>
         const owner = 'iamargelh';
         const repo = 'ArgelH-Subs';
-        const rootPath = 'subs';
-        let currentPath = rootPath;
+        const folder = 'subs';
 
-        function fetchDirectoryContents(path) {
-            return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
-                .then(response => response.json())
-                .then(data => {
-                    const ul = document.createElement('ul');
-                    const currentDirLi = document.createElement('li');
-                    currentDirLi.textContent = path.split('/').pop();
-                    currentDirLi.textContent = "⤴ 📂 " + currentDirLi.textContent;
-                    ul.appendChild(currentDirLi);
-                    if (path !== rootPath) {
-                        currentDirLi.style.color = 'blue';
-                        currentDirLi.style.cursor = 'pointer';
-                        currentDirLi.addEventListener('click', () => {
-                            const pathParts = path.split('/');
-                            currentPath = pathParts.slice(0, -1).join('/');
-                            fetchDirectoryContents(currentPath).then(updateList);
-                        });
-                    }
-                    currentDirLi.style.listStyleType = 'none';
-                    currentDirLi.style.userSelect = 'none';
-                    const innerUl = document.createElement('ul');
-                    innerUl.style.listStyleType = 'none';
-                    data.forEach(item => {
-                        const li = document.createElement('li');
-                        if (item.type === 'file') {
-                            li.textContent = '↪ 📄 ';
-                            const a = document.createElement('a');
-                            a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
-                            a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
-                            li.appendChild(a);
-                        } else if (item.type === 'dir') {
-                            li.textContent = '↪ 📁 ';
-                            li.style.cursor = 'pointer';
-                            li.style.color = 'blue';
-                            li.appendChild(document.createTextNode(item.name));
-                            li.addEventListener('click', () => {
-                                currentPath = item.path;
-                                fetchDirectoryContents(currentPath).then(updateList);
-                            });
-                        }
-                        innerUl.appendChild(li);
-                    });
-                    currentDirLi.appendChild(innerUl);
-                    return ul;
-                });
+        async function getContents(path) {
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${folder}/${path}`);
+            const data = await response.json();
+            return data;
         }
 
-        function updateList(ul) {
-            const container = document.getElementById('list-container');
-            container.innerHTML = '';
-            // Dirección actual
-            const currentDirIndicator = document.createElement('p');
-            currentDirIndicator.style.userSelect = 'none';
-            currentDirIndicator.textContent = owner + '/';
-            const pathParts = currentPath.split('/');
-            pathParts.forEach((part, index) => {
-                const a = document.createElement('a');
-                a.textContent = part;
-                a.style.color = 'blue';
-                a.style.textDecoration = 'underline';
-                a.style.cursor = 'pointer';
-                a.addEventListener('click', () => {
-                    currentPath = pathParts.slice(0, index + 1).join('/');
-                    fetchDirectoryContents(currentPath).then(updateList);
-                });
-                currentDirIndicator.appendChild(a);
-                if (index < pathParts.length - 1) {
-                    currentDirIndicator.appendChild(document.createTextNode('/'));
+        async function renderContents(path) {
+            const contents = await getContents(path);
+            let html = '';
+            for (const item of contents) {
+                if (item.type === 'dir') {
+                    html += `<div class="item"><a href="#" onclick="renderContents('${path + item.name + '/'}')">↪ 📁 ${item.name}</a></div>`;
+                } else if (item.type === 'file') {
+                    const fileName = item.name.replace('.md', '');
+                    const fileUrl = `https://${owner}.github.io/${repo}/${folder}/${path}${fileName}`;
+                    html += `<div class="item"><a href="${fileUrl}" target="_blank">↪ 📄 ${fileName}</a></div>`;
                 }
-            });
-            container.appendChild(currentDirIndicator);
-            container.appendChild(ul);
+            }
+
+            const pathParts = path.split('/');
+            let pathHtml = `<a href="#" onclick="renderContents('')">${folder}</a>`;
+            let currentPath = '';
+            for (const part of pathParts) {
+                if (part) {
+                    currentPath += part + '/';
+                    pathHtml += ` / <a href="#" onclick="renderContents('${currentPath}')">${part}</a>`;
+                }
+            }
+            document.querySelector('#path').innerHTML = pathHtml;
+            document.querySelector('#contents').innerHTML = html;
         }
 
-        fetchDirectoryContents(rootPath).then(updateList);
+        document.addEventListener('DOMContentLoaded', () => {
+            renderContents('');
+        });
     </script>
 </body>
 
