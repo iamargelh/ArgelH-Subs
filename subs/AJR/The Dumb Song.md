@@ -137,6 +137,7 @@ layout: default
          var tituloc = document.querySelector(".titulo");
          tituloc.textContent = cancion;
          tituloc.style.textAlign = "center";
+         document.title = "(ArgelH-Subs) "+cancion;
          var fuenteW1 = document.getElementById("FuenteW1");
          fuenteW1.innerHTML = titulo + ": ";
          var enlace = document.createElement("a");
