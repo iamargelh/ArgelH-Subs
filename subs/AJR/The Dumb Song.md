@@ -71,10 +71,10 @@ layout: default
             padding: 8px;
         }
         tr td:first-child {
-        text-align: left;
+        text-align: right;
         }
         tr td:nth-child(2) {
-        text-align: right;
+        text-align: left;
         }
         .titulo {
             text-align: center;
@@ -121,207 +121,12 @@ layout: default
             <th colspan="2" class="ingles borde-derecho">English</th>
             <th colspan="2" class="espanol">Español</th>
          </tr>
-           <tr>
-    <td colspan="2">Oh, In My Head</td>
-    <td colspan="2">Oh, En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">You Said With Certainty</td>
-    <td colspan="2">Dijiste Con Seguridad</td>
-  </tr>
-  <tr>
-    <td colspan="2">I May Be The Dumbest Person That You′Ve Ever Seen</td>
-    <td colspan="2">Que Podría Ser La Persona Más Tonta Que Hayas Visto</td>
-  </tr>
-  <tr>
-    <td colspan="2">You Think You're Hurting Me</td>
-    <td colspan="2">Piensas Que Me Haces Sufrir</td>
-  </tr>
-  <tr>
-    <td colspan="2">Bet You Won′t Believe It, But You Kinda Set Me Free</td>
-    <td colspan="2">Tal Vez Te Sorprenda, Pero Me Liberaste Un Poco</td>
-  </tr>
-  <tr>
-    <td colspan="2">You've Mentioned Adderall</td>
-    <td colspan="2">Mencionaste Unos Fármacos</td>
-  </tr>
-  <tr>
-    <td colspan="2">Slip This Guy A Sedative, He's Bouncing Off The Wall</td>
-    <td colspan="2">"Seden A Ese Chico, Está A Punto De Explotar De Tanta Energía"</td>
-  </tr>
-  <tr>
-    <td colspan="2">Honey, It′s No Big Deal</td>
-    <td colspan="2">Tranquila, No Es Para Tanto</td>
-  </tr>
-  <tr>
-    <td colspan="2">We′ll Get You Back To College, You Could Study Somethin' Real</td>
-    <td colspan="2">"Te Devolveremos A La Universidad, Así Podrás Estudiar Algo De Verdad"</td>
-  </tr>
-  <tr>
-    <td colspan="2">So If That′s How You Feel</td>
-    <td colspan="2">Así Que Si Eso Es Lo Que Piensas</td>
-  </tr>
-  <tr>
-    <td colspan="2">When We Go Down</td>
-    <td colspan="2">Cuando Estamos Débiles</td>
-  </tr>
-  <tr>
-    <td colspan="2">When Kingdom Come</td>
-    <td colspan="2">Cuando Todo Se Desmorona</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, Don′t Look At Me</td>
-    <td colspan="2">No Me Mires A Mi, No Me Mires A Mi</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'm Just Too Dumb</td>
-    <td colspan="2">Soy Demasiado Tonto</td>
-  </tr>
-  <tr>
-    <td colspan="2">I′D Love To Stay (Love To Stay)</td>
-    <td colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td>
-  </tr>
-  <tr>
-    <td colspan="2">But Like You Said (Like You Said)</td>
-    <td colspan="2">Pero Como Dijiste (Como Dijiste)</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, 'Cause I Got Nothin′ In My Head</td>
-    <td colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oh, In My Head</td>
-    <td colspan="2">Oh, En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">Too Dumb For Breakin′ Up</td>
-    <td colspan="2">Soy Demasiado Tonto Para Terminarte</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'd Do It In Person, But I′d Probably Mess It Up</td>
-    <td colspan="2">Lo Haría En Persona, Pero Probablemente Lo Arruinaría</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'll Text You, That′s Enough</td>
-    <td colspan="2">Te Enviaré Un Mensaje De Texto, Eso Es Suficiente</td>
-  </tr>
-  <tr>
-    <td colspan="2">That's How Empty-Headed People Get Through Stuff</td>
-    <td colspan="2">Así Es Como Las Personas Con Nada En La Cabeza Se Las Arreglan</td>
-  </tr>
-  <tr>
-    <td colspan="2">Your World Is Ending Soon</td>
-    <td colspan="2">Tu Mundo Se Está Terminando Pronto</td>
-  </tr>
-  <tr>
-    <td colspan="2">Mine′s A Little Better 'Cause I Never Watch The News</td>
-    <td colspan="2">El Mío Está Un Poco Mejor Porque Nunca Veo Las Noticias</td>
-  </tr>
-  <tr>
-    <td colspan="2">You Make My Lunch Today</td>
-    <td colspan="2">Me Preparaste El Almuerzo Hoy</td>
-  </tr>
-  <tr>
-    <td colspan="2">I Would Do It, But I Couldn't Work My Microwave</td>
-    <td colspan="2">Lo Haría Yo, Pero No Podría Hacer Funcionar Mi Microondas :D</td>
-  </tr>
-  <tr>
-    <td colspan="2">So If That′s What You′Re Saying</td>
-    <td colspan="2">Así Que Si Eso Es Lo Que Piensas</td>
-  </tr>
-  <tr>
-    <td colspan="2">When We Go Down</td>
-    <td colspan="2">Cuando Estamos Débiles</td>
-  </tr>
-  <tr>
-    <td colspan="2">When Kingdom Come</td>
-    <td colspan="2">Cuando Todo Se Desmorona</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, Don′t Look At Me</td>
-    <td colspan="2">No Me Mires A Mi, No Me Mires A Mi</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'm Just Too Dumb</td>
-    <td colspan="2">Soy Demasiado Tonto</td>
-  </tr>
-  <tr>
-    <td colspan="2">I′d Love To Stay (Love To Stay)</td>
-    <td colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td>
-  </tr>
-  <tr>
-    <td colspan="2">But Like You Said (Like You Said)</td>
-    <td colspan="2">Pero Como Dijiste (Como Dijiste)</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, ′Cause I Got Nothin' In My Head</td>
-    <td colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oh, In My Head</td>
-    <td colspan="2">Oh, En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">You Should Not Have Done That</td>
-    <td colspan="2">No Deberías Haber Hecho Eso :D</td>
-  </tr>
-  <tr>
-    <td colspan="2">When We Go Down (We Go Down)</td>
-    <td colspan="2">Cuando Estamos Débiles (Estamos Débiles)</td>
-  </tr>
-  <tr>
-    <td colspan="2">When Kingdom Come (Kingdom Come)</td>
-    <td colspan="2">Cuando Todo Se Desmorona (Se Desmorona)</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, Don′t Look At Me</td>
-    <td colspan="2">No Me Mires A Mi, No Me Mires A Mi</td>
-  </tr>
-  <tr>
-    <td colspan="2">I′m Much Too Dumb</td>
-    <td colspan="2">Soy Tonto Mucho Demasiado</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'd Love To Stay (Love To Stay)</td>
-    <td colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td>
-  </tr>
-  <tr>
-    <td colspan="2">But Like You Said (Like You Said)</td>
-    <td colspan="2">Pero Como Dijiste (Como Dijiste)</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don′T Look At Me, 'Cause I Got Nothin′ In My Head</td>
-    <td colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oh, In My Head</td>
-    <td colspan="2">Oh, En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oh, In My Head</td>
-    <td colspan="2">Oh, En Mi Cabeza</td>
-  </tr>
-  <tr>
-    <td colspan="2">When We Go Down</td>
-    <td colspan="2">Cuando Estamos Débiles</td>
-  </tr>
-  <tr>
-    <td colspan="2">When Kingdom Come</td>
-    <td colspan="2">Cuando Todo Se Desmorona</td>
-  </tr>
-  <tr>
-    <td colspan="2">Don't Look At Me, Don′t Look At Me</td>
-    <td colspan="2">No Me Mires A Mi, No Me Mires A Mi</td>
-  </tr>
-  <tr>
-    <td colspan="2">I'm Just Too Dumb.</td>
-    <td colspan="2">Soy Demasiado Tonto.</td>
-  </tr>
+         <tr><th colspan="2"></td><th colspan="2"></td></tr><tr><th colspan="2">Oh, In My Head</td><th colspan="2">Oh, En Mi Cabeza</td></tr><tr><th colspan="2">You Said With Certainty</td><th colspan="2">Dijiste Con Seguridad</td></tr><tr><th colspan="2">I May Be The Dumbest Person That You′Ve Ever Seen</td><th colspan="2">Que Podría Ser La Persona Más Tonta Que Hayas Visto</td></tr><tr><th colspan="2">You Think You're Hurting Me</td><th colspan="2">Piensas Que Me Haces Sufrir</td></tr><tr><th colspan="2">Bet You Won′t Believe It, But You Kinda Set Me Free</td><th colspan="2">Tal Vez Te Sorprenda, Pero Me Liberaste Un Poco</td></tr><tr><th colspan="2">You've Mentioned Adderall</td><th colspan="2">Mencionaste Unos Fármacos</td></tr><tr><th colspan="2">Slip This Guy A Sedative, He's Bouncing Off The Wall</td><th colspan="2">"Seden A Ese Chico, Está A Punto De Explotar De Tanta Energía"</td></tr><tr><th colspan="2">Honey, It′s No Big Deal</td><th colspan="2">Tranquila, No Es Para Tanto</td></tr><tr><th colspan="2">We′ll Get You Back To College, You Could Study Somethin' Real</td><th colspan="2">"Te Devolveremos A La Universidad, Así Podrás Estudiar Algo De Verdad"</td></tr><tr><th colspan="2">So If That′s How You Feel</td><th colspan="2">Así Que Si Eso Es Lo Que Piensas</td></tr><tr><th colspan="2">When We Go Down</td><th colspan="2">Cuando Estamos Débiles</td></tr><tr><th colspan="2">When Kingdom Come</td><th colspan="2">Cuando Todo Se Desmorona</td></tr><tr><th colspan="2">Don't Look At Me, Don′t Look At Me</td><th colspan="2">No Me Mires A Mi, No Me Mires A Mi</td></tr><tr><th colspan="2">I'm Just Too Dumb</td><th colspan="2">Soy Demasiado Tonto</td></tr><tr><th colspan="2">I′D Love To Stay (Love To Stay)</td><th colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td></tr><tr><th colspan="2">But Like You Said (Like You Said)</td><th colspan="2">Pero Como Dijiste (Como Dijiste)</td></tr><tr><th colspan="2">Don't Look At Me, 'Cause I Got Nothin′ In My Head</td><th colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td></tr><tr><th colspan="2">Oh, In My Head</td><th colspan="2">Oh, En Mi Cabeza</td></tr><tr><th colspan="2">Too Dumb For Breakin′ Up</td><th colspan="2">Soy Demasiado Tonto Para Terminarte</td></tr><tr><th colspan="2">I'd Do It In Person, But I′d Probably Mess It Up</td><th colspan="2">Lo Haría En Persona, Pero Probablemente Lo Arruinaría</td></tr><tr><th colspan="2">I'll Text You, That′s Enough</td><th colspan="2">Te Enviaré Un Mensaje De Texto, Eso Es Suficiente</td></tr><tr><th colspan="2">That's How Empty-Headed People Get Through Stuff</td><th colspan="2">Así Es Como Las Personas Con Nada En La Cabeza Se Las Arreglan</td></tr><tr><th colspan="2">Your World Is Ending Soon</td><th colspan="2">Tu Mundo Se Está Terminando Pronto</td></tr><tr><th colspan="2">Mine′s A Little Better 'Cause I Never Watch The News</td><th colspan="2">El Mío Está Un Poco Mejor Porque Nunca Veo Las Noticias</td></tr><tr><th colspan="2">You Make My Lunch Today</td><th colspan="2">Me Preparaste El Almuerzo Hoy</td></tr><tr><th colspan="2">I Would Do It, But I Couldn't Work My Microwave</td><th colspan="2">Lo Haría Yo, Pero No Podría Hacer Funcionar Mi Microondas :D</td></tr><tr><th colspan="2">So If That′s What You′Re Saying</td><th colspan="2">Así Que Si Eso Es Lo Que Piensas</td></tr><tr><th colspan="2">When We Go Down</td><th colspan="2">Cuando Estamos Débiles</td></tr><tr><th colspan="2">When Kingdom Come</td><th colspan="2">Cuando Todo Se Desmorona</td></tr><tr><th colspan="2">Don't Look At Me, Don′t Look At Me</td><th colspan="2">No Me Mires A Mi, No Me Mires A Mi</td></tr><tr><th colspan="2">I'm Just Too Dumb</td><th colspan="2">Soy Demasiado Tonto</td></tr><tr><th colspan="2">I′d Love To Stay (Love To Stay)</td><th colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td></tr><tr><th colspan="2">But Like You Said (Like You Said)</td><th colspan="2">Pero Como Dijiste (Como Dijiste)</td></tr><tr><th colspan="2">Don't Look At Me, ′Cause I Got Nothin' In My Head</td><th colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td></tr><tr><th colspan="2">Oh, In My Head</td><th colspan="2">Oh, En Mi Cabeza</td></tr><tr><th colspan="2">You Should Not Have Done That</td><th colspan="2">No Deberías Haber Hecho Eso :D</td></tr><tr><th colspan="2">When We Go Down (We Go Down)</td><th colspan="2">Cuando Estamos Débiles (Estamos Débiles)</td></tr><tr><th colspan="2">When Kingdom Come (Kingdom Come)</td><th colspan="2">Cuando Todo Se Desmorona (Se Desmorona)</td></tr><tr><th colspan="2">Don't Look At Me, Don′t Look At Me</td><th colspan="2">No Me Mires A Mi, No Me Mires A Mi</td></tr><tr><th colspan="2">I′m Much Too Dumb</td><th colspan="2">Soy Tonto Mucho Demasiado</td></tr><tr><th colspan="2">I'd Love To Stay (Love To Stay)</td><th colspan="2">Me Encantaría Quedarme (Me Encantaría Quedarme)</td></tr><tr><th colspan="2">But Like You Said (Like You Said)</td><th colspan="2">Pero Como Dijiste (Como Dijiste)</td></tr><tr><th colspan="2">Don′T Look At Me, 'Cause I Got Nothin′ In My Head</td><th colspan="2">No Me Mires, Porque No Tengo Nada En Mi Cabeza</td></tr><tr><th colspan="2">Oh, In My Head</td><th colspan="2">Oh, En Mi Cabeza</td></tr><tr><th colspan="2">Oh, In My Head</td><th colspan="2">Oh, En Mi Cabeza</td></tr><tr><th colspan="2">When We Go Down</td><th colspan="2">Cuando Estamos Débiles</td></tr><tr><th colspan="2">When Kingdom Come</td><th colspan="2">Cuando Todo Se Desmorona</td></tr><tr><th colspan="2">Don't Look At Me, Don′t Look At Me</td><th colspan="2">No Me Mires A Mi, No Me Mires A Mi</td></tr><tr><th colspan="2">I'm Just Too Dumb.</td><th colspan="2">Soy Demasiado Tonto.</td></tr>
          <tr>
             <td class="top-align align-left"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi
                video)</span><span id="FuenteW1">Oficial: bitbird</span></span>
             </td>
-            <td class="top-align align-left"><span id="UrlsArtista1"></span></td>
+            <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
                href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
             <td class="mid-align align-left"><img src="/resources/g6qk73.gif" width="70ch"></td>
