@@ -31,7 +31,7 @@ layout: default
       //
       //ARTISTA 2
       var artist2 = "";
-      var tidal2 = "";
+      var tidal2 = "https://i.imgur.com/jycGdTy.png";
       var spotify2 = "";
       var instagram2 = "";
       var twitter2 = "";
@@ -196,6 +196,7 @@ layout: default
          if (spotify) {
              var UrlsArtista1potify = document.createElement("a");
              UrlsArtista1potify.href = spotify;
+             UrlsArtista1potify.target="_blank";
              UrlsArtista1potify.textContent = "Spotify";
              celdaUrlsArtista1.appendChild(UrlsArtista1potify);
              celdaUrlsArtista1.appendChild(document.createElement("br"));
@@ -272,6 +273,7 @@ layout: default
              if (spotify2) {
                  var UrlsArtista1potify = document.createElement("a");
                  UrlsArtista1potify.href = spotify2;
+                 UrlsArtista1potify.target="_blank";
                  UrlsArtista1potify.textContent = "Spotify";
                  celdaUrlsArtista2.appendChild(UrlsArtista1potify);
                  celdaUrlsArtista2.appendChild(document.createElement("br"));
@@ -349,6 +351,7 @@ layout: default
              if (spotify3) {
                  var UrlsArtista1potify = document.createElement("a");
                  UrlsArtista1potify.href = spotify3;
+                 UrlsArtista1potify.target="_blank";
                  UrlsArtista1potify.textContent = "Spotify";
                  celdaUrlsArtista3.appendChild(UrlsArtista1potify);
                  celdaUrlsArtista3.appendChild(document.createElement("br"));
