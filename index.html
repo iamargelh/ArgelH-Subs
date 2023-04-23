@@ -31,14 +31,14 @@
                 .then(data => {
                     const ul = document.createElement('ul');
                     const currentDirLi = document.createElement('li');
-                    currentDirLi.textContent = currentPath.split('/').pop();
+                    currentDirLi.textContent = path.split('/').pop();
                     currentDirLi.textContent = "⤴ 📂 " + currentDirLi.textContent;
                     ul.appendChild(currentDirLi);
-                    if (currentPath !== rootPath) {
+                    if (path !== rootPath) {
                         currentDirLi.style.color = 'blue';
                         currentDirLi.style.cursor = 'pointer';
                         currentDirLi.addEventListener('click', () => {
-                            const pathParts = currentPath.split('/');
+                            const pathParts = path.split('/');
                             currentPath = pathParts.slice(0, -1).join('/');
                             fetchDirectoryContents(currentPath).then(updateList);
                         });
