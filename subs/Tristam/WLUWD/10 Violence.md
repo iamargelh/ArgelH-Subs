@@ -129,7 +129,7 @@ layout: default
             <th colspan="2" class="espanol">Español</th>
         </tr>
         <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
-        <!-- INSERTAR AQUI LA LETRA <td colspan="2"> -->
+        <!-- INSERTAR AQUI LA LETRA <td colspan="2"> -->s
         <!-- FINAL DE LA LETRA <td colspan="2"> -->
         <tr>
             <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
