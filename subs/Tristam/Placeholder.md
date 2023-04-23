@@ -5,11 +5,11 @@ layout: default
 <script>
     //
     //CANCION
-    var cancion = "Artist - Song";
+    var cancion = "Tristam - ";
     //
     //WALLPAPER
     var titulo = "Artstation";
-    var texto = "Placeholder";
+    var texto = "";
     var wfuente = "";
     //
     //PISTAS
@@ -21,8 +21,8 @@ layout: default
     var videoLink = "";
     //
     //ARTISTA 1
-    var artist = "Artist";
-    var tidal = "google.com";
+    var artist = "Tristam";
+    var tidal = "a";
     var spotify = "";
     var instagram = "";
     var twitter = "";

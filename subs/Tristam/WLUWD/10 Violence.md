@@ -5,11 +5,11 @@ layout: default
 <script>
     //
     //CANCION
-    var cancion = "Artist - Song";
+    var cancion = "Tristam - Violence";
     //
     //WALLPAPER
-    var titulo = "Artstation";
-    var texto = "Placeholder";
+    var titulo = "Oficial";
+    var texto = "Aquí";
     var wfuente = "";
     //
     //PISTAS
@@ -21,15 +21,16 @@ layout: default
     var videoLink = "";
     //
     //ARTISTA 1
-    var artist = "Artist";
-    var tidal = "google.com";
-    var spotify = "";
-    var instagram = "";
-    var twitter = "";
-    var soundcloud = "";
-    var website = "";
-    var facebook = "";
-    var youtube = "";
+    var artist = "Tristam";
+    var tidal = "https://tidal.com/browse/artist/4919619";
+    var spotify = "https://open.spotify.com/artist/28Ky95tmlHktB96DBUoB0g";
+    var instagram = "https://www.instagram.com/itsmetristam/";
+    var twitter = "https://twitter.com/TristamOfficial";
+    var soundcloud = "https://soundcloud.com/tristam";
+    var website = "https://www.tristam.me/";
+    var facebook = "https://www.facebook.com/Theofficialtristam/";
+    var youtube = "https://www.youtube.com/c/tristam";
+    var reddit  = "https://www.reddit.com/r/Tristam/";
     var discord = "";
     //
     //ARTISTA 2
@@ -138,7 +139,7 @@ layout: default
             <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
                     href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
-            <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"></td>
+            <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"><br><img src="https://i.imgur.com/fjIjRgi.png" width="80ch"></td>
         </tr>
     </table>
     <!-- INFIERNO DE LOS SCIRPT -->
@@ -236,6 +237,14 @@ layout: default
             enlaceWebsite.target = "_blank";
             enlaceWebsite.textContent = "Website";
             celdaUrlsArtista1.appendChild(enlaceWebsite);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (discord) {
+            var enlacereddit = document.createElement("a");
+            enlacereddit.href = reddit;
+            enlacereddit.target = "_blank";
+            enlacereddit.textContent = "Reddit";
+            celdaUrlsArtista1.appendChild(enlacereddit);
             celdaUrlsArtista1.appendChild(document.createElement("br"));
         }
         if (discord) {
