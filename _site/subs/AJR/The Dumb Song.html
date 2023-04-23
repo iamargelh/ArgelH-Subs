@@ -64,17 +64,22 @@
             font-size: 1rem;
             width: 120ch;
         }
-         th,
-         td {
-         padding: 8px;
-         }
-         .titulo {
-         text-align: center;
-         }
-         .ingles {
-         text-align: right;
-         width: 50%;
-         }
+        th,td {
+            padding: 8px;
+        }
+        tr td:first-child {
+        text-align: left;
+        }
+        tr td:nth-child(2) {
+        text-align: right;
+        }
+        .titulo {
+            text-align: center;
+        }
+        .ingles {
+            text-align: right;
+            width: 50%;
+        }
          .espanol {
          text-align: left;
          width: 50%;
@@ -90,6 +95,9 @@
          }
          .top-align {
          vertical-align: top;
+         }
+         .align-left{
+            text-align: left;
          }
          .mid-align {
          vertical-align: middle;
@@ -307,12 +315,12 @@
     <td colspan="2">Soy Demasiado Tonto.</td>
   </tr>
          <tr>
-            <td class="top-align"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi
+            <td class="top-align align-left"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado en mi
                video)</span><span id="FuenteW1">Oficial: bitbird</span></span>
             </td>
-            <td class="top-align"><span id="UrlsArtista1"></span></td>
+            <td class="top-align align-left"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br />Redes:<br /><a href="https://linktr.ee/iamargelh">linktr.ee/iamargelh</a></td>
-            <td class="mid-align"><img src="/resources/g6qk73.gif" width="70ch" /></td>
+            <td class="mid-align align-left"><img src="/resources/g6qk73.gif" width="70ch" /></td>
          </tr>
       </table>
       <!-- INFIERNO DE LOS SCIRPT -->
