@@ -5,20 +5,29 @@
     const repo = 'ArgelH-Subs';
     const path = 'subs';
 
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
-        .then(response => response.json())
-        .then(data => {
-            const ul = document.createElement('ul');
-            data.forEach(file => {
-                const li = document.createElement('li');
-                const a = document.createElement('a');
-                a.href = `https://${owner}.github.io/${repo}/${file.path}`;
-                a.textContent = file.name;
-                li.appendChild(a);
-                ul.appendChild(li);
-            });
-            document.body.appendChild(ul);
-        });
+    function fetchDirectoryContents(path) {
+  return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+    .then(response => response.json())
+    .then(data => {
+      const ul = document.createElement('ul');
+      data.forEach(item => {
+        const li = document.createElement('li');
+        if (item.type === 'file') {
+          const a = document.createElement('a');
+          a.href = `https://${owner}.github.io/${repo}/${item.path}`;
+          a.textContent = item.name;
+          li.appendChild(a);
+        } else if (item.type === 'dir') {
+          li.textContent = item.name;
+          fetchDirectoryContents(item.path).then(childUl => li.appendChild(childUl));
+        }
+        ul.appendChild(li);
+      });
+      return ul;
+    });
+}
+
+fetchDirectoryContents(path).then(ul => document.body.appendChild(ul));
 </script>
 
 </html>
