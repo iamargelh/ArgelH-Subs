@@ -20,9 +20,14 @@ jobs:
           path: 'subs'
   
   deploy:
-    needs: pages-directory-listing
-    permissions:
-      pages: write
+  needs: pages-directory-listing
+  runs-on: ubuntu-latest
+  steps:
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./subs
 
     environment:
       name: github-pages
