@@ -1,0 +1,475 @@
+---
+layout: default
+---
+<!-- VARIABLES -->
+<script>
+    //
+    //CANCION
+    var cancion = "FWLR & BRDGS - Suspicious";
+    //
+    //WALLPAPER
+    var titulo = "Artstation";
+    var texto = "Shal. E";
+    var wfuente = "https://www.artstation.com/artwork/nYYWxe";
+    //
+    //PISTAS
+    var vocals = "";
+    var instrumental = "";
+    //
+    //VIDEO LOSSELESS
+    var videoText = "Catbox"; 
+    var videoLink = "https://files.catbox.moe/6lu1qo.mp4";
+    //
+    //ARTISTA 1
+    var artist = "FWLR";
+    var tidal = "https://tidal.com/browse/artist/7440315";
+    var spotify = "https://open.spotify.com/artist/1bgWqGp78w6C8CNPvD6Qlo";
+    var instagram = "https://www.instagram.com/fwlrmusic/";
+    var twitter = "https://twitter.com/FWLRmusic";
+    var soundcloud = "https://soundcloud.com/fwlrmusic";
+    var website = "https://www.fwlrmusic.com/";
+    var facebook = "https://www.facebook.com/FWLRmusic";
+    var youtube = "https://www.youtube.com/channel/UCBUnHKn15yw90iJNIfc2B4A";
+    var discord = "";
+    //
+    //ARTISTA 2
+    var artist2 = "BRDGS";
+    var tidal2 = "https://tidal.com/browse/artist/8510317";
+    var spotify2 = "https://open.spotify.com/artist/3yHcgChNW7jVTvgBfgrTeT";
+    var instagram2 = "https://www.instagram.com/brdgsmsc/";
+    var twitter2 = "https://twitter.com/brdgsmsc";
+    var soundcloud2 = "https://soundcloud.com/brdgsmsc";
+    var website2 = "https://www.brdgsmsc.com/";
+    var facebook2 = "https://www.facebook.com/brdgs";
+    var youtube2 = "https://www.youtube.com/channel/UCfUY1Y60grOtUOvI__biIlg";
+    var discord2 = "";
+    //
+    //ARTISTA 3
+    var artist3 = "";
+    var tidal3 = "";
+    var spotify3 = "";
+    var instagram3 = "";
+    var twitter3 = "";
+    var soundcloud3 = "";
+    var website3 = "";
+    var facebook3 = "";
+    var youtube3 = "";
+    var discord3 = "";
+   //
+</script>
+<!-- ESTILOS -->
+
+<head>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 1rem;
+            width: 120ch;
+        }
+
+        th,
+        td {
+            padding: 8px;
+        }
+
+        tr td:first-child {
+            text-align: right;
+        }
+
+        tr td:nth-child(2) {
+            text-align: left;
+        }
+
+        .titulo {
+            text-align: center;
+        }
+
+        .ingles {
+            text-align: right;
+            width: 50%;
+        }
+
+        .espanol {
+            text-align: left;
+            width: 50%;
+        }
+
+        .borde-derecho {
+            border-right: 1px solid black;
+        }
+
+        .mitad-tamano {
+            font-size: 50%;
+            display: block;
+            margin-top: -2px;
+            margin-bottom: 0px;
+        }
+
+        .top-align {
+            vertical-align: top;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .mid-align {
+            vertical-align: middle;
+        }
+
+        .tab {
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
+    </style>
+</head>
+<!-- CUERPO CON LA TABLA -->
+
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="titulo">Título</th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ingles borde-derecho">English</th>
+            <th colspan="2" class="espanol">Español</th>
+        </tr>
+        <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
+        <table><tbody><tr><td colspan="2">I got it so bad</td><td colspan="2">Estoy tan enamorado</td></tr><tr><td colspan="2">I got it bad for you</td><td colspan="2">Estoy enormemente enamorado de ti</td></tr><tr><td colspan="2">You give me good love</td><td colspan="2">Me entregas tanto amor</td></tr><tr><td colspan="2">You're like a dream come true</td><td colspan="2">Eres como un sueño hecho realidad</td></tr><tr><td colspan="2">They say it won't last</td><td colspan="2">Dicen que no tenemos futuro</td></tr><tr><td colspan="2">They say you're wild and free</td><td colspan="2">Te describen como salvaje y libre</td></tr><tr><td colspan="2">I know you never were a one man woman</td><td colspan="2">Sé que eres una mujer sin ataduras en el amor</td></tr><tr><td colspan="2">I was hoping that you'd give that all up for me</td><td colspan="2">Deseaba que renunciaras a todo por mí</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">I get so confused</td><td colspan="2">Me siento tan confundido</td></tr><tr><td colspan="2">I love it when it's only me and you</td><td colspan="2">Pero amo cuando somos solo tú y yo</td></tr><tr><td colspan="2">And all the things we know we shouldn't do</td><td colspan="2">Y hacemos todas esas cosas que sabemos que no deberíamos</td></tr><tr><td colspan="2">This is way too good, it can't be true</td><td colspan="2">Esto es demasiado bueno para ser verdad</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">So tell me what your game is, what your game is, girl</td><td colspan="2">Dime cuál es tu estrategia, a qué juegas, chica</td></tr><tr><td colspan="2">When you touch me feels so good, I can't contain it (I can't contain it)</td><td colspan="2">Cuando me tocas se siente tan bien que no puedo contenerme (No puedo contenerme)</td></tr><tr><td colspan="2">When you love me I'm so high, so confident, yeah (So confident)</td><td colspan="2">Tu amor me hace sentir tan bien, lleno de confianza, sí (Lleno de confianza)</td></tr><tr><td colspan="2">When you say I'm the only one, I must admit it (I must admit it)</td><td colspan="2">Cuando dices que soy el único, debo admitir que (Debo admitir que)</td></tr><tr><td colspan="2">I get suspicious, just a little suspicious</td><td colspan="2">Me invade una sospecha, solo un poco de sospecha.</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">I shouldn't doubt you</td><td colspan="2">No debería desconfiar de ti</td></tr><tr><td colspan="2">I'm all up in my head</td><td colspan="2">Solo estoy muy confundido</td></tr><tr><td colspan="2">When I'm without you</td><td colspan="2">Cuando no estoy contigo</td></tr><tr><td colspan="2">I start to lose my shit</td><td colspan="2">Empiezo a perder el control</td></tr><tr><td colspan="2">I've just been hurt before</td><td colspan="2">Es solo que ya he sido lastimado antes</td></tr><tr><td colspan="2">A stranger's t-shirt on my bedroom floor</td><td colspan="2">Con una camiseta de un desconocido en la habitación</td></tr><tr><td colspan="2">Excuse me for being suspicious, it's just</td><td colspan="2">Disculpa mis sospechas, es solo que...</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">That I get so confused</td><td colspan="2">Me siento tan confundido</td></tr><tr><td colspan="2">I love it when it's only me and you</td><td colspan="2">Pero amo cuando somos solo tú y yo</td></tr><tr><td colspan="2">And all the things we know we shouldn't do</td><td colspan="2">Y hacemos todas esas cosas que sabemos que no deberíamos</td></tr><tr><td colspan="2">This is way too good, it can't be true</td><td colspan="2">Esto es demasiado bueno para ser verdad</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">So tell me what your game is, what your game is, girl</td><td colspan="2">Dime cuál es tu estrategia, a qué juegas, chica</td></tr><tr><td colspan="2">When you touch me feels so good, I can't contain it (I can't contain it)</td><td colspan="2">Cuando me tocas se siente tan bien que no puedo contenerme (No puedo contenerme)</td></tr><tr><td colspan="2">When you love me I'm so high, so confident, yeah (So confident)</td><td colspan="2">Tu amor me hace sentir tan bien, lleno de confianza, sí (Lleno de confianza)</td></tr><tr><td colspan="2">When you say I'm the only one, I must admit it (I must admit it)</td><td colspan="2">Cuando dices que soy el único, debo admitir que (Debo admitir que)</td></tr><tr><td colspan="2">I get suspicious, just a little suspicious</td><td colspan="2">Me invade una sospecha, solo un poco de sospecha.</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">I get suspicious, just a little suspicious</td><td colspan="2">Me invade una sospecha, solo un poco de sospecha</td></tr><tr><td colspan="2">I get suspicious, just a little suspicious</td><td colspan="2">Me invade una sospecha, solo un poco de sospecha</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">So tell me what your game is, what your game is</td><td colspan="2">Dime cuál es tu estrategia, a qué juegas, chica</td></tr><tr><td colspan="2">'Cause I haven't slept for days, not slept for days, yeah</td><td colspan="2">Porque no he dormido por días, no he dormido por días, lo sé</td></tr><tr><td colspan="2">Baby, love is never painless, never painless, no</td><td colspan="2">Cariño, el amor nunca es tan sencillo, tan sencillo, no</td></tr><tr><td colspan="2">Excuse me for being suspicious (Excuse me for being suspicious)</td><td colspan="2">Disculpa mis sospechas (Disculpa mis sospechas)</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">(I can't contain it, I can't contain it)</td><td colspan="2">(No puedo contenerme, no puedo contenerme)</td></tr><tr><td colspan="2">(I can't contain it, I can't contain it)</td><td colspan="2">(No puedo contenerme, no puedo contenerme)</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">When you touch me feels so good, I can't contain it (I can't contain it)</td><td colspan="2">Cuando me tocas se siente tan bien que no puedo contenerme (No puedo contenerme)</td></tr><tr><td colspan="2">When you love me I'm so high, so confident (So confident)</td><td colspan="2">Tu amor me hace sentir tan bien, lleno de confianza, sí (Lleno de confianza)</td></tr><tr><td colspan="2">When you say I'm the only one, I must admit it (I must admit it)</td><td colspan="2">Cuando dices que soy el único, debo admitir que (Debo admitir que)</td></tr><tr><td colspan="2">I get suspicious, just a little suspicious</td><td colspan="2">Me invade una sospecha, solo un poco de sospecha.</td></tr><tr><td colspan="2">ㅤ</td><td colspan="2">ㅤ</td></tr><tr><td colspan="2">I get suspicious (I get suspicious)</td><td colspan="2">Me invade una sospecha (Me invade una sospecha)</td></tr><tr><td colspan="2">Just a little suspicious (Just a little suspicious)</td><td colspan="2">Solo un poco de sospecha (Solo un poco de sospecha)</td></tr><tr><td colspan="2">I get suspicious (I get suspicious)</td><td colspan="2">Me invade una sospecha (Me invade una sospecha)</td></tr><tr><td colspan="2">Just a little suspicious (Just a little suspicious)</td><td colspan="2">Solo un poco de sospecha (Solo un poco de sospecha)</td></tr><tr><td colspan="2">I get suspicious (Oh, suspicious)</td><td colspan="2">Me invade una sospecha (Oh, una sospecha)</td></tr><tr><td colspan="2">Just a little suspicious (Just a little suspicious)</td><td colspan="2">Solo un poco de sospecha (Solo un poco de sospecha)</td></tr><tr><td colspan="2">I get suspicious (I get suspicious)</td><td colspan="2">Me invade una sospecha (Me invade una sospecha)</td></tr><tr><td colspan="2">Just a little suspicious (Just a little suspicious)</td><td colspan="2">Solo un poco de sospecha (Solo un poco de sospecha)</td></tr></tbody></table>
+        <!-- FINAL DE LA LETRA <td colspan="2"> -->
+        <tr>
+            <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
+                        en mi
+                        video)</span><span id="FuenteW1">Placeholder</span></span>
+            </td>
+            <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
+            <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
+                    href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
+            <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"></td>
+        </tr>
+    </table>
+    <!-- INFIERNO DE LOS SCIRPT -->
+    <script>
+        var tituloc = document.querySelector(".titulo");
+        tituloc.textContent = cancion;
+        tituloc.style.textAlign = "center";
+        document.title = "(ArgelH-Subs) " + cancion;
+        var fuenteW1 = document.getElementById("FuenteW1");
+        fuenteW1.innerHTML = titulo + ": ";
+        var enlace = document.createElement("a");
+        var link = document.querySelector("link[rel~='icon']");
+        link = document.createElement("link");
+        link.rel = "icon";
+        document.head.appendChild(link);
+        link.href = "https://i.imgur.com/jycGdTy.png";
+        if (wfuente) {
+            enlace.href = wfuente;
+            enlace.target = "_blank";
+        }
+        enlace.textContent = texto;
+        enlace.style.fontStyle = "italic";
+        fuenteW1.appendChild(enlace);
+        if (vocals || instrumental) {
+            var spanWallpaper = document.getElementById("spanWallpaper");
+            spanWallpaper.appendChild(document.createElement("br"));
+            var audiosSpan = document.createElement("span");
+            audiosSpan.innerHTML = "<strong>Audios:</strong>";
+            spanWallpaper.parentNode.insertBefore(audiosSpan, spanWallpaper.nextSibling);
+            var extractedText = document.createElement("span");
+            extractedText.textContent = "(Extraídos de la canción)";
+            extractedText.style.fontSize = "50%";
+            extractedText.style.display = "block";
+            extractedText.style.marginTop = "-2px";
+            extractedText.style.marginBottom = "0px";
+            audiosSpan.appendChild(extractedText);
+            if (vocals) {
+                var vocalsLink = document.createElement("a");
+                vocalsLink.href = vocals;
+                vocalsLink.target = "_blank";
+                vocalsLink.textContent = "Acapella";
+                audiosSpan.appendChild(vocalsLink);
+                audiosSpan.appendChild(document.createElement("br"));
+            }
+            if (instrumental) {
+                var instrumentalLink = document.createElement("a");
+                instrumentalLink.href = instrumental;
+                instrumentalLink.target = "_blank";
+                instrumentalLink.textContent = "Instrumental";
+                audiosSpan.appendChild(instrumentalLink);
+            }
+        }
+    </script>
+    <script>
+        var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");
+        var artistName = document.createElement("strong");
+        artistName.textContent = artist + ":";
+        celdaUrlsArtista1.appendChild(artistName);
+        celdaUrlsArtista1.appendChild(document.createElement("br")); // AÑADE UN SALTO DE LINEA DESPUES DEL ARTISTA
+        if (tidal) {
+            var enlaceTidal = document.createElement("a");
+            enlaceTidal.href = tidal;
+            enlaceTidal.target = "_blank";
+            enlaceTidal.textContent = "Tidal";
+            celdaUrlsArtista1.appendChild(enlaceTidal);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (spotify) {
+            var UrlsArtista1potify = document.createElement("a");
+            UrlsArtista1potify.href = spotify;
+            UrlsArtista1potify.target = "_blank";
+            UrlsArtista1potify.textContent = "Spotify";
+            celdaUrlsArtista1.appendChild(UrlsArtista1potify);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (soundcloud) {
+            var UrlsArtista1oundCloud = document.createElement("a");
+            UrlsArtista1oundCloud.href = soundcloud;
+            UrlsArtista1oundCloud.target = "_blank";
+            UrlsArtista1oundCloud.textContent = "SoundCloud";
+            celdaUrlsArtista1.appendChild(UrlsArtista1oundCloud);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (youtube) {
+            var enlaceYouTube = document.createElement("a");
+            enlaceYouTube.href = youtube;
+            enlaceYouTube.target = "_blank";
+            enlaceYouTube.textContent = "YouTube";
+            celdaUrlsArtista1.appendChild(enlaceYouTube);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (website) {
+            var enlaceWebsite = document.createElement("a");
+            enlaceWebsite.href = website;
+            enlaceWebsite.target = "_blank";
+            enlaceWebsite.textContent = "Website";
+            celdaUrlsArtista1.appendChild(enlaceWebsite);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (discord) {
+            var enlacediscord = document.createElement("a");
+            enlacediscord.href = discord;
+            enlacediscord.target = "_blank";
+            enlacediscord.textContent = "Discord";
+            celdaUrlsArtista1.appendChild(enlacediscord);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (instagram) {
+            var enlaceInstagram = document.createElement("a");
+            enlaceInstagram.href = instagram;
+            enlaceInstagram.target = "_blank";
+            enlaceInstagram.textContent = "Instagram";
+            celdaUrlsArtista1.appendChild(enlaceInstagram);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (facebook) {
+            var enlaceFacebook = document.createElement("a");
+            enlaceFacebook.href = facebook;
+            enlaceFacebook.target = "_blank";
+            enlaceFacebook.textContent = "Facebook";
+            celdaUrlsArtista1.appendChild(enlaceFacebook);
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+        }
+        if (twitter) {
+            var enlacetwitter = document.createElement("a");
+            enlacetwitter.href = twitter;
+            enlacetwitter.target = "_blank";
+            enlacetwitter.textContent = "Twitter";
+            celdaUrlsArtista1.appendChild(enlacetwitter);
+        }
+    </script>
+    <script>
+        if (artist2) {
+            var celdaUrlsArtista1 = document.getElementById("UrlsArtista1");
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+            celdaUrlsArtista1.appendChild(document.createElement("br"));
+            var celdaUrlsArtista2 = document.createElement("span");
+            celdaUrlsArtista2.id = "UrlsArtista2";
+            celdaUrlsArtista1.parentNode.insertBefore(celdaUrlsArtista2, celdaUrlsArtista1.nextSibling);
+            var artistName2 = document.createElement("strong");
+            artistName2.textContent = artist2 + ":";
+            celdaUrlsArtista2.appendChild(artistName2);
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            if (tidal2) {
+                var enlaceTidal = document.createElement("a");
+                enlaceTidal.href = tidal2;
+                enlaceTidal.target = "_blank";
+                enlaceTidal.textContent = "Tidal";
+                celdaUrlsArtista2.appendChild(enlaceTidal);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (spotify2) {
+                var UrlsArtista1potify = document.createElement("a");
+                UrlsArtista1potify.href = spotify2;
+                UrlsArtista1potify.target = "_blank";
+                UrlsArtista1potify.textContent = "Spotify";
+                celdaUrlsArtista2.appendChild(UrlsArtista1potify);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (soundcloud2) {
+                var UrlsArtista1oundCloud = document.createElement("a");
+                UrlsArtista1oundCloud.href = soundcloud2;
+                UrlsArtista1oundCloud.target = "_blank";
+                UrlsArtista1oundCloud.textContent = "SoundCloud";
+                celdaUrlsArtista2.appendChild(UrlsArtista1oundCloud);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (youtube2) {
+                var enlaceYouTube = document.createElement("a");
+                enlaceYouTube.href = youtube2;
+                enlaceYouTube.target = "_blank";
+                enlaceYouTube.textContent = "YouTube";
+                celdaUrlsArtista2.appendChild(enlaceYouTube);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (website2) {
+                var enlaceWebsite = document.createElement("a");
+                enlaceWebsite.href = website;
+                enlaceWebsite.target = "_blank";
+                enlaceWebsite.textContent = "Website";
+                celdaUrlsArtista2.appendChild(enlaceWebsite);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (discord2) {
+                var enlacediscord = document.createElement("a");
+                enlacediscord.href = discord2;
+                enlacediscord.target = "_blank";
+                enlacediscord.textContent = "Discord";
+                celdaUrlsArtista2.appendChild(enlacediscord);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (instagram) {
+                var enlaceInstagram = document.createElement("a");
+                enlaceInstagram.href = instagram;
+                enlaceInstagram.target = "_blank";
+                enlaceInstagram.textContent = "Instagram";
+                celdaUrlsArtista2.appendChild(enlaceInstagram);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (facebook2) {
+                var enlaceFacebook = document.createElement("a");
+                enlaceFacebook.href = facebook2;
+                enlaceFacebook.target = "_blank";
+                enlaceFacebook.textContent = "Facebook";
+                celdaUrlsArtista2.appendChild(enlaceFacebook);
+                celdaUrlsArtista2.appendChild(document.createElement("br"));
+            }
+            if (twitter2) {
+                var enlacetwitter = document.createElement("a");
+                enlacetwitter.href = twitter2;
+                enlacetwitter.target = "_blank";
+                enlacetwitter.textContent = "Twitter";
+                celdaUrlsArtista2.appendChild(enlacetwitter);
+            }
+        }
+    </script>
+    <script>
+        if (artist3) {
+            var celdaUrlsArtista2 = document.getElementById("UrlsArtista2");
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            celdaUrlsArtista2.appendChild(document.createElement("br"));
+            var celdaUrlsArtista3 = document.createElement("span");
+            celdaUrlsArtista3.id = "UrlsArtista3";
+            celdaUrlsArtista2.parentNode.insertBefore(celdaUrlsArtista3, celdaUrlsArtista2.nextSibling);
+            var artistName3 = document.createElement("strong");
+            artistName3.textContent = artist3 + ":";
+            celdaUrlsArtista3.appendChild(artistName3);
+            celdaUrlsArtista3.appendChild(document.createElement("br"));
+            if (tidal3) {
+                var enlaceTidal = document.createElement("a");
+                enlaceTidal.href = tidal3;
+                enlaceTidal.target = "_blank";
+                enlaceTidal.textContent = "Tidal";
+                celdaUrlsArtista3.appendChild(enlaceTidal);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (spotify3) {
+                var UrlsArtista1potify = document.createElement("a");
+                UrlsArtista1potify.href = spotify3;
+                UrlsArtista1potify.target = "_blank";
+                UrlsArtista1potify.textContent = "Spotify";
+                celdaUrlsArtista3.appendChild(UrlsArtista1potify);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (soundcloud3) {
+                var UrlsArtista1oundCloud = document.createElement("a");
+                UrlsArtista1oundCloud.href = soundcloud;
+                UrlsArtista1oundCloud.target = "_blank";
+                UrlsArtista1oundCloud.textContent = "SoundCloud";
+                celdaUrlsArtista3.appendChild(UrlsArtista1oundCloud);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (youtube) {
+                var enlaceYouTube = document.createElement("a");
+                enlaceYouTube.href = youtube;
+                enlaceYouTube.target = "_blank";
+                enlaceYouTube.textContent = "YouTube";
+                celdaUrlsArtista3.appendChild(enlaceYouTube);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (website3) {
+                var enlaceWebsite = document.createElement("a");
+                enlaceWebsite.href = website3;
+                enlaceWebsite.target = "_blank";
+                enlaceWebsite.textContent = "Website";
+                celdaUrlsArtista3.appendChild(enlaceWebsite);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (discord3) {
+                var enlacediscord = document.createElement("a");
+                enlacediscord.href = discord3;
+                enlacediscord.target = "_blank";
+                enlacediscord.textContent = "Discord";
+                celdaUrlsArtista3.appendChild(enlacediscord);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (instagram3) {
+                var enlaceInstagram = document.createElement("a");
+                enlaceInstagram.href = instagram3;
+                enlaceInstagram.target = "_blank";
+                enlaceInstagram.textContent = "Instagram";
+                celdaUrlsArtista3.appendChild(enlaceInstagram);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (facebook3) {
+                var enlaceFacebook = document.createElement("a");
+                enlaceFacebook.href = facebook3;
+                enlaceFacebook.target = "_blank";
+                enlaceFacebook.textContent = "Facebook";
+                celdaUrlsArtista3.appendChild(enlaceFacebook);
+                celdaUrlsArtista3.appendChild(document.createElement("br"));
+            }
+            if (twitter3) {
+                var enlacetwitter = document.createElement("a");
+                enlacetwitter.href = twitter3;
+                enlacetwitter.target = "_blank";
+                enlacetwitter.textContent = "Twitter";
+                celdaUrlsArtista3.appendChild(enlacetwitter);
+            }
+        }
+    </script>
+    <script>
+        if (videoLink) {
+            var audiosSpan = document.querySelector("#spanWallpaper + span");
+            if (!audiosSpan) {
+                audiosSpan = document.querySelector("#spanWallpaper");
+            }
+            var br = document.createElement("br");
+            audiosSpan.parentNode.insertBefore(br, audiosSpan.nextSibling);
+            var videoSpan = document.createElement("span");
+            videoSpan.innerHTML = "<strong>Video Con Mejor Calidad:</strong>";
+            br.parentNode.insertBefore(videoSpan, br.nextSibling);
+            videoSpan.appendChild(document.createElement("br"));
+            var videoLinkElement = document.createElement("a");
+            videoLinkElement.href = videoLink;
+            videoLinkElement.target = "_blank";
+            videoLinkElement.textContent = videoText;
+            videoSpan.appendChild(videoLinkElement);
+        }
+    </script>
+</body>
