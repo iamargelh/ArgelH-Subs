@@ -125,7 +125,7 @@ layout: default
             margin-left: 1.5rem;
         }
     </style>
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/ico" href="../../favicon.ico">
 </head>
 <!-- CUERPO CON LA TABLA -->
 
