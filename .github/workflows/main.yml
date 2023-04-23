@@ -9,8 +9,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: pip install requests
       - name: Generate index.html
-        run: bash ./generate-index.sh
+        run: python ./generate-index.py
       - name: Set up Git
         run: |
           git config --global user.name "iamargelh"
