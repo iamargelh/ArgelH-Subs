@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 
+<div id="list-container"></div>
+<script>
+    document.title = "(ArgelH-Subs)";
+    var link = document.querySelector("link[rel~='icon']");
+    link = document.createElement("link");
+    link.rel = "icon";
+    document.head.appendChild(link);
+    link.href = "https://i.imgur.com/jycGdTy.png";
+</script>
 <script>
     const owner = 'iamargelh';
     const repo = 'ArgelH-Subs';
     const path = 'subs';
-
     function fetchDirectoryContents(path) {
-  return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
-    .then(response => response.json())
-    .then(data => {
-      const ul = document.createElement('ul');
-      data.forEach(item => {
-        const li = document.createElement('li');
-        if (item.type === 'file') {
-          const a = document.createElement('a');
-          a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
-          a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
-          li.appendChild(a);
-        } else if (item.type === 'dir') {
-          li.textContent = item.name;
-          li.style.cursor = 'pointer';
-          li.addEventListener('click', () => {
-            fetchDirectoryContents(item.path).then(updateList);
-          });
-        }
-        ul.appendChild(li);
-      });
-      return ul;
-    });
-}
+        return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+            .then(response => response.json())
+            .then(data => {
+                const ul = document.createElement('ul');
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    if (item.type === 'file') {
+                        const a = document.createElement('a');
+                        a.href = `https://${owner}.github.io/${repo}/${item.path.endsWith('.md') ? item.path.slice(0, -3) : item.path}`;
+                        a.textContent = item.name.endsWith('.md') ? item.name.slice(0, -3) : item.name;
+                        li.appendChild(a);
+                    } else if (item.type === 'dir') {
+                        li.textContent = item.name;
+                        li.style.cursor = 'pointer';
+                        li.addEventListener('click', () => {
+                            fetchDirectoryContents(item.path).then(updateList);
+                        });
+                    }
+                    ul.appendChild(li);
+                });
+                return ul;
+            });
+    }
 
-function updateList(ul) {
-  const container = document.getElementById('list-container');
-  container.innerHTML = '';
-  container.appendChild(ul);
-}
+    function updateList(ul) {
+        const container = document.getElementById('list-container');
+        container.innerHTML = '';
+        container.appendChild(ul);
+    }
 
-fetchDirectoryContents(rootPath).then(updateList);
+    fetchDirectoryContents(rootPath).then(updateList);
 </script>
 
 </html>
