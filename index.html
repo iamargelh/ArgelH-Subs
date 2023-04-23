@@ -61,8 +61,8 @@
                             li.style.color = 'blue';
                             li.appendChild(document.createTextNode(item.name));
                             li.addEventListener('click', () => {
-                                currentPath = item.path;
-                                fetchDirectoryContents(item.path).then(updateList);
+                                currentPath += '/' + item.name;
+                                fetchDirectoryContents(currentPath).then(updateList);
                             });
                         }
                         innerUl.appendChild(li);
