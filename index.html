@@ -19,7 +19,10 @@
           li.appendChild(a);
         } else if (item.type === 'dir') {
           li.textContent = item.name;
-          fetchDirectoryContents(item.path).then(childUl => li.appendChild(childUl));
+          li.style.cursor = 'pointer';
+          li.addEventListener('click', () => {
+            fetchDirectoryContents(item.path).then(updateList);
+          });
         }
         ul.appendChild(li);
       });
@@ -27,7 +30,13 @@
     });
 }
 
-fetchDirectoryContents(path).then(ul => document.body.appendChild(ul));
+function updateList(ul) {
+  const container = document.getElementById('list-container');
+  container.innerHTML = '';
+  container.appendChild(ul);
+}
+
+fetchDirectoryContents(rootPath).then(updateList);
 </script>
 
 </html>
