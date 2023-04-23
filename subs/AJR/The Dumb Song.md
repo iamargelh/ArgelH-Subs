@@ -30,7 +30,7 @@ layout: default
       var discord = "";
       //
       //ARTISTA 2
-      var artist2 = "";
+      var artist2 = "a";
       var tidal2 = "https://i.imgur.com/jycGdTy.png";
       var spotify2 = "";
       var instagram2 = "";
