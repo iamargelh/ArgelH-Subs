@@ -389,7 +389,7 @@ layout: default
             <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
                     href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
-            <td class="mid-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"></td>
+            <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"></td>
         </tr>
     </table>
     <!-- INFIERNO DE LOS SCIRPT -->
