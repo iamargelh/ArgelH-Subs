@@ -14,8 +14,8 @@ layout: default
     var wfuente = "https://www.artstation.com/artwork/ao0dwR";
     //
     //PISTAS
-    var vocals = "";
-    var instrumental = "";
+    var vocals = "https://files.catbox.moe/xilscn.flac";
+    var instrumental = "https://files.catbox.moe/0fwwtx.flac";
     //
     //ARTISTA 1
     var artist = "AJR";
