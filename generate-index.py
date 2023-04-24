@@ -118,4 +118,4 @@ html_template = '''
 
 # Escribir el contenido del archivo index.html en el disco
 with open('index.html', 'w') as file:
-    file.write(html_template)
+    file.write(html_template.format(tree=json.dumps(tree)))
