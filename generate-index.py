@@ -1,45 +1,38 @@
-import requests
-import json
+import os
 import xml.etree.ElementTree as ET
+import json
 
-owner = "iamargelh"
-repo = "ArgelH-Subs"
-root_folder = "subs"
-api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{root_folder}"
-
-
-def get_tree(path=""):
-    response = requests.get(api_url + ("/" + path if path else ""))
-    data = response.json()
-    tree = {}
-    for item in data:
-        if item["type"] == "dir":
-            tree[item["name"]] = get_tree(item["path"].replace(f"{root_folder}/", ""))
-        else:
-            tree[item["name"]] = item["download_url"]
+def get_tree(path):
+    tree = {"name": os.path.basename(path)}
+    if os.path.isdir(path):
+        tree["type"] = "directory"
+        tree["children"] = [
+            get_tree(os.path.join(path, child))
+            for child in os.listdir(path)
+        ]
+    else:
+        tree["type"] = "file"
     return tree
 
-
-def save_tree_to_json(tree, file_path):
-    with open(file_path, "w") as f:
-        json.dump(tree, f, indent=4)
-
-
-def save_tree_to_xml(tree, file_path):
-    def _create_element(item, name):
+def save_tree_to_xml(tree, filename):
+    def _create_element(item, name="item"):
+        elem = ET.Element(name)
         if isinstance(item, dict):
-            elem = ET.Element(name)
             for key, val in item.items():
-                elem.append(_create_element(val, key))
-            return elem
+                if val is not None:
+                    elem.append(_create_element(val, key))
         else:
-            return ET.Element(name).text(str(item))
+            elem.text = str(item)
+        return elem
 
     root = _create_element(tree, "tree")
-    tree_xml = ET.ElementTree(root)
-    tree_xml.write(file_path)
+    tree = ET.ElementTree(root)
+    tree.write(filename, encoding="utf-8", xml_declaration=True)
 
+def save_tree_to_json(tree, filename):
+    with open(filename, "w") as f:
+        json.dump(tree, f, indent=4)
 
-tree = get_tree()
-save_tree_to_json(tree, "tree.json")
+tree = get_tree(".")
 save_tree_to_xml(tree, "tree.xml")
+save_tree_to_json(tree, "tree.json")
