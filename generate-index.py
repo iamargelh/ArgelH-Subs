@@ -66,9 +66,10 @@ def generate_html(tree):
           if (path !== rootFolder) {
             contentsSpan.innerHTML += `''' + generate_back_element(root_folder) + '''`;
           }
-          
+
+          let item = null;
           for (let i = 0; i < tree.length; i++) {
-            let item = tree[i];
+            item = tree[i];
             if (item.path.startsWith(path + '/') && !item.path.slice(path.length + 1).includes('/')) {
               if (item.type === 'tree') {
                 contentsSpan.innerHTML += `''' + generate_folder_element('${item["path"].split("/")[-1]}', item['path']) + '''`;
@@ -78,7 +79,7 @@ def generate_html(tree):
             }
           }
         }
-        
+
         let tree;
         
         function init() {
