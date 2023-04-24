@@ -1,86 +1,55 @@
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>(ArgelH-Subs)</title>
-    <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
+    <meta charset="UTF-8">
+    <title>My Subtitles Site</title>
     <style>
-        html {
-            font-family: "Times New Roman", Times, serif;
-            font-size: 62.5%;
+        /* Estilos CSS para dar estilo al sitio web */
+        .directory {
+            margin-left: 20px;
         }
-
-        body {
-            font-size: 3.2rem;
+        .file {
+            margin-left: 40px;
         }
     </style>
 </head>
-
 <body>
-    <div id="path"></div>
-    <div id="contents"></div>
+    <h1>My Subtitles Site</h1>
+    <ul id="filetree">
+    </ul>
 
     <script>
-        let tree = {{tree}};
-        let path = '';
+        // Obtener el archivo JSON mediante una petición AJAX
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var filetree = document.getElementById("filetree");
+                var data = JSON.parse(this.responseText);
+                buildTree(data, filetree);
+            }
+        };
+        xmlhttp.open("GET", "subs.json", true);
+        xmlhttp.send();
 
-        function showTree() {
-            let contentsDiv = document.getElementById('contents');
-            contentsDiv.innerHTML = '';
-            let pathSpan = document.getElementById('path');
-            pathSpan.innerHTML = '';
-            let parts = path.split('/');
-            for (let i in parts) {
-                let part = parts[i];
-                if (part) {
-                    let partSpan = document.createElement('span');
-                    partSpan.innerText = part;
-                    partSpan.onclick = () => {
-                        path = parts.slice(0, i).join('/');
-                        showTree();
-                    };
-                    pathSpan.appendChild(partSpan);
-                    if (i < parts.length - 1) {
-                        pathSpan.innerHTML += '/';
-                    }
+        // Función recursiva para construir el árbol de archivos y directorios
+        function buildTree(data, parent) {
+            data.children.forEach(function(item) {
+                var li = document.createElement("li");
+                li.innerHTML = item.name;
+                if (item.type === "directory") {
+                    li.classList.add("directory");
+                    var ul = document.createElement("ul");
+                    buildTree(item, ul);
+                    li.appendChild(ul);
+                } else {
+                    li.classList.add("file");
+                    li.addEventListener("click", function() {
+                        window.location.href = item.page;
+                    });
                 }
-            }
-            if (path) {
-                let backSpan = document.createElement('div');
-                backSpan.innerHTML = '⤴ 📂 ..';
-                backSpan.onclick = () => {
-                    path = parts.slice(0, -1).join('/');
-                    showTree();
-                };
-                contentsDiv.appendChild(backSpan);
-            }
-            for (let name in tree) {
-                let item = tree[name];
-                if (typeof item === 'object') {
-                    if (item.type === 'dir') {
-                        let folderSpan = document.createElement('div');
-                        folderSpan.innerHTML = `↪ 📁 ${name}`;
-                        folderSpan.onclick = () => {
-                            path = `${path}/${name}`;
-                            showTree();
-                        };
-                        contentsDiv.appendChild(folderSpan);
-                    } else if (item.type === 'file') {
-                        let fileSpan = document.createElement('div');
-                        fileSpan.innerHTML = `↪ 📄 ${name.replace('.md', '')}`;
-                        fileSpan.onclick = () => {
-                            window.location.href =
-                                `https://${owner}.github.io/${repo}/${rootFolder}/${path}/${name}`.replace('.md', '');
-                        };
-                        contentsDiv.appendChild(fileSpan);
-                    }
-                }
-            }
+                parent.appendChild(li);
+            });
         }
-        showTree(tree);
     </script>
-
 </body>
-
 </html>
