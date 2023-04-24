@@ -33,8 +33,8 @@ def generate_html(tree):
     <head>
       <title>Index</title>
       <script>
-        const item;
         const tree = ''' + str(tree) + ''';
+        const item;
         
         function generateLink(path) {
           return `https://${owner}.github.io/${repo}/${path}`;
@@ -69,7 +69,7 @@ def generate_html(tree):
           }
           
           for (let i = 0; i < tree.length; i++) {
-            let item = tree[i];
+            item = tree[i];
             if (item.path.startsWith(path + '/') && !item.path.slice(path.length + 1).includes('/')) {
               if (item.type === 'tree') {
                   contentsSpan.innerHTML += `''' + generate_folder_element('${item["path"].split("/")[-1]}', item['path']) + '''`;
