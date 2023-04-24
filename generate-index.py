@@ -107,7 +107,7 @@ html_template = '''
                         fileSpan.innerHTML = `↪ 📄 ${name.replace('.md', '')}`;
                         fileSpan.onclick = () => {
                             window.location.href =
-                                `https://${owner}.github.io/${repo}/${rootFolder}/${path}/${name}`.replace('.md', '');
+                                `https://${owner}.github.io/${repo}/${root_Folder}/${path}/${name}`.replace('.md', '');
                         };
                         contentsDiv.appendChild(fileSpan);
                     }
