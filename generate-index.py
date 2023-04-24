@@ -7,8 +7,8 @@ repo_path = os.getcwd()
 # Obtener la ruta de la carpeta subs y construir el link a la página de GitHub Pages
 subs_path = os.path.join(repo_path, 'subs')
 github_pages_link = 'https://{username}.github.io/{repository_name}/subs/'.format(
-    username='<tu_nombre_de_usuario_en_GitHub>',
-    repository_name='<nombre_del_repositorio>')
+    username='iamargelh,
+    repository_name='ArgelH-Subs')
 
 # Recorrer la estructura de carpetas y archivos y construir una lista de diccionarios con la información necesaria
 file_tree = []
