@@ -35,6 +35,6 @@ def save_tree_to_json(tree, filename):
     with open(filename, "w") as f:
         json.dump(tree, f, indent=4)
 
-tree = get_tree("./subs", "https://iamargelh.github.io/ArgelH-Subs/")
+tree = get_tree("./subs", "https://iamargelh.github.io/ArgelH-Subs/subs/")
 save_tree_to_xml(tree, "tree.xml")
 save_tree_to_json(tree, "tree.json")
