@@ -117,5 +117,5 @@ html_template = '''
 '''
 
 # Escribir el contenido del archivo index.html en el disco
-with open(os.path.join(repo_path, 'index.html'), 'w') as f:
-    f.write(template.render(path='subs', file_tree=file_tree))
+with open('index.html', 'w') as file:
+    file.write(html_template)
