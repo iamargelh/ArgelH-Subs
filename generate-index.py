@@ -23,7 +23,7 @@ def get_tree(path=''):
     for item in data:
         if item['type'] == 'dir':
             tree[item['name']] = get_tree(item['path'].replace(f'{root_folder}/', ''))
-        elif item['type'] == 'file':
+        elif item['type'] == 'file' and 'content' in item:
             content = base64.b64decode(item['content']).decode()
             tree[item['name']] = content
     return tree
