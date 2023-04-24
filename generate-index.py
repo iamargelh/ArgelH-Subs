@@ -2,16 +2,18 @@ import os
 import xml.etree.ElementTree as ET
 import json
 
-def get_tree(path):
+def get_tree(path, base_url):
     tree = {"name": os.path.basename(path)}
     if os.path.isdir(path):
         tree["type"] = "directory"
         tree["children"] = [
-            get_tree(os.path.join(path, child))
+            get_tree(os.path.join(path, child), base_url)
             for child in os.listdir(path)
         ]
     else:
         tree["type"] = "file"
+        tree["page"] = os.path.join(
+            base_url, os.path.relpath(path, "./subs")).replace(".md", "")
     return tree
 
 def save_tree_to_xml(tree, filename):
@@ -33,6 +35,6 @@ def save_tree_to_json(tree, filename):
     with open(filename, "w") as f:
         json.dump(tree, f, indent=4)
 
-tree = get_tree("./subs")
+tree = get_tree("./subs", "https://iamargelh.github.io/ArgelH-Subs/")
 save_tree_to_xml(tree, "tree.xml")
 save_tree_to_json(tree, "tree.json")
