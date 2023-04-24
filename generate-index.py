@@ -33,6 +33,7 @@ def generate_html(tree):
     <head>
       <title>Index</title>
       <script>
+        const item;
         const tree = ''' + str(tree) + ''';
         
         function generateLink(path) {
