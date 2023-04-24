@@ -18,9 +18,9 @@ fetch("tree.json")
             //
             for (let index = 0; index < naming.length; index++) {
                 if (naming[index] == naming[0]) {
-                    path += naming[index];
+                    path += "ArgelH-Subs/"+naming[index];
                 } else {
-                    path += `/<a href="#" onclick="javascript:customback(2);">${naming[index]}</a>`;
+                    path += `/${naming[index]}`;
                     //<button onclick="getElementById('demo').innerHTML = Date()">What is the time?</button>
 
                 }
@@ -32,7 +32,7 @@ fetch("tree.json")
         function renderContents(node) {
             contentsDiv.innerHTML = "";
             const firstDiv = document.createElement("div");
-            firstDiv.innerHTML = `<a href="#"> ⤴ 📂 .. </a>`;
+            firstDiv.innerHTML = `<a href="#" class="folder"> ⤴ 📂 .. </a>`;
             if (count != 0) {
                 firstDiv.addEventListener("click", () => {
                     back();
@@ -43,9 +43,9 @@ fetch("tree.json")
                 const childDiv = document.createElement("div");
                 if (child.type === "file") {
                     const fileName = child.name.replace(".md", "");
-                    childDiv.innerHTML = `<a href="${child.page}" target="_blank">↪ 📄 ${fileName}</a>`;
+                    childDiv.innerHTML = `<a href="${child.page}" target="_blank" class="folder">↪</a><a href="${child.page}" target="_blank"> 📄 ${fileName}</a>`;
                 } else if (child.type === "directory") {
-                    childDiv.innerHTML = `<a href="#">↪ 📁 ${child.name}</a>`;
+                    childDiv.innerHTML = `<a href="#" class="folder">↪ 📁 ${child.name}</a>`;
                     childDiv.addEventListener("click", () => {
                         const newPathElement = document.createElement("span");
                         addDir(child.name, child.children);
@@ -81,12 +81,7 @@ fetch("tree.json")
             renderContents(pastpath);
         }
         function customback(number) {
-            let pastpath = pathing[count - number];
-            let pastname = naming[count - number];
-            const newPathElement = document.createElement("span");
-            pathDiv.appendChild(newPathElement);
-            newPathElement.innerText = `${pastname}`;
-            for (let index = 0; index < number; index++) {
+            for (let index = 0; index < naming.length-number; index++) {
                 removeDir();
             }
             renderPath();

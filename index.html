@@ -4,22 +4,51 @@
 <head>
     <title>(ArgelH-Subs)</title>
     <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
-    <script type = "text/javascript " src = "script.js"></script>
+    <script type="text/javascript " src="script.js"></script>
     <style>
         html {
             font-family: "Times New Roman", Times, serif;
             font-size: 62.5%;
+            user-select: none; 
         }
 
         body {
             font-size: 3.2rem;
         }
+        .path {
+
+            background-color: burlywood;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .contents {
+            background-color: #cfcfcf;
+            border-bottom: 200px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .global {
+            width: fit-content;
+            height: fit-content;
+        }
+        .folder{
+            text-decoration: none;
+        }
+        a:visited { 
+            text-decoration-color: blue; 
+        }
     </style>
 </head>
 
 <body>
-    <div id="path"></div>
-    <div id="contents"></div>
+    <div class="global">
+        <div id="path" class="path"></div>
+        <div id="contents" class="contents"></div>
+    </div>
+
 
 </body>
 
