@@ -16,18 +16,23 @@ def get_file_content(path):
     return response.content.decode()
 
 # Función para obtener el árbol de archivos y carpetas
-def get_tree(path=''):
-    response = requests.get(api_url + ('' if not path else f'/{path}'))
-    data = response.json()
+def get_tree(path="."):
     tree = {}
-    for item in data:
-        if item['type'] == 'dir':
-            tree[item['name']] = get_tree(item['path'].replace(f'{root_folder}/', ''))
-        elif item['type'] == 'file' and 'content' in item:
-            content = base64.b64decode(item['content']).decode()
-            tree[item['name']] = content
+    full_path = os.path.join(root_folder, path)
+
+    for item in os.listdir(full_path):
+        item_path = os.path.join(full_path, item)
+
+        if os.path.isdir(item_path):
+            tree[item] = get_tree(os.path.join(path, item))
+        else:
+            with open(item_path, "rb") as f:
+                content = f.read()
+
+            tree[item] = base64.b64encode(content).decode()
+
     return tree
-get_tree()
+tree = get_tree()
 # Generar el archivo index.html con el contenido del árbol de archivos y carpetas
 html_template = '''
 <!DOCTYPE html>
@@ -117,10 +122,6 @@ html_template = '''
 </html>
 '''
 
-# Obtener el árbol de archivos y carpetas
-tree = get_tree()
-
 # Escribir el contenido del archivo index.html en el disco
 with open('index.html', 'w') as file:
     file.write(html_template.format(tree=json.dumps(tree)))
-    
