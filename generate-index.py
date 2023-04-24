@@ -66,20 +66,21 @@ def generate_html(tree):
           if (path !== rootFolder) {
             contentsSpan.innerHTML += `''' + generate_back_element(root_folder) + '''`;
           }
-
-          let item = null;
+          
           for (let i = 0; i < tree.length; i++) {
-            item = tree[i];
+            let item = tree[i];
             if (item.path.startsWith(path + '/') && !item.path.slice(path.length + 1).includes('/')) {
               if (item.type === 'tree') {
                 contentsSpan.innerHTML += `''' + generate_folder_element('${item["path"].split("/")[-1]}', item['path']) + '''`;
               } else if (item.type === 'blob') {
                 contentsSpan.innerHTML += `''' + generate_file_element('${item["path"].split("/")[-1]}', item['path']) + '''`;
               }
+            } else {
+              continue;
             }
           }
         }
-
+        
         let tree;
         
         function init() {
