@@ -1,74 +1,115 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>(ArgelH-Subs)</title>
     <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
     <style>
-      html {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 62.5%;
-      }
+        html {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 62.5%;
+        }
 
-      body {
-        font-size: 3.2rem;
-      }
+        body {
+            font-size: 3.2rem;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="path"></div>
     <div id="contents"></div>
     <script>
-      let rootDirectoryName = '';
+        let rootDirectoryName = '';
 
-      fetch("tree.json")
-        .then((response) => response.json())
-        .then((data) => {
-          const contentsDiv = document.getElementById("contents");
-          const pathDiv = document.getElementById("path");
-          rootDirectoryName = data.name;
-          
 
-          function renderPath() {
-            let path = "";
-            const pathElements = Array.from(pathDiv.childNodes);
-            pathElements.forEach((element, index) => {
-              if (index === pathElements.length - 1) {
-                path += element.innerText;
-              } else {
-                path += `${element.innerText} / `;
-              }
-            });
-            return path;
-          }
+        fetch("tree.json")
+            .then((response) => response.json())
+            .then((data) => {
+                const contentsDiv = document.getElementById("contents");
+                const pathDiv = document.getElementById("path");
+                rootDirectoryName = data.name;
+                let pathing = [];
+                let naming = [];
+                let count = 0;
+                pathing.push(data.children);
+                naming.push(data.name);
+                
 
-          function renderContents(node) {
-            contentsDiv.innerHTML = "";
-            const firstDiv = document.createElement("div");
-            firstDiv.innerHTML = `<a href="#"> ⤴ 📂 .. </a>`;
-            contentsDiv.appendChild(firstDiv);
-            node.forEach((child) => {
-              const childDiv = document.createElement("div");
-              if (child.type === "file") {
-                const fileName = child.name.replace(".md", "");
-                childDiv.innerHTML = `<a href="${child.page}" target="_blank">↪ 📄 ${fileName}</a>`;
-              } else if (child.type === "directory") {
-                childDiv.innerHTML = `<a href="#">↪ 📁 ${child.name}</a>`;
-                childDiv.addEventListener("click", () => {
-                  const newPathElement = document.createElement("span");
-                  newPathElement.innerText = `${child.name}`;
-                  pathDiv.appendChild(newPathElement);
-                  renderPath();
-                  renderContents(child.children);
-                });
-              }
-              contentsDiv.appendChild(childDiv);
-            });
-          }
 
-          renderContents(data.children);
-        })
-        .catch((error) => console.error(error));
+
+                function renderPath() {
+                    let path = "";
+                    //const pathElements = Array.from(pathDiv.childNodes);
+                    //
+                    for (let index = 0; index < naming.length; index++) {
+                        if (naming[index]==naming[0]) {
+                            path += naming[index];
+                        } else {
+                            path += `/ ${naming[index]} `;
+                        }
+                    }
+                    pathDiv.innerHTML = `${path}`;
+                    console.log(path);
+                }
+
+                function renderContents(node) {
+                    contentsDiv.innerHTML = "";
+                    const firstDiv = document.createElement("div");
+                    firstDiv.innerHTML = `<a href="#"> ⤴ 📂 .. </a>`;
+                    if (count!=0) {
+                        firstDiv.addEventListener("click", () => {
+                            back();
+                        });
+                    }
+                    contentsDiv.appendChild(firstDiv);
+                    node.forEach((child) => {
+                        const childDiv = document.createElement("div");
+                        if (child.type === "file") {
+                            const fileName = child.name.replace(".md", "");
+                            childDiv.innerHTML = `<a href="${child.page}" target="_blank">↪ 📄 ${fileName}</a>`;
+                        } else if (child.type === "directory") {
+                            childDiv.innerHTML = `<a href="#">↪ 📁 ${child.name}</a>`;
+                            childDiv.addEventListener("click", () => {
+                                const newPathElement = document.createElement("span");
+                                addDir(child.name, child.children);
+                                renderContents(child.children);
+                                renderPath();
+                            });
+                        }
+                        contentsDiv.appendChild(childDiv);
+                    });
+                }
+
+                function addDir(name, path) {
+                    pathing.push(path);
+                    naming.push(name);
+                    count = count + 1;
+                    //console.log("Aumentado a " + count);
+                    //console.log("Aumentado a " + count);
+                }
+                function removeDir() {
+                    pathing.pop();
+                    naming.pop();
+                    count = count - 1;
+                    console.log("Disminuído a " + count);
+                }
+                function back() {
+                    let pastpath = pathing[count - 1];
+                    let pastname = naming[count - 1];
+                    const newPathElement = document.createElement("span");
+                    pathDiv.appendChild(newPathElement);
+                    newPathElement.innerText = `${pastname}`;
+                    removeDir();
+                    renderPath();
+                    renderContents(pastpath);
+                }
+
+                renderContents(data.children);
+                renderPath();
+            })
+            .catch((error) => console.error(error));
     </script>
-  </body>
+</body>
+
 </html>
