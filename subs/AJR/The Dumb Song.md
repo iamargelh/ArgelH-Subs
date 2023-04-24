@@ -716,3 +716,4 @@ layout: default
         }
     </script>
 </body>
+> Para mi amigo @akkinarrieta2132 aka "El niño".
