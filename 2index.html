@@ -13,94 +13,111 @@
         body {
             font-size: 3.2rem;
         }
+
+        #contents {
+            margin-top: 1rem;
+        }
+
+        .dir {
+            color: blue;
+            cursor: pointer;
+        }
+
+        .file {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
     <div id="path"></div>
     <div id="contents"></div>
-
     <script>
-        const owner = 'iamargelh';
-        const repo = 'ArgelH-Subs';
-        const rootFolder = 'subs';
-        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${rootFolder}`;
+        fetch('tree.json')
+            .then(response => response.json())
+            .then(data => {
+                const contents = document.querySelector('#contents');
+                const path = document.querySelector('#path');
 
-        let tree = {};
+                function renderContents(node) {
+    contents.innerHTML = '';
 
-        async function getTree(path) {
-            let response = await fetch(`${apiUrl}${path ? '/' + path : ''}`);
-            let data = await response.json();
-            let tree = {};
-            for (let item of data) {
-                if (item.type === 'dir') {
-                    tree[item.name] = await getTree(item.path.replace(rootFolder + '/', ''));
-                } else {
-                    tree[item.name] = item;
-                }
-            }
-            return tree;
+    // Add parent directory link
+    if (node.path.length > 1) {
+        const parent = document.createElement('div');
+        parent.innerText = '⤴ 📂 ..';
+        parent.classList.add('dir');
+        parent.addEventListener('click', () => {
+            const parentPath = node.path.slice(0, -1);
+            renderContents(findNodeByPath(parentPath));
+            renderPath(parentPath);
+        });
+        contents.appendChild(parent);
+    }
+
+    node.children.forEach(child => {
+        const element = document.createElement('div');
+        if (child.type === 'directory') {
+            element.innerText = `↪ 📁 ${child.name}`;
+            element.classList.add('dir');
+            element.addEventListener('click', () => {
+                const childPath = node.path.concat(child.name);
+                renderContents(findNodeByPath(childPath));
+                renderPath(childPath);
+            });
+        } else {
+            element.innerText = `↪ 📄 ${child.name}`;
+            element.classList.add('file');
+            element.addEventListener('click', () => {
+                window.open(child.url, '_blank');
+            });
         }
+        contents.appendChild(element);
+    });
+}
 
-        async function init() {
-            tree = await getTree();
-            showTree(tree);
-        }
 
-        function showTree(tree, path = '') {
-            let contentsDiv = document.getElementById('contents');
-            contentsDiv.innerHTML = '';
-            let pathSpan = document.getElementById('path');
-            pathSpan.innerHTML = '';
-            let parts = path.split('/');
-            for (let i in parts) {
-                let part = parts[i];
-                if (part) {
-                    let partSpan = document.createElement('span');
-                    partSpan.innerText = part;
-                    partSpan.onclick = () => {
-                        showTree(tree, parts.slice(0, i).join('/'));
-                    };
-                    pathSpan.appendChild(partSpan);
-                    if (i < parts.length - 1) {
-                        pathSpan.innerHTML += '/';
+                function findNodeByPath(path) {
+                    let currentNode = data;
+                    for (let i = 1; i < path.length; i++) {
+                        const name = path[i];
+                        const child = currentNode.children.find(child => child.name === name);
+                        if (!child) {
+                            return null;
+                        }
+                        currentNode = child;
                     }
+                    return currentNode;
                 }
-            }
-            if (path) {
-                let backSpan = document.createElement('div');
-                backSpan.innerHTML = '⤴ 📂 ..';
-                backSpan.onclick = () => {
-                    showTree(tree, parts.slice(0, -1).join('/'));
-                };
-                contentsDiv.appendChild(backSpan);
-            }
-            for (let name in tree) {
-                let item = tree[name];
-                if (typeof item === 'object') {
-                    if (item.type === 'dir') {
-                        let folderSpan = document.createElement('div');
-                        folderSpan.innerHTML = `↪ 📁 ${name}`;
-                        folderSpan.onclick = () => {
-                            showTree(item, path + '/' + name);
-                        };
-                        contentsDiv.appendChild(folderSpan);
-                    } else if (item.type === 'file') {
-                        let fileSpan = document.createElement('div');
-                        fileSpan.innerHTML = `↪ 📄 ${name.replace('.md', '')}`;
-                        fileSpan.onclick = () => {
-                            window.location.href =
-                                `https://${owner}.github.io/${repo}/${rootFolder}/${path}/${name}`.replace('.md', '');
-                        };
-                        contentsDiv.appendChild(fileSpan);
-                    }
-                }
-            }
-        }
 
-        init();
+                function renderPath(pathArr) {
+                    path.innerHTML = pathArr.map((dir, i) => {
+                        if (i === 0) {
+                            return dir;
+                        }
+                        const dirPath = pathArr.slice(0, i + 1);
+                        const link = document.createElement('span');
+                        link.innerText = ` / ${dir}`;
+                        if (i === pathArr.length - 1) {
+                            link.style.fontWeight = 'bold';
+                        } else {
+                            link.classList.add('dir');
+                            link.style.cursor = 'pointer';
+                            link.addEventListener('click', () => {
+                                renderContents(findNodeByPath(dirPath));
+                                renderPath(dirPath);
+                            });
+                        }
+                        return link.outerHTML;
+                    }).join('');
+                }
+
+                renderContents(data);
+                renderPath(data.path);
+            });
     </script>
-
 </body>
 
 </html>

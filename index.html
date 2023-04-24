@@ -1,55 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Subtitles Site</title>
+<html>
+  <head>
+    <title>(ArgelH-Subs)</title>
+    <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
     <style>
-        /* Estilos CSS para dar estilo al sitio web */
-        .directory {
-            margin-left: 20px;
-        }
-        .file {
-            margin-left: 40px;
-        }
+      html {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 62.5%;
+      }
+
+      body {
+        font-size: 3.2rem;
+      }
     </style>
-</head>
-<body>
-    <h1>My Subtitles Site</h1>
-    <ul id="filetree">
-    </ul>
+  </head>
 
+  <body>
+    <div id="path"></div>
+    <div id="contents"></div>
     <script>
-        // Obtener el archivo JSON mediante una petición AJAX
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var filetree = document.getElementById("filetree");
-                var data = JSON.parse(this.responseText);
-                buildTree(data, filetree);
-            }
-        };
-        xmlhttp.open("GET", "subs.json", true);
-        xmlhttp.send();
+      let rootDirectoryName = '';
 
-        // Función recursiva para construir el árbol de archivos y directorios
-        function buildTree(data, parent) {
-            data.children.forEach(function(item) {
-                var li = document.createElement("li");
-                li.innerHTML = item.name;
-                if (item.type === "directory") {
-                    li.classList.add("directory");
-                    var ul = document.createElement("ul");
-                    buildTree(item, ul);
-                    li.appendChild(ul);
-                } else {
-                    li.classList.add("file");
-                    li.addEventListener("click", function() {
-                        window.location.href = item.page;
-                    });
-                }
-                parent.appendChild(li);
+      fetch("tree.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const contentsDiv = document.getElementById("contents");
+          const pathDiv = document.getElementById("path");
+          rootDirectoryName = data.name;
+          
+
+          function renderPath() {
+            let path = "";
+            const pathElements = Array.from(pathDiv.childNodes);
+            pathElements.forEach((element, index) => {
+              if (index === pathElements.length - 1) {
+                path += element.innerText;
+              } else {
+                path += `${element.innerText} / `;
+              }
             });
-        }
+            return path;
+          }
+
+          function renderContents(node) {
+            contentsDiv.innerHTML = "";
+            const firstDiv = document.createElement("div");
+            firstDiv.innerHTML = `<a href="#"> ⤴ 📂 .. </a>`;
+            contentsDiv.appendChild(firstDiv);
+            node.forEach((child) => {
+              const childDiv = document.createElement("div");
+              if (child.type === "file") {
+                const fileName = child.name.replace(".md", "");
+                childDiv.innerHTML = `<a href="${child.page}" target="_blank">↪ 📄 ${fileName}</a>`;
+              } else if (child.type === "directory") {
+                childDiv.innerHTML = `<a href="#">↪ 📁 ${child.name}</a>`;
+                childDiv.addEventListener("click", () => {
+                  const newPathElement = document.createElement("span");
+                  newPathElement.innerText = `${child.name}`;
+                  pathDiv.appendChild(newPathElement);
+                  renderPath();
+                  renderContents(child.children);
+                });
+              }
+              contentsDiv.appendChild(childDiv);
+            });
+          }
+
+          renderContents(data.children);
+        })
+        .catch((error) => console.error(error));
     </script>
-</body>
+  </body>
 </html>
