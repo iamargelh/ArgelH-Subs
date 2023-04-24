@@ -27,7 +27,6 @@ def get_tree(path=''):
             content = base64.b64decode(item['content']).decode()
             tree[item['name']] = content
     return tree
-
 get_tree()
 # Generar el archivo index.html con el contenido del árbol de archivos y carpetas
 html_template = '''
@@ -118,6 +117,10 @@ html_template = '''
 </html>
 '''
 
+# Obtener el árbol de archivos y carpetas
+tree = get_tree()
+
 # Escribir el contenido del archivo index.html en el disco
 with open('index.html', 'w') as file:
     file.write(html_template.format(tree=json.dumps(tree)))
+    
