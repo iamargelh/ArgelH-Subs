@@ -16,6 +16,7 @@ def get_tree(path, base_url):
             base_url, os.path.relpath(path, "./subs")).replace(".md", "")
     return tree
 
+"""
 def save_tree_to_xml(tree, filename):
     def _create_element(item, name="item"):
         elem = ET.Element(name)
@@ -34,7 +35,8 @@ def save_tree_to_xml(tree, filename):
 def save_tree_to_json(tree, filename):
     with open(filename, "w") as f:
         json.dump(tree, f, indent=4)
+"""
 
 tree = get_tree("./subs", "https://iamargelh.github.io/ArgelH-Subs/subs/")
-save_tree_to_xml(tree, "tree.xml")
+#save_tree_to_xml(tree, "tree.xml")
 save_tree_to_json(tree, "tree.json")
