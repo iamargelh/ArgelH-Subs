@@ -23,11 +23,11 @@ def get_tree(path=''):
     for item in data:
         if item['type'] == 'dir':
             tree[item['name']] = get_tree(item['path'].replace(f'{root_folder}/', ''))
-        else:
+        elif item['type'] == 'file':
             content = base64.b64decode(item['content']).decode()
             tree[item['name']] = content
     return tree
-    
+
 get_tree()
 # Generar el archivo index.html con el contenido del árbol de archivos y carpetas
 html_template = '''
