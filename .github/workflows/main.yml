@@ -17,7 +17,7 @@ jobs:
         run: pip install requests
       - name: Generate index.html
         env:
-          MY_ACCESS_TOKEN: ${{ env.MY_ACCESS_TOKEN }}
+          MY_ACCESS_TOKEN: ${{ secrets.MY_ACCESS_TOKEN }}
         run: python ./generate-index.py
       - name: Set up Git
         run: |
