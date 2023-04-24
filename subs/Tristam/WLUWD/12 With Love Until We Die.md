@@ -139,7 +139,7 @@ layout: default
             <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
             <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
                     href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
-            <td class="top-align align-left" width="160ch"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"><br><div style="background-color: #000000;" width="80ch" height="80ch"><img src="https://i.imgur.com/CDVsP0j.png" width="80ch"></div></td>
+            <td class="top-align align-left" width="180ch"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"><br><div style="background-color: #000000;"><img src="https://i.imgur.com/CDVsP0j.png" width="80ch"></div></td>
         </tr>
     </table>
     <!-- INFIERNO DE LOS SCIRPT -->
