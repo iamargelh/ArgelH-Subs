@@ -15,8 +15,6 @@ jobs:
           python-version: 3.8
       - name: Install dependencies
         run: pip install requests
-      - name: Install Jinja2
-        run: pip install jinja2
       - name: Generate index.html
         env:
           MY_ACCESS_TOKEN: ${{ secrets.MY_ACCESS_TOKEN }}
@@ -29,6 +27,7 @@ jobs:
           echo "protocol=https\nhost=github.com\nusername=iamargelh\npassword=${{ secrets.MY_ACCESS_TOKEN }}" > $HOME/.git-credentials
       - name: Commit and push changes
         run: |
-          git add index.html
-          git commit -m "Update index.html"
+          git add tree.json
+          git add tree.xml
+          git commit -m "Update trees"
           git push
