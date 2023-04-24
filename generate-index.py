@@ -31,11 +31,11 @@ def save_tree_to_xml(tree, filename):
     root = _create_element(tree, "tree")
     tree = ET.ElementTree(root)
     tree.write(filename, encoding="utf-8", xml_declaration=True)
-
+"""
 def save_tree_to_json(tree, filename):
     with open(filename, "w") as f:
         json.dump(tree, f, indent=4)
-"""
+
 
 tree = get_tree("./subs", "https://iamargelh.github.io/ArgelH-Subs/subs/")
 #save_tree_to_xml(tree, "tree.xml")
