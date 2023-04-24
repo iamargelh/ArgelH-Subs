@@ -42,14 +42,14 @@ html_template = '''
     <title>(ArgelH-Subs)</title>
     <link rel="icon" href="https://i.imgur.com/jycGdTy.png" />
     <style>
-        html {{
-            font-family: "Times New Roman", Times, serif;
+        html {
+            font-family: Times, serif;
             font-size: 62.5%;
-        }}
+        }
 
-        body {{
+        body {
             font-size: 3.2rem;
-        }}
+        }
     </style>
 </head>
 
@@ -61,59 +61,59 @@ html_template = '''
         let tree = {{tree}};
         let path = '';
 
-        function showTree() {{
+        function showTree() {
             let contentsDiv = document.getElementById('contents');
             contentsDiv.innerHTML = '';
             let pathSpan = document.getElementById('path');
             pathSpan.innerHTML = '';
             let parts = path.split('/');
-            for (let i in parts) {{
+            for (let i in parts) {
                 let part = parts[i];
-                if (part) {{
+                if (part) {
                     let partSpan = document.createElement('span');
                     partSpan.innerText = part;
-                    partSpan.onclick = () => {{
+                    partSpan.onclick = () => {
                         path = parts.slice(0, i).join('/');
                         showTree();
-                    }};
+                    };
                     pathSpan.appendChild(partSpan);
-                    if (i < parts.length - 1) {{
+                    if (i < parts.length - 1) {
                         pathSpan.innerHTML += '/';
-                    }}
-                }}
-            }}
-            if (path) {{
+                    }
+                }
+            }
+            if (path) {
                 let backSpan = document.createElement('div');
                 backSpan.innerHTML = '⤴ 📂 ..';
-                backSpan.onclick = () => {{
+                backSpan.onclick = () => {
                     path = parts.slice(0, -1).join('/');
                     showTree();
-                }};
+                };
                 contentsDiv.appendChild(backSpan);
-            }}
-            for (let name in tree) {{
+            }
+            for (let name in tree) {
                 let item = tree[name];
-                if (typeof item === 'object') {{
-                    if (item.type === 'dir') {{
+                if (typeof item === 'object') {
+                    if (item.type === 'dir') {
                         let folderSpan = document.createElement('div');
                         folderSpan.innerHTML = `↪ 📁 ${name}`;
-                        folderSpan.onclick = () => {{
-                            path = `${{path}}/${{name}}`;
+                        folderSpan.onclick = () => {
+                            path = `${path}/${name}`;
                             showTree();
-                        }};
+                        };
                         contentsDiv.appendChild(folderSpan);
-                    }} else if (item.type === 'file') {{
+                    } else if (item.type === 'file') {
                         let fileSpan = document.createElement('div');
                         fileSpan.innerHTML = `↪ 📄 ${name.replace('.md', '')}`;
-                        fileSpan.onclick = () => {{
+                        fileSpan.onclick = () => {
                             window.location.href =
-                                `https://${{owner}}.github.io/${{repo}}/${{root_folder}}/${{path}}/${{name}}`.replace('.md', '');
-                        }};
+                                `https://${owner}.github.io/${repo}/${root_Folder}/${path}/${name}`.replace('.md', '');
+                        };
                         contentsDiv.appendChild(fileSpan);
-                    }}
-                }}
-            }}
-        }}
+                    }
+                }
+            }
+        }
         showTree(tree);
     </script>
 
