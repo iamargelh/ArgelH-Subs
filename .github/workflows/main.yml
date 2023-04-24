@@ -28,6 +28,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git add tree.json
-          git add tree.xml
+          #git add tree.xml
           git commit -m "Update trees"
           git push
