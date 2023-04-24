@@ -7,6 +7,7 @@ owner = 'iamargelh'
 repo = 'ArgelH-Subs'
 root_folder = 'subs'
 api_url = f'https://api.github.com/repos/{owner}/{repo}/contents/{root_folder}'
+repo_path = os.environ['GITHUB_WORKSPACE']
 
 # Función para obtener el contenido de un archivo
 def get_file_content(path):
