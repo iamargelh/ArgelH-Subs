@@ -716,5 +716,5 @@ layout: default
         }
     </script>
 </body>
-> Para mi amigo @akkinarrieta2132 aka "El niño". <mark><sub>222/04/23</sub></mark>
-> > 500 Visitas en 2 dias, nada mal, gracias por el apoyo. <mark><sub>224/04/23</sub></mark>
+> Para mi amigo @akkinarrieta2132 aka "El niño". <sub><mark>22/04/23</mark></sub>
+> > 500 Visitas en 2 dias, nada mal, gracias por el apoyo. <sub><mark>24/04/23</mark></sub>
