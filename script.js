@@ -23,7 +23,7 @@ fetch("tree.json")
                 if (naming[index] == naming[0]) {
                     pathElement.innerHTML = `ArgelH-Subs/<a href="#" class="folder">${naming[index]}</a>`;
                 } else {
-                    pathElement.innerHTML = `/<a href="#">${naming[index]}</a>`;
+                    pathElement.innerHTML = `/<a href="#" class="folder">${naming[index]}</a>`;
                 }
                 pathDiv.appendChild(pathElement);
             }
