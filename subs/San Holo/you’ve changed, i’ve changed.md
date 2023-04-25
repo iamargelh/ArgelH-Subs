@@ -167,7 +167,7 @@ layout: default
         link = document.createElement("link");
         link.rel = "icon";
         document.head.appendChild(link);
-        link.href = "https://i.imgur.com/jycGdTy.png";
+        link.href = "https://i.imgur.com/yDkaBI1.png";
         if (wfuente) {
             enlace.href = wfuente;
             enlace.target = "_blank";
