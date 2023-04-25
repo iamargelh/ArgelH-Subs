@@ -717,3 +717,5 @@ layout: default
     </script>
 </body>
 > Para mi amigo @akkinarrieta2132 aka "El niño".
+> > 500 Visitas en 2 dias, nada mal. ~`24/04/23`~
+> > > ;\)
