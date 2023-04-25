@@ -81,17 +81,19 @@ fetch("tree.json")
             renderContents(pastpath);
         }
         function customback(number) {
-            let site = count - number;
-            let pastpath = pathing[count - site];
-            let pastname = naming[count - site];
-            const newPathElement = document.createElement("span");
-            pathDiv.appendChild(newPathElement);
-            newPathElement.innerText = `${pastname}`;
-            for (let index = 0; index <= count - number; index++) {
-                removeDir();
+            if (count!=0) {
+                let site = count - number;
+                let pastpath = pathing[count - site];
+                let pastname = naming[count - site];
+                const newPathElement = document.createElement("span");
+                pathDiv.appendChild(newPathElement);
+                newPathElement.innerText = `${pastname}`;
+                for (let index = 0; index <= count - number; index++) {
+                    removeDir();
+                }
+                renderPath();
+                renderContents(pastpath);
             }
-            renderPath();
-            renderContents(pastpath);
         }
 
         renderContents(data.children);
