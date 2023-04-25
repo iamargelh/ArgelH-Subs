@@ -12,21 +12,21 @@ fetch("tree.json")
         pathing.push(data.children);
         naming.push(data.name);
 
-        function renderPath() {
-            let path = "";
-            //const pathElements = Array.from(pathDiv.childNodes);
-            //
-            for (let index = 0; index < naming.length; index++) {
-                if (naming[index] == naming[0]) {
-                    path += "ArgelH-Subs/"+naming[index];
-                } else {
-                    path += `/${naming[index]}`;
-                    //<button onclick="getElementById('demo').innerHTML = Date()">What is the time?</button>
 
+
+        function renderPath() {
+            pathDiv.innerHTML = "";
+            for (let index = 0; index < naming.length; index++) {
+                let pathElement = document.createElement("span");
+                pathElement.id = index;
+                pathElement.onclick = function() { customback(index); };
+                if (naming[index] == naming[0]) {
+                    pathElement.innerHTML = `ArgelH-Subs/<a href="#">${naming[index]}</a>`;
+                } else {
+                    pathElement.innerHTML = `/<a href="#">${naming[index]}</a>`;
                 }
+                pathDiv.appendChild(pathElement);
             }
-            pathDiv.innerHTML = `${path}`;
-            console.log(path);
         }
 
         function renderContents(node) {
@@ -81,11 +81,17 @@ fetch("tree.json")
             renderContents(pastpath);
         }
         function customback(number) {
-            for (let index = 0; index < naming.length-number; index++) {
+            let site = count - number;
+            let pastpath = pathing[count - site];
+            let pastname = naming[count - site];
+            const newPathElement = document.createElement("span");
+            pathDiv.appendChild(newPathElement);
+            newPathElement.innerText = `${pastname}`;
+            for (let index = 0; index <= count - number; index++) {
                 removeDir();
             }
             renderPath();
-            renderContents(pathing);
+            renderContents(pastpath);
         }
 
         renderContents(data.children);
