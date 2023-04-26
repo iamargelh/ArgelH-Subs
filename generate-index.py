@@ -6,14 +6,13 @@ def get_tree(path, base_url):
     tree = {"name": os.path.basename(path)}
     if os.path.isdir(path):
         tree["type"] = "directory"
-        tree["children"] = [
-            get_tree(os.path.join(path, child), base_url)
-            for child in os.listdir(path)
-        ]
+        children = [get_tree(os.path.join(path, child), base_url) for child in os.listdir(path)]
+        # ordenar los subdirectorios y archivos alfabéticamente
+        children.sort(key=lambda child: (child['type'], child['name']))
+        tree["children"] = children
     else:
         tree["type"] = "file"
-        tree["page"] = os.path.join(
-            base_url, os.path.relpath(path, "./subs")).replace(".md", "")
+        tree["page"] = os.path.join(base_url, os.path.relpath(path, "./subs")).replace(".md", "")
     return tree
 
 """
