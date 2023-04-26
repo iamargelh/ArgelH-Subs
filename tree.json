@@ -3,6 +3,17 @@
     "type": "directory",
     "children": [
         {
+            "name": "AJR",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "The Dumb Song.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/AJR/The Dumb Song"
+                }
+            ]
+        },
+        {
             "name": "Fwlr & Brdgs",
             "type": "directory",
             "children": [
@@ -25,38 +36,17 @@
             ]
         },
         {
-            "name": "AJR",
-            "type": "directory",
-            "children": [
-                {
-                    "name": "The Dumb Song.md",
-                    "type": "file",
-                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/AJR/The Dumb Song"
-                }
-            ]
-        },
-        {
             "name": "Tristam",
             "type": "directory",
             "children": [
-                {
-                    "name": "Placeholder.md",
-                    "type": "file",
-                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/Placeholder"
-                },
                 {
                     "name": "WLUWD",
                     "type": "directory",
                     "children": [
                         {
-                            "name": "10 Violence.md",
+                            "name": "01 Black Beauty.md",
                             "type": "file",
-                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/10 Violence"
-                        },
-                        {
-                            "name": "03 Mistake.md",
-                            "type": "file",
-                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/03 Mistake"
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/01 Black Beauty"
                         },
                         {
                             "name": "02 Ruthless.md",
@@ -64,9 +54,19 @@
                             "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/02 Ruthless"
                         },
                         {
+                            "name": "03 Mistake.md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/03 Mistake"
+                        },
+                        {
                             "name": "04 Children in the Dark.md",
                             "type": "file",
                             "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/04 Children in the Dark"
+                        },
+                        {
+                            "name": "07 Over the Edge.md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/07 Over the Edge"
                         },
                         {
                             "name": "08 Take a Chance.md",
@@ -79,14 +79,9 @@
                             "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/09 Different"
                         },
                         {
-                            "name": "01 Black Beauty.md",
+                            "name": "10 Violence.md",
                             "type": "file",
-                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/01 Black Beauty"
-                        },
-                        {
-                            "name": "07 Over the Edge.md",
-                            "type": "file",
-                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/07 Over the Edge"
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/10 Violence"
                         },
                         {
                             "name": "11 Can You Feel the Love.md",
@@ -99,6 +94,11 @@
                             "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/WLUWD/12 With Love Until We Die"
                         }
                     ]
+                },
+                {
+                    "name": "Placeholder.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/Placeholder"
                 }
             ]
         }
