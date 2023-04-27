@@ -470,7 +470,6 @@ layout: default
 </body>
 
 ### Notas de traducción
-
 > #### 1
 > Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.
 
