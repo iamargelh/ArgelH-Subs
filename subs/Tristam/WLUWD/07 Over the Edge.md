@@ -8,9 +8,9 @@ layout: default
     var cancion = "Tristam - Over the Edge";
     //
     //WALLPAPER
-    var titulo = "Oficial";
+    var titulo = "Collage hecho por mí";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://files.catbox.moe/4q0nuv.mp4";
     //
     //PISTAS
     var vocals = "";

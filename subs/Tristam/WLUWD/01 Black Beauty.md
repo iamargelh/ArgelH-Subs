@@ -10,7 +10,7 @@ layout: default
     //WALLPAPER
     var titulo = "Oficial";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://www.youtube.com/watch?v=yuAfcO5NHo8";
     //
     //PISTAS
     var vocals = "";

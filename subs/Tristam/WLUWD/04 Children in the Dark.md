@@ -8,9 +8,9 @@ layout: default
     var cancion = "Tristam - Children in the Dark";
     //
     //WALLPAPER
-    var titulo = "Oficial";
+    var titulo = "Collage hecho por mí";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://files.catbox.moe/899vp6.mp4";
     //
     //PISTAS
     var vocals = "";

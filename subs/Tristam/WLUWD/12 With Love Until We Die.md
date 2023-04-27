@@ -8,9 +8,9 @@ layout: default
     var cancion = "Tristam - With Love Until We Die";
     //
     //WALLPAPER
-    var titulo = "Oficial";
+    var titulo = "Collage hecho por mí";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://files.catbox.moe/no68hv.mp4";
     //
     //PISTAS
     var vocals = "";

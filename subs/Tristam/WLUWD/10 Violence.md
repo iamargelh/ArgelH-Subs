@@ -8,9 +8,9 @@ layout: default
     var cancion = "Tristam - Violence";
     //
     //WALLPAPER
-    var titulo = "Oficial";
+    var titulo = "Collage hecho por mí";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://files.catbox.moe/hn29ig.mp4";
     //
     //PISTAS
     var vocals = "";

@@ -8,9 +8,9 @@ layout: default
     var cancion = "Tristam - Ruthless";
     //
     //WALLPAPER
-    var titulo = "Oficial";
+    var titulo = "Collage hecho por mí";
     var texto = "Aquí";
-    var wfuente = "";
+    var wfuente = "https://files.catbox.moe/q3pvq8.mp4";
     //
     //PISTAS
     var vocals = "";
