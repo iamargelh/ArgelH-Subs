@@ -469,3 +469,7 @@ layout: default
         }
     </script>
 </body>
+## Notas de traducción
+> ## 1 Se refiere a que está rasgando una tela parecida al terciopelo, esta tela se deshila y se desgasta muy facilmente si no se trata con cuidado o si es tratada con agresividad. Ese <code>"terciopelo"<code> es la tela de mentiras que cubre su vida, mientras que debajo de esa tela está lo que realmente siente.
+
+> 
