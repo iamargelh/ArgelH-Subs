@@ -470,16 +470,16 @@ layout: default
     </script>
 </body>
 
-## Notas de traducción
+### Notas de traducción
 
-> ### 1
+> #### 1
 > Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.
 
-> ### 2
+> #### 2
 > Justifica que el ser duro o cruel con la persona que ama, dado que es su actuar por amor.
 
-> ### 3
+> #### 3
 > A pesar de tener éxito en las cosas que se propone, aunque tenga sus logros, todavía se siente inseguro y vulnerable con un sentimiento de desesperación ya que no se siente capaz de escapar de su realidad actual y seguir adelante por más que lo intente.
 
-> ### 4
+> #### 4
 > En este punto está intentando a encontrar el responsable de sus sentimientos y acciones hacia la otra persona. Sólo espera que algo lo calme, no quiere ser cruel con su amor.
