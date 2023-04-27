@@ -137,8 +137,7 @@ layout: default
                         video)</span><span id="FuenteW1">Placeholder</span></span>
             </td>
             <td class="top-align" style="text-align: left;"><span id="UrlsArtista1"></span></td>
-            <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a
-                    href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
+            <td class="top-align" style="text-align: right;">Interpretación por: <b>Argel H</b><br>Redes:<br><a href="https://linktr.ee/iamargelh" target="_blank">linktr.ee/iamargelh</a></td>
             <td class="top-align align-left"><img src="https://i.imgur.com/RQLfOkU.gif" width="80ch"><br><img src="https://i.imgur.com/p5nyyAR.png" width="80ch" style="box-shadow: inset 0 0 0 1000px rgb(0, 0, 0);"></td>
         </tr>
     </table>
