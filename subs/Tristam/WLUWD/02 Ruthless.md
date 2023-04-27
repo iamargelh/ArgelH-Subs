@@ -469,15 +469,14 @@ layout: default
         }
     </script>
 </body>
+
 ## Notas de traducción
 
-> ## 1
+> ### 1
 > Se refiere a que está rasgando una tela parecida al terciopelo llamada <code><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a><code>, esta tela se deshila y se desgasta muy facilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su perception de el mismo, mientras que debajo de esa tela está lo que realmente siente.
 
->  ## 2
+>  ### 2
 > A pesar de ser duro o cruel con la persona que ama, este justifica su actuar por amor.
 
-> ## 3
+> ### 3
 > A pesar de tener exito en las cosas que se propone, aunque tenga sus logros, todavia se siente inseguro y vulnerable con un sentimiento de deseesperación ya que no se siente capaz de escapar de su realidad actual y seguir adelante por más que lo intente.
-
-> 
