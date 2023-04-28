@@ -471,9 +471,10 @@ layout: default
 </body>
 
 ### Notas de traducción:
+>La canción habla de dos personas que se sienten perdidas y solas pero que se encuentran y pueden compartir su viaje, apoyándose y haciéndose compañía juntos a través de la oscuridad de la vida, comparándose con un par de niños fuera de casa asustados, estando vulnerables y confundidos.
 
 > #### 1
-> El termino <mark><italic>niño(s) en la oscuridad</italic><mark> es utilizado para hacer referencia a la inocencia y vulnerabilidad de los niños, la sensación de desorientación, confusión e incluso miedo.
+> El termino <mark><em>niño(s) en la oscuridad</em></mark> es utilizado para hacer referencia a la inocencia y vulnerabilidad de los niños, la sensación de desorientación, confusión e incluso miedo.
 
 > #### 2
 > Referenciando la nota anterior, los niños se encuentran en una situación en la que están asustados, haciendo que se aferren el uno al otro en busca de seguridad y consuelo, necesitándose el uno al otro para enfrentar lo que se les venga encima.

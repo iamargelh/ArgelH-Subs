@@ -469,3 +469,7 @@ layout: default
         }
     </script>
 </body>
+
+### Notas de traducción:
+>En la canción se habla de una relación toxica en la que el narrador se siente constantemente atacado, criticado y culpabilizado por su pareja, y que a pesar de dar lo mejor que tiene, haciendo lo mejor que puede, siente que nunca es suficiente para su pareja.
+>Al final se da cuenta que permanecer en una relación toxica es un error gigantesco, que es importante saber cuando las cosas se salen de control y llegas demasiado lejos, llevándose de aprendizaje que al menos de todo lo que pasó va a llevarse el aprendizaje, porque <mark><em>“No hay dolor del que no puedas crecer”</em></mark>. 

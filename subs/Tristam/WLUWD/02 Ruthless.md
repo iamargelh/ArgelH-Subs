@@ -470,8 +470,12 @@ layout: default
 </body>
 
 ### Notas de traducción:
+>Esta canción trata sobre una relación amorosa, esta se vuelve algo tensa y difícil porque el narrador tiene un comportamiento <mark><em>cruel/rudo</em></mark> con su pareja, siendo la pareja quien sufre a causa de esos comportamientos.
+>El narrador justifica sus actos con algo de desesperación diciendo que lo hace por el amor que siente por ella. Aun así, no sabe por qué se porta de esa manera con ella, y un poco de esperanza quiere encontrar una solución para que la relación vaya a mejor ya sea por un cambio de mentalidad o un cambio de aires, “¿Por qué es tan cruel contigo?”.
+
+
 > #### 1
-> Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.
+> Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><em><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></em></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.
 
 > #### 2
 > Justifica que el ser duro o cruel con la persona que ama, dado que es su actuar por amor.

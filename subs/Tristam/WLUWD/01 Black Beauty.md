@@ -469,3 +469,8 @@ layout: default
         }
     </script>
 </body>
+
+### Notas de traducción:
+>Esta canción trata sobre una petición a los demás: Prestarles más atención a todas las personas de su alrededor, sin juzgarlas, ni por su apariencia ni por la primera impresión, ser más comprensivos y amorosos.
+>Haciéndote recordar que, no sólo tu eres el que tiene sus problemas y sus vacíos, no seas egoísta, las demás personas también tienen sus situaciones en la vida.
+>Todos necesitamos esperanza y la necesidad de encontrar felicidad en la vida.

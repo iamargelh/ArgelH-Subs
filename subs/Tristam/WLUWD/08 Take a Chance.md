@@ -469,3 +469,9 @@ layout: default
         }
     </script>
 </body>
+
+### Notas de traducción:
+>La canción describe una situación en la que el narrador tiene que dejar un lugar atrás porque este ya no satisface sus necesidades, entonces este se decide aventurar a buscar nuevas oportunidades en otros lugares a pesar de lo roto y con remordimiento que este se sienta. 
+>Después le hace entender al oyente que intente que las cosas en su situación o en su hogar no se vuelvan muy cuesta arriba o difíciles, porque si llegan al punto de no poder seguir intentando que las cosas funcionen van a tener que tomar la decisión de dejar ese lugar atrás para buscar un lugar que se adapte a sus necesidades.
+>Todo esto con coraje, riesgos, y espíritu para luchar y continuar hacia adelante, aunque eso amerite dejar atrás todo lo que conoces, <mark><em>pero sobre todo, sin olvidar quien eres.</em></mark>
+

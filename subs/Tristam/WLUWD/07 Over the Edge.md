@@ -469,3 +469,7 @@ layout: default
         }
     </script>
 </body>
+
+### Notas de traducción:
+>La canción explica el como la vida es bastante más corta de lo que parece, y que quisiera liberarse de las cadenas del tiempo para disfrutar su vida con más calma, para agradecer por lo que tiene, todo es temporal y único, una vez que lo pierdes no se puede reemplazar.
+>Como el tiempo se le va de las manos, tiene que ir más deprisa en su vida, viviendo todos los días como si fuese el último. 

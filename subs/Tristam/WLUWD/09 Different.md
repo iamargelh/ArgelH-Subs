@@ -471,5 +471,7 @@ layout: default
 </body>
 
 ### Notas de traducción
+>Un resumen muy corto de la canción: Ser distinto es tu orgullo, acéptate a ti mismo, no tienes nada que explicarle a nadie, no importan las críticas y comentarios de los demás, no permitas que te quiten eso que te hace único, por más que la vida sea dolorosa y difícil.
+
 > #### 1
 > Se refiere a que no se suele quejar demasiado.
