@@ -471,4 +471,6 @@ layout: default
 </body>
 
 ### Notas de traducción
-> Esta canción habla de una relación entre una persona (el narrador) y alguien que ha sido muy importante y amorosa en su vida, probablemente la madre, puede ser que el padre también. <br>A pesar de que el narrador ha crecido, aún siente necesitar a esa persona importante, ya que es su mayor y gran apoyo emocional, ayudándolo en los momentos más difíciles de su vida. <br>El narrador jura estar ahí para su persona importante para apoyarla y ayudarla en sus momentos difíciles al igual que esa persona lo ha hecho por él.
+> Esta canción habla de una relación entre una persona (el narrador) y alguien que ha sido muy importante y amorosa en su vida, probablemente la madre, puede ser que el padre también.
+> <br>A pesar de que el narrador ha crecido, aún siente necesitar a esa persona importante, ya que es su mayor y gran apoyo emocional, ayudándolo en los momentos más difíciles de su vida. 
+> <br>El narrador jura estar ahí para su persona importante para apoyarla y ayudarla en sus momentos difíciles al igual que esa persona lo ha hecho por él.

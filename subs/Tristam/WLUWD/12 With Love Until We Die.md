@@ -471,4 +471,8 @@ layout: default
 </body>
 
 ### Notas de traducción
-> Para acabar el álbum, la canción habla de celebrar la vida y tratar a los demás con amabilidad y generosidad, dándote a entender, a ti, lector oyente, que la vida es muy difícil, muy muy difícil, lo suficiente como para que no se la hagas más difícil a los demás, al contrario, deberías ayudarlos para que te ayuden. <br>Que deberías aprovechar tu juventud, equivocándote sin miedo, aprendiendo, siguiendo adelante por más difícil que sea la situación. <br>Y que cuando tengas tus propios hijos los dejes crecer siendo ellos mismos, sin que les impongas tus ideas, siendo libres y respetuosos. <br>Cuando llegues a viejo, recuerda los buenos momentos que tuviste en la vida, no te amargues por todo lo que no pudo ser, lo que haya salido mal, el pasado pasado fue.
+
+> Para acabar el álbum, la canción habla de celebrar la vida y tratar a los demás con amabilidad y generosidad, dándote a entender, a ti, lector oyente, que la vida es muy difícil, muy muy difícil, lo suficiente como para que no se la hagas más difícil a los demás, al contrario, deberías ayudarlos para que te ayuden. 
+> <br>Que deberías aprovechar tu juventud, equivocándote sin miedo, aprendiendo, siguiendo adelante por más difícil que sea la situación. 
+> <br>Y que cuando tengas tus propios hijos los dejes crecer siendo ellos mismos, sin que les impongas tus ideas, siendo libres y respetuosos. 
+> <br>Cuando llegues a viejo, recuerda los buenos momentos que tuviste en la vida, no te amargues por todo lo que no pudo ser, lo que haya salido mal, el pasado pasado fue.
