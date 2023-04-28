@@ -31,9 +31,9 @@ fetch("tree.json")
                 pathElement.id = index;
                 pathElement.onclick = function() { customback(index); };
                 if (naming[index] == naming[0]) {
-                    pathElement.innerHTML = `ArgelH-Subs /<a href="#" class="folder">${naming[index]}</a>`;
+                    pathElement.innerHTML = `ArgelH /<a href="#" class="folder">${naming[index]}</a>`;
                 } else {
-                    pathElement.innerHTML = `/<a href="#" class="folder">${naming[index]}</a> `;
+                    pathElement.innerHTML = `/<a href="#" class="folder">${naming[index]}</a>U+0020`;
                 }
                 pathDiv.appendChild(pathElement);
             }
