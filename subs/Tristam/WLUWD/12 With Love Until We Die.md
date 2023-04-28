@@ -475,4 +475,4 @@ layout: default
 > Para acabar el álbum, la canción habla de celebrar la vida y tratar a los demás con amabilidad y generosidad, dándote a entender, a ti, lector oyente, que la vida es muy difícil, muy muy difícil, lo suficiente como para que no se la hagas más difícil a los demás, al contrario, deberías ayudarlos para que te ayuden. 
 > <br>Tristam te anima a aprovechar tu juventud, equivocándote sin miedo, aprendiendo, siguiendo adelante por más difícil que sea la situación. 
 > <br>Y que cuando tengas tus propios hijos los dejes crecer siendo ellos mismos, sin que les impongas tus ideas, siendo libres y respetuosos. 
-> <br>También que cuando llegues a viejo, recuerdes los buenos momentos que tuviste en la vida, todo lo demás no tiene mucha importancia.
+> <br>También que cuando llegues a viejo, recuerdes los buenos momentos que tuviste en la vida, que todo lo que sea nagativo o no logro ser, no le deberías tomar mucha importancia.
