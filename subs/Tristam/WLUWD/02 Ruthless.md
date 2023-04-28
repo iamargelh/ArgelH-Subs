@@ -475,7 +475,8 @@ layout: default
 
 
 > #### 1
-> Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><em><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></em></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese "Velvetón" es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.
+> Se refiere a que está rasgando una tela parecida a la terciopelo llamada <mark><em><a href="https://es.thefreedictionary.com/velvet%c3%b3n">"Velvetón"</a></em></mark>, esta tela se deshila y se desgasta muy fácilmente si no se trata con cuidado o si es tratada con agresividad. Ese <em>"Velvetón"</em> es la tela que cubre con mentiras su percepción de el mismo, mientras que debajo de esa tela está lo que realmente siente.<br>
+> El <em>Velvetón</em> también es conocido como <mark><em><a href="https://es.wikipedia.org/wiki/Pana">"Pana"</a></em></mark>.
 
 > #### 2
 > Justifica que el ser duro o cruel con la persona que ama, dado que es su actuar por amor.
