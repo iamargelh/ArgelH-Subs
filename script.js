@@ -1,3 +1,13 @@
+window.onload = function() {
+    if (window.screen.width < window.screen.height) {
+      // La pantalla es vertical
+      document.body.style.fontSize = `7.2em`;
+    } else {
+      // La pantalla es horizontal
+      document.body.style.fontSize = `4.5em`;
+    }
+  };
+
 let rootDirectoryName = '';
 
 fetch("tree.json")
@@ -21,9 +31,9 @@ fetch("tree.json")
                 pathElement.id = index;
                 pathElement.onclick = function() { customback(index); };
                 if (naming[index] == naming[0]) {
-                    pathElement.innerHTML = `ArgelH-Subs/<a href="#" class="folder">${naming[index]}</a>`;
+                    pathElement.innerHTML = `ArgelH-Subs /<a href="#" class="folder">${naming[index]}</a>`;
                 } else {
-                    pathElement.innerHTML = `/<a href="#" class="folder">${naming[index]}</a>`;
+                    pathElement.innerHTML = `/<a href="#" class="folder">${naming[index]}</a> `;
                 }
                 pathDiv.appendChild(pathElement);
             }
