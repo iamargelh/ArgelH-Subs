@@ -471,7 +471,7 @@ layout: default
 
 ### Notas de traducción:
 >Esta canción trata sobre una relación amorosa, esta se vuelve algo tensa y difícil porque el narrador tiene un comportamiento <mark><em>cruel/rudo</em></mark> con su pareja, siendo la pareja quien sufre a causa de esos comportamientos.
->El narrador justifica sus actos con algo de desesperación diciendo que lo hace por el amor que siente por ella. Aun así, no sabe por qué se porta de esa manera con ella, y un poco de esperanza quiere encontrar una solución para que la relación vaya a mejor ya sea por un cambio de mentalidad o un cambio de aires, “¿Por qué es tan cruel contigo?”.
+>El narrador justifica sus actos con algo de desesperación diciendo que lo hace por el amor que siente por ella. Aun así, el narrador no sabe por qué se porta de esa manera con ella, y con un poco de esperanza quiere encontrar una solución para que la relación vaya a mejor ya sea por un cambio de mentalidad o un cambio de aires, <mark><em>“¿Por qué soy tan cruel contigo?”.</em></mark>
 
 
 > #### 1

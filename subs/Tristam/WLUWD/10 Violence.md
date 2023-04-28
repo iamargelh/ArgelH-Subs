@@ -471,7 +471,7 @@ layout: default
 </body>
 
 ### Notas de traducción
->La canción trata sobre la lucha de alguien que quiere rendirse por lo cansado que está de sobrevivir, porque constantemente las violentas olas de la vida lo están hundiendo.
->Con el paso del tiempo la gente acumula odio e ira dentro de si mismos, sin razón aparente, ¿Qué tal si fuese amor?
->Volviendo a las olas, estas son un simbolismo para los problemas, estrés o emociones negativas que nos dan para abajo. Entonces, ¿Qué tal si en lugar de culpar las olas fluyes con ellas? Utilizándolas para impulsarte hacia la superficie, adaptándote a las situaciones en lugar de luchar contra ellas, canalizarlas y trabajarlas, aprovechándolas para avanzar.
+>La canción trata sobre la lucha de alguien que quiere rendirse por lo cansado que está de sobrevivir, porque constantemente las violentas olas de la vida lo están hundiendo.<br>
+>Con el paso del tiempo la gente acumula odio e ira dentro de si mismos, sin razón aparente, ¿Qué tal si fuese amor?<br>
+>Volviendo a las olas, estas son un simbolismo para los problemas, estrés o emociones negativas que nos dan para abajo. Entonces, ¿Qué tal si en lugar de culpar las olas fluyes con ellas? Utilizándolas para impulsarte hacia la superficie, adaptándote a las situaciones en lugar de luchar contra ellas, canalizarlas y trabajarlas, aprovechándolas para avanzar.<br>
 >Tal vez el problema no sea lo violenta que es la vida, sino que la falta de amor y comprensión en ella de parte de las personas que nos rodean. Tal vez el amor sea la clave para la paz y empatía en el mundo.
