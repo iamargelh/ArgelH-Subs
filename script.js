@@ -6,12 +6,11 @@ window.onload = function() {
       // La pantalla es horizontal
       document.body.style.fontSize = `4.5em`;
     }
-    window.location.reload(true);
   };
 
 let rootDirectoryName = '';
 
-fetch("tree.json")
+fetch("tree.json?nocache=123")
     .then((response) => response.json())
     .then((data) => {
         const contentsDiv = document.getElementById("contents");
