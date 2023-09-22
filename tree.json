@@ -113,13 +113,13 @@
             ]
         },
         {
-            "name": "Vorsa",
+            "name": "Vorsa2",
             "type": "directory",
             "children": [
                 {
                     "name": "VIOLENCE.md",
                     "type": "file",
-                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Vorsa/VIOLENCE"
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Vorsa2/VIOLENCE"
                 }
             ]
         }
