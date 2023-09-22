@@ -6,6 +6,7 @@ window.onload = function() {
       // La pantalla es horizontal
       document.body.style.fontSize = `4.5em`;
     }
+    window.location.reload(true);
   };
 
 let rootDirectoryName = '';
