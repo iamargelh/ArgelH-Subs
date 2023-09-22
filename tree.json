@@ -111,6 +111,17 @@
                     "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Tristam/Placeholder"
                 }
             ]
+        },
+        {
+            "name": "Vorsa",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "VIOLENCE.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Vorsa/VIOLENCE"
+                }
+            ]
         }
     ]
 }
