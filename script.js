@@ -10,7 +10,7 @@ window.onload = function() {
 
 let rootDirectoryName = '';
 
-fetch("tree.json?nocache=123")
+fetch("tree.json?nocache="+Math.random())
     .then((response) => response.json())
     .then((data) => {
         const contentsDiv = document.getElementById("contents");
