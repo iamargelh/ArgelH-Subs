@@ -454,7 +454,7 @@ layout: default
         }
     </script>
     <script>
-        if (videoLink) {
+        if (!videoLink) {
             var audiosSpan = document.querySelector("#spanWallpaper + span");
             if (!audiosSpan) {
                 audiosSpan = document.querySelector("#spanWallpaper");
