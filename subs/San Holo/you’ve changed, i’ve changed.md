@@ -466,8 +466,8 @@ layout: default
             br.parentNode.insertBefore(videoSpan, br.nextSibling);
             videoSpan.appendChild(document.createElement("br"));
             var videoLinkElement = document.createElement("a");
-            videoLinkElement.href = videoLink;
-            videoLinkElement.target = "_blank";
+            //videoLinkElement.href = videoLink;
+            //videoLinkElement.target = "_blank";
             videoLinkElement.textContent = videoText;
             videoSpan.appendChild(videoLinkElement);
         }
