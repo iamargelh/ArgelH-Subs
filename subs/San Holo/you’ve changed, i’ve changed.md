@@ -17,8 +17,8 @@ layout: default
     var instrumental = "";
     //
     //VIDEO LOSSELESS
-    var videoText = "Catbox"; 
-    var videoLink = "https://files.catbox.moe/6lu1qo.mp4";
+    var videoText = "Perdido ¯\_(ツ)_/¯"; 
+    var videoLink = "";
     //
     //ARTISTA 1
     var artist = "San Holo";
