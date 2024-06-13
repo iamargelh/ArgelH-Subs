@@ -122,6 +122,17 @@
                     "page": "https://iamargelh.github.io/ArgelH-Subs/subs/Vorsa/VIOLENCE"
                 }
             ]
+        },
+        {
+            "name": "abbot",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Heartbreak.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/abbot/Heartbreak"
+                }
+            ]
         }
     ]
 }
