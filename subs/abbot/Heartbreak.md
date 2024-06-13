@@ -477,24 +477,3 @@ layout: default
         }
     </script>
 </body>
-
-### Notas de traducción
->Un resumen muy corto de la canción: Ser distinto es tu orgullo, acéptate a ti mismo, no tienes nada que explicarle a nadie, no importan las críticas y comentarios de los demás, no permitas que te quiten o hagan que ocultes eso que te hace único, por más que la vida sea dolorosa y difícil.
-
-> #### 1
-> Se refiere a que no se suele quejar demasiado.
-
-> #### 2
-> Habla de la falta de sinceridad por parte de la otra persona, porque habla se compromete y dice cosas que no siente, cosas que no son reales. Probablemente porque esta persona esconda algo.
-
-> #### 3
-> La "temporada favorita" se refiere a cualquier cosa que sea del gusto de las personas. Estos gustos pueden ser temporales, vólatiles, cambiar a momentos, y si cambia a momentos significa que no viene "de corazón" ya que estás dispuesto a cambiar lo fácilmente.
-
-> #### 4
-> "Pero el latido de mi corazón nunca alterarás." el latido de su corazón hace un simbolismo hacia los sentimientos y emociones legitimos, reales, verdaderao, esos que nunca cambiarías por nada ni nadie más.
-
-> #### 5
-> Finalmente el narrador se da cuenta de que la otra persona esconde su verdadero ser, cubriendolo con gustos, palabras, compromisos y sentimientos falsos. Así que le pide que deje salir su "verdadero ser".
-
-> #### 6
-> El narrador quiere que la persona muestre su verdadero ser, sin importar el miedo que tenga se ser juzgado, porque siempre el miedo es la mitad del dolor total, si este se enfrenta se libera un gran peso de encima del individuo.
