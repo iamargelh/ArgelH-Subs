@@ -5,7 +5,7 @@ layout: default
 <script>
     //
     //CANCION
-    var cancion = "EDEN - Ghost In The Shell";
+    var cancion = "EDEN - Ghost In The Shell [MrSuicideSheep 23.06.24]";
     //
     //WALLPAPER
     var titulo = "YouTube";
@@ -17,8 +17,8 @@ layout: default
     var instrumental = "";
     //
     //VIDEO LOSSELESS
-    var videoText = ""; 
-    var videoLink = "";
+    var videoText = "Catbox"; 
+    var videoLink = "https://files.catbox.moe/i1v29k.mov";
     //
     //
     //
