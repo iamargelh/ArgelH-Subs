@@ -14,6 +14,17 @@
             ]
         },
         {
+            "name": "EDEN",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Ghost In The Shell.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/Ghost In The Shell"
+                }
+            ]
+        },
+        {
             "name": "Fwlr & Brdgs",
             "type": "directory",
             "children": [
