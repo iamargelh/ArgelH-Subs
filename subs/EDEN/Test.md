@@ -151,6 +151,6 @@ layout: default
         </tr>
     </table>
     <!-- INFIERNO DE LOS SCIRPT -->
-    <script src="/resources/js/hell.js"></script>
+    <script src="https://raw.githubusercontent.com/iamargelh/ArgelH-Subs/main/resources/js/hell.js"></script>
 </body>
 ### Notas de traducción
