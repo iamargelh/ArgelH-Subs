@@ -5,12 +5,12 @@ layout: default
 <script>
     //
     //CANCION
-    var cancion = "Track Title";
+    var cancion = "Cosa - Si 2";
     //
     //WALLPAPER
-    var titulo = "";
-    var texto = "";
-    var wfuente = "";
+    var titulo = "Si";
+    var texto = "No";
+    var wfuente = "Tal vez";
     //
     //PISTAS
     var vocals = "";
