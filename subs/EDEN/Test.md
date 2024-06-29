@@ -5,59 +5,59 @@ layout: default
 <script>
     //
     //CANCION
-    var cancion = Track Title;
+    var cancion = "Track Title";
     //
     //WALLPAPER
-    var titulo = ;
-    var texto = ;
-    var wfuente = ;
+    var titulo = "";
+    var texto = "";
+    var wfuente = "";
     //
     //PISTAS
-    var vocals = ;
-    var instrumental = ;
+    var vocals = "";
+    var instrumental = "";
     //
     //VIDEO LOSSELESS
-    var videoText = ; 
-    var videoLink = ;
+    var videoText = ""; 
+    var videoLink = "";
     //
     //
     //
     //ARTISTA 1
-    var artist = ;
-    var tidal = ;
-    var spotify = ;
-    var instagram = ;
-    var twitter = ;
-    var soundcloud = ;
-    var website = ;
-    var facebook = ;
-    var youtube = ;
-    var reddit  = ;
-    var discord = ;
+    var artist = "";
+    var tidal = "";
+    var spotify = "";
+    var instagram = "";
+    var twitter = "";
+    var soundcloud = "";
+    var website = "";
+    var facebook = "";
+    var youtube = "";
+    var reddit  = "";
+    var discord = "";
     //
     //ARTISTA 2
-    var artist2 = ;
-    var tidal2 = ;
-    var spotify2 = ;
-    var instagram2 = ;
-    var twitter2 = ;
-    var soundcloud2 = ;
-    var website2 = ;
-    var facebook2 = ;
-    var youtube2 = ;
-    var discord2 = ;
+    var artist2 = "";
+    var tidal2 = "";
+    var spotify2 = "";
+    var instagram2 = "";
+    var twitter2 = "";
+    var soundcloud2 = "";
+    var website2 = "";
+    var facebook2 = "";
+    var youtube2 = "";
+    var discord2 = "";
     //
     //ARTISTA 3
-    var artist3 = ;
-    var tidal3 = ;
-    var spotify3 = ;
-    var instagram3 = ;
-    var twitter3 = ;
-    var soundcloud3 = ;
-    var website3 = ;
-    var facebook3 = ;
-    var youtube3 = ;
-    var discord3 = ;
+    var artist3 = "";
+    var tidal3 = "";
+    var spotify3 = "";
+    var instagram3 = "";
+    var twitter3 = "";
+    var soundcloud3 = "";
+    var website3 = "";
+    var facebook3 = "";
+    var youtube3 = "";
+    var discord3 = "";
     //
 </script>
 <!-- ESTILOS -->
