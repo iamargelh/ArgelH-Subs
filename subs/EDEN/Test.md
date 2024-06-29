@@ -58,9 +58,10 @@ layout: default
     var facebook3 = ;
     var youtube3 = ;
     var discord3 = ;
-//
+    //
 </script>
-<!-- ESTILOS --><head>
+<!-- ESTILOS -->
+<head>
     <style>
         body {
             font-family: "Times New Roman", Times, serif;
@@ -128,7 +129,9 @@ layout: default
             <th colspan="2" class="ingles borde-derecho">Lyrics</th>
             <th colspan="2" class="espanol">Español</th>
         </tr>
-        <!-- INICIAR AQUI LA LETRA <td colspan="2"> --><tr><td colspan="2"> Oh, in my head</td><td colspan="2">asda</td></tr><tr><td colspan="2"> You said with certainty</td><td colspan="2">sdas</td></tr><tr><td colspan="2"> I may be the dumbest person that you've ever seen</td><td colspan="2">asd</td></tr><tr><td colspan="2"> You think you're hurting me</td><td colspan="2">dasd</td></tr><tr><td colspan="2"> Bet you won't believe it, but you kinda set me free</td><td colspan="2">asd</td></tr><tr><td colspan="2"></td><td colspan="2">dasd</td></tr><tr><td colspan="2"> You've mentioned Adderall</td><td colspan="2">asdas</td></tr><tr><td colspan="2"> Slip this guy a sedative, he's bouncing off the wall</td><td colspan="2">asd</td></tr><tr><td colspan="2"> Honey, it's no big deal</td><td colspan="2">asd</td></tr><tr><td colspan="2"> We'll get you back to college, you could study somethin' real</td><td colspan="2">asd</td></tr>        <!-- FINAL DE LA LETRA <td colspan="2"> -->
+        <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
+        <tr><td colspan="2"> Oh, in my head</td><td colspan="2">asda</td></tr><tr><td colspan="2"> You said with certainty</td><td colspan="2">sdas</td></tr><tr><td colspan="2"> I may be the dumbest person that you've ever seen</td><td colspan="2">asd</td></tr><tr><td colspan="2"> You think you're hurting me</td><td colspan="2">dasd</td></tr><tr><td colspan="2"> Bet you won't believe it, but you kinda set me free</td><td colspan="2">asd</td></tr><tr><td colspan="2"></td><td colspan="2">dasd</td></tr><tr><td colspan="2"> You've mentioned Adderall</td><td colspan="2">asdas</td></tr><tr><td colspan="2"> Slip this guy a sedative, he's bouncing off the wall</td><td colspan="2">asd</td></tr><tr><td colspan="2"> Honey, it's no big deal</td><td colspan="2">asd</td></tr><tr><td colspan="2"> We'll get you back to college, you could study somethin' real</td><td colspan="2">asd</td></tr>
+        <!-- FINAL DE LA LETRA <td colspan="2"> -->
         <tr>
             <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
                         en mi
