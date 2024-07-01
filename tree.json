@@ -18,6 +18,11 @@
             "type": "directory",
             "children": [
                 {
+                    "name": "EDEN - Zzz.md",
+                    "type": "file",
+                    "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/EDEN - Zzz"
+                },
+                {
                     "name": "Ghost In The Shell.md",
                     "type": "file",
                     "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/Ghost In The Shell"
