@@ -130,7 +130,78 @@ layout: default
             <th colspan="2" class="espanol">Español</th>
         </tr>
         <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
-        <tr><td colspan="2">Wow that song’s really cool and fun, yeah</td><td colspan="2">Wow, esa canción es bastante genial, sip</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">Last dance are you ready or not?</td><td colspan="2">Última oportunidad, ¿estás lista o no?</td></tr><tr><td colspan="2">No chance that we make this out alive</td><td colspan="2">No hay manera de salir de esta con vida</td></tr><tr><td colspan="2">I thought we could see a way out in time</td><td colspan="2">Pensé que podríamos solucionarlo con el tiempo</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">But it got so dark</td><td colspan="2">Pero todo se puso tan oscuro</td></tr><tr><td colspan="2">Where'd the light go?</td><td colspan="2">¿A dónde se fue la luz?</td></tr><tr><td colspan="2">Talking so much</td><td colspan="2">Hablábamos un montón</td></tr><tr><td colspan="2">Save the ozone</td><td colspan="2">Cosas cómo “salvar el ambiente”</td></tr><tr><td colspan="2">Saying nothing</td><td colspan="2">Sin hacer nada al respecto</td></tr><tr><td colspan="2">Except to tell me it's late</td><td colspan="2">Más que decirme excusas como “ya es tarde”</td></tr><tr><td colspan="2">So I wish you sweet dreams</td><td colspan="2">Así que, te deseo dulces sueños </td></tr><tr><td colspan="2">If you want to sleep on me</td><td colspan="2">Si quieres dormir sobre mí</td></tr><tr><td colspan="2">No tears in the morning</td><td colspan="2">Adelante, será sin lágrimas por la mañana</td></tr><tr><td colspan="2">It's alright, it's alright</td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">It's all just sweet dreams</td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me</td><td colspan="2">Y tú sólo me sigues ignorando</td></tr><tr><td colspan="2">Even though it's not real</td><td colspan="2">Incluso cuando no es algo real</td></tr><tr><td colspan="2">It's alright, it's alright</td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">By the time you wake up</td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river</td><td colspan="2">Estando al otro lado del río</td></tr><tr><td colspan="2">Kept my face dry</td><td colspan="2">Y mantenga mi cara sin lágrimas</td></tr><tr><td colspan="2">Don't say you feel different now</td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost</td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up</td><td colspan="2">Cuando te despiertes</td></tr><tr><td colspan="2">Wondеr how it got so distant</td><td colspan="2">Y te preguntes como nos distanciamos</td></tr><tr><td colspan="2">Summertime skies feel different without me now</td><td colspan="2">Y los cielos del verano se sientan diferentes sin mí ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss (Yeah)</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida (así es)</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">It's your loss, your loss, your loss (Loss)</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida (Pérdida)</td></tr><tr><td colspan="2">Don't ask if you don't want to find out</td><td colspan="2">No preguntes lo que no quieres averiguar</td></tr><tr><td colspan="2">You're so sad when you don't get what you want</td><td colspan="2">Porque te pones tan triste cuando no obtienes lo que quieres</td></tr><tr><td colspan="2">So tired of trying to change your mind</td><td colspan="2">Estoy tan exhausto de intentar cambiar tu mente</td></tr><tr><td colspan="2">Comme ci, comme ça</td><td colspan="2">Y con indiferencia</td></tr><tr><td colspan="2">Feelings come and go</td><td colspan="2">Los sentimientos van y vienen</td></tr><tr><td colspan="2">Take what you want</td><td colspan="2">Toma lo que quieras</td></tr><tr><td colspan="2">Feeling no remorse</td><td colspan="2">Sin remordimiento</td></tr><tr><td colspan="2">Head on my chest</td><td colspan="2">Reposa tu cabeza sobre mi pecho</td></tr><tr><td colspan="2">Still so comfortable</td><td colspan="2">Siéntete cómoda</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">So I wish you sweet dreams</td><td colspan="2">Así que, te deseo dulces sueños</td></tr><tr><td colspan="2">If you want to sleep on me</td><td colspan="2">Si quieres dormir sobre mí</td></tr><tr><td colspan="2">No tears in the morning</td><td colspan="2">Adelante, será sin lágrimas por la mañana</td></tr><tr><td colspan="2">It's alright, it's alright</td><td colspan="2">Lo aceptaré, está bien</td></tr><tr><td colspan="2">It's all just sweet dreams</td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me</td><td colspan="2">Y tú sólo me estás ignorando</td></tr><tr><td colspan="2">Even though it's not real</td><td colspan="2">Incluso cuando no es real</td></tr><tr><td colspan="2">It's alright, it's alright</td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">(It's alright, it's alright)</td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">By the time you wake up</td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river</td><td colspan="2">Estando al lado  opuesto del río</td></tr><tr><td colspan="2">Kept my face dry</td><td colspan="2">Y mantenga mi cara seca</td></tr><tr><td colspan="2">Don't say you feel different now</td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost</td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up</td><td colspan="2">Cuando te despiertes</td></tr><tr><td colspan="2">Wondеr how it got so distant</td><td colspan="2">Y te preguntes como nos distanciamos</td></tr><tr><td colspan="2">Summertime skies feel different without me now</td><td colspan="2">Y los cielos del verano se sientan diferentes sin mí ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">Yeah</td><td colspan="2">Así es</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">It's your loss, your loss, your loss</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">Loss</td><td colspan="2">Pérdida</td></tr>
+        <tr><td colspan="2">Wow that song’s really cool and fun, yeah
+</td><td colspan="2">Wow, esa canción es bastante genial, sip</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">Last dance are you ready or not?
+</td><td colspan="2">Última oportunidad, ¿estás lista o no?</td></tr><tr><td colspan="2">No chance that we make this out alive
+</td><td colspan="2">No hay manera de salir de esta con vida</td></tr><tr><td colspan="2">I thought we could see a way out in time
+</td><td colspan="2">Pensé que podríamos solucionarlo con el tiempo</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">But it got so dark
+</td><td colspan="2">Pero todo se puso tan oscuro</td></tr><tr><td colspan="2">Where'd the light go?
+</td><td colspan="2">¿A dónde se fue la luz?</td></tr><tr><td colspan="2">Talking so much
+</td><td colspan="2">Hablábamos un montón</td></tr><tr><td colspan="2">Save the ozone
+</td><td colspan="2">Cosas cómo “salvar el ambiente”</td></tr><tr><td colspan="2">Saying nothing
+</td><td colspan="2">Sin hacer nada al respecto</td></tr><tr><td colspan="2">Except to tell me it's late
+</td><td colspan="2">Más que decirme excusas como “ya es tarde”</td></tr><tr><td colspan="2">So I wish you sweet dreams
+</td><td colspan="2">Así que, te deseo dulces sueños </td></tr><tr><td colspan="2">If you want to sleep on me
+</td><td colspan="2">Si quieres dormir sobre mí</td></tr><tr><td colspan="2">No tears in the morning
+</td><td colspan="2">Adelante, será sin lágrimas por la mañana</td></tr><tr><td colspan="2">It's alright, it's alright
+</td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">It's all just sweet dreams
+</td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me
+</td><td colspan="2">Y tú sólo me sigues ignorando</td></tr><tr><td colspan="2">Even though it's not real
+</td><td colspan="2">Incluso cuando no es algo real</td></tr><tr><td colspan="2">It's alright, it's alright
+</td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">By the time you wake up
+</td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river
+</td><td colspan="2">Estando al otro lado del río</td></tr><tr><td colspan="2">Kept my face dry
+</td><td colspan="2">Y mantenga mi cara sin lágrimas</td></tr><tr><td colspan="2">Don't say you feel different now
+</td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost
+</td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up
+</td><td colspan="2">Cuando te despiertes</td></tr><tr><td colspan="2">Wondеr how it got so distant
+</td><td colspan="2">Y te preguntes como nos distanciamos</td></tr><tr><td colspan="2">Summertime skies feel different without me now
+</td><td colspan="2">Y los cielos del verano se sientan diferentes sin mí ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss (Yeah)
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida (así es)</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">It's your loss, your loss, your loss (Loss)
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida (Pérdida)</td></tr><tr><td colspan="2">Don't ask if you don't want to find out
+</td><td colspan="2">No preguntes lo que no quieres averiguar</td></tr><tr><td colspan="2">You're so sad when you don't get what you want
+</td><td colspan="2">Porque te pones tan triste cuando no obtienes lo que quieres</td></tr><tr><td colspan="2">So tired of trying to change your mind
+</td><td colspan="2">Estoy tan exhausto de intentar cambiar tu mente</td></tr><tr><td colspan="2">Comme ci, comme ça
+</td><td colspan="2">Y con indiferencia</td></tr><tr><td colspan="2">Feelings come and go
+</td><td colspan="2">Los sentimientos van y vienen</td></tr><tr><td colspan="2">Take what you want
+</td><td colspan="2">Toma lo que quieras</td></tr><tr><td colspan="2">Feeling no remorse
+</td><td colspan="2">Sin remordimiento</td></tr><tr><td colspan="2">Head on my chest
+</td><td colspan="2">Reposa tu cabeza sobre mi pecho</td></tr><tr><td colspan="2">Still so comfortable
+</td><td colspan="2">Siéntete cómoda</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">So I wish you sweet dreams
+</td><td colspan="2">Así que, te deseo dulces sueños</td></tr><tr><td colspan="2">If you want to sleep on me
+</td><td colspan="2">Si quieres dormir sobre mí</td></tr><tr><td colspan="2">No tears in the morning
+</td><td colspan="2">Adelante, será sin lágrimas por la mañana</td></tr><tr><td colspan="2">It's alright, it's alright
+</td><td colspan="2">Lo aceptaré, está bien</td></tr><tr><td colspan="2">It's all just sweet dreams
+</td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me
+</td><td colspan="2">Y tú sólo me estás ignorando</td></tr><tr><td colspan="2">Even though it's not real
+</td><td colspan="2">Incluso cuando no es real</td></tr><tr><td colspan="2">It's alright, it's alright
+</td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">(It's alright, it's alright)
+</td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">By the time you wake up
+</td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river
+</td><td colspan="2">Estando al lado  opuesto del río</td></tr><tr><td colspan="2">Kept my face dry
+</td><td colspan="2">Y mantenga mi cara seca</td></tr><tr><td colspan="2">Don't say you feel different now
+</td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost
+</td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up
+</td><td colspan="2">Cuando te despiertes</td></tr><tr><td colspan="2">Wondеr how it got so distant
+</td><td colspan="2">Y te preguntes como nos distanciamos</td></tr><tr><td colspan="2">Summertime skies feel different without me now
+</td><td colspan="2">Y los cielos del verano se sientan diferentes sin mí ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">Yeah
+</td><td colspan="2">Así es</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
+</td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">Loss
+</td><td colspan="2">Pérdida</td></tr>
         <!-- FINAL DE LA LETRA <td colspan="2"> -->
         <tr>
             <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
