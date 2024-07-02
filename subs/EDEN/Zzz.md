@@ -17,8 +17,8 @@ layout: default
     var instrumental = "";
     //
     //VIDEO LOSSELESS
-    var videoText = ""; 
-    var videoLink = "";
+    var videoText = "Catbox"; 
+    var videoLink = "https://files.catbox.moe/11fqiy.mov";
     //
     //
     //
