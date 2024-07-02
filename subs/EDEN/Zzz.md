@@ -142,18 +142,18 @@ layout: default
 </td><td colspan="2">Hablábamos un montón</td></tr><tr><td colspan="2">Save the ozone
 </td><td colspan="2">Cosas cómo “salvar el ambiente”</td></tr><tr><td colspan="2">Saying nothing
 </td><td colspan="2">Sin hacer nada al respecto</td></tr><tr><td colspan="2">Except to tell me it's late
-</td><td colspan="2">Más que decirme excusas como “ya es tarde”</td></tr><tr><td colspan="2">So I wish you sweet dreams
-</td><td colspan="2">Así que, te deseo dulces sueños </td></tr><tr><td colspan="2">If you want to sleep on me
+</td><td colspan="2">Más que decirme excusas como “ya es tarde”<a href="#1"><strong>[1]</strong></a></td></tr><tr><td colspan="2">So I wish you sweet dreams
+</td><td colspan="2">Así que, te deseo dulces sueños<a href="#2"><strong>[2]</strong></a></td></tr><tr><td colspan="2">If you want to sleep on me
 </td><td colspan="2">Si quieres dormir sobre mí</td></tr><tr><td colspan="2">No tears in the morning
 </td><td colspan="2">Adelante, será sin lágrimas por la mañana</td></tr><tr><td colspan="2">It's alright, it's alright
-</td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">It's all just sweet dreams
+</td><td colspan="2">Está bien, lo aceptaré<a href="#3"><strong>[3]</strong></a></td></tr><tr><td colspan="2">It's all just sweet dreams
 </td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me
 </td><td colspan="2">Y tú sólo me sigues ignorando</td></tr><tr><td colspan="2">Even though it's not real
 </td><td colspan="2">Incluso cuando no es algo real</td></tr><tr><td colspan="2">It's alright, it's alright
 </td><td colspan="2">Está bien, está bien</td></tr><tr><td colspan="2">By the time you wake up
 </td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river
-</td><td colspan="2">Estando al otro lado del río</td></tr><tr><td colspan="2">Kept my face dry
-</td><td colspan="2">Y mantenga mi cara sin lágrimas</td></tr><tr><td colspan="2">Don't say you feel different now
+</td><td colspan="2">Estando al otro lado del río<a href="#4"><strong>[4]</strong></a></td></tr><tr><td colspan="2">Kept my face dry
+</td><td colspan="2">Y mantenga mi cara sin lágrimas<a href="#5"><strong>[5]</strong></a></td></tr><tr><td colspan="2">Don't say you feel different now
 </td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
 </td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost
 </td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up
@@ -539,3 +539,18 @@ layout: default
     </script>
 </body>
 ### Notas de traducción
+>La canción trata sobre la supereción de una ruptura, en general ya está hecho a la idea de que aceptó que no va hacia ningun lado la relación. Esta versión siendo la final es algo distinta a los conciertos donde en la letra hace ataques más directos. El inicio de una de las versiones de los conciertos era "Clichés salen de tu boca toda la noche, estos desaparecen y dices que son de verdad, aunque no los veía esperaba que fueran verdad con el tiempo", despues ed ahí va el "Pero todo se puso tan oscuro, ¿A dónde se fue la luz?...".<br>Otro cambio hecho fue "Y puedes posponerlo toda la noche, Pero ya nunca podrás recuperarlo, Hemos caído en estos apáticos momentos" donde referencía que la otra persona posponía y posponía esas platicas importantes que se debían de tener, que hasta incluso posponía la ruptura como tal, este pedazo fue cambiado directamente por "No preguntes lo que no quieres averiguar, Porque te pones tan triste cuando no obtienes lo que quieres, Estoy tan exhausto de intentar cambiar tu mente", cosa que es más parecido a la versión del vertigo tour de <a href="[https://linktr.ee/iamargelh](https://youtu.be/xYHcsETwZFE?t=93)" target="_blank">@facesareblurredx</a>.
+> #### 1
+> Todo este pedazo se refiere a que tocaban conversaciones importantes, pero que nunca profundizaban porque la su ex siempre encontraba la excusa para sacarle la vuelta, la el ejemplo sugiere un tema de conversación importante como “hay que salvar el ambiente” pero ella responde “ya es tarde para eso, no se puede 👍”, y se quita la responsabilidad y evade completamente el tema.
+
+> #### 2
+> Aun así, le desea lo mejor, por más problemas que tengan.
+
+> #### 3
+> Aunque estén en su mejor momento, como si fuese un sueño, ella simplemente lo sigue evadiendo de una forma u otra.
+
+> #### 4
+> En verdad es "Y yo esté al otro lado del río", pero de manera opuesta sirve y para mi enterpretar está mejor.
+
+> #### 5
+> "Kept my face dry" se podía referír a que no va a cruzar el río por ella por lo que mantendrá su cara seca, pero en general la canción habla sobre aceptar la ruptura tal cual como es, entonces podría ser que esté evitando llorar o mostrar emociones fuertas para poder seguir adelante.
