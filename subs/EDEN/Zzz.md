@@ -543,7 +543,7 @@ layout: default
 >La canción trata sobre la supereción de una ruptura, en general ya está hecho a la idea de que aceptó que no va hacia ningun lado la relación. Esta versión siendo la final es algo distinta a los conciertos donde en la letra hace ataques más directos. El inicio de una de las versiones de los conciertos era "Clichés salen de tu boca toda la noche, estos desaparecen y dices que son de verdad, aunque no los veía esperaba que fueran verdad con el tiempo", despues ed ahí va el "Pero todo se puso tan oscuro, ¿A dónde se fue la luz?...".<br>Otro cambio hecho fue "Y puedes posponerlo toda la noche, Pero ya nunca podrás recuperarlo, Hemos caído en estos apáticos momentos" donde referencía que la otra persona posponía y posponía esas platicas importantes que se debían de tener, que hasta incluso posponía la ruptura como tal, este pedazo fue cambiado directamente por "No preguntes lo que no quieres averiguar, Porque te pones tan triste cuando no obtienes lo que quieres, Estoy tan exhausto de intentar cambiar tu mente", cosa que es más parecido a la versión del vertigo tour de <a href="[https://linktr.ee/iamargelh](https://youtu.be/xYHcsETwZFE?t=93)" target="_blank">@facesareblurredx</a>.
 > #### 1
 > Todo este pedazo se refiere a que tocaban conversaciones importantes, pero que nunca profundizaban porque la su ex siempre encontraba la excusa para sacarle la vuelta, la el ejemplo sugiere un tema de conversación importante como “hay que salvar el ambiente” pero ella responde “ya es tarde para eso, no se puede 👍”, y se quita la responsabilidad y evade completamente el tema.
-
+>
 > #### 2
 > Aun así, le desea lo mejor, por más problemas que tengan.
 
