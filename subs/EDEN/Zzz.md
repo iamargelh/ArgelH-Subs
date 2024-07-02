@@ -543,6 +543,7 @@ layout: default
 > #### 1
 > Todo este pedazo se refiere a que tocaban conversaciones importantes, pero que nunca profundizaban porque la su ex siempre encontraba la excusa para sacarle la vuelta, la el ejemplo sugiere un tema de conversación importante como “hay que salvar el ambiente” pero ella responde “ya es tarde para eso, no se puede 👍”, y se quita la responsabilidad y evade completamente el tema.
 
+
 > #### 2
 > Aun así, le desea lo mejor, por más problemas que tengan.
 
