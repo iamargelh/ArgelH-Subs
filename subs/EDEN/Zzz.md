@@ -182,12 +182,12 @@ layout: default
 </td><td colspan="2">Todos son sólo dulces sueños</td></tr><tr><td colspan="2">And you're sleeping on me
 </td><td colspan="2">Y tú sólo me estás ignorando</td></tr><tr><td colspan="2">Even though it's not real
 </td><td colspan="2">Incluso cuando no es real</td></tr><tr><td colspan="2">It's alright, it's alright
-</td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">Está bien, lo aceptaré<a href="#3"><strong>[3]</strong></a></td></tr><tr><td colspan="2">⠀
 </td><td colspan="2">⠀</td></tr><tr><td colspan="2">(It's alright, it's alright)
 </td><td colspan="2">Está bien, lo aceptaré</td></tr><tr><td colspan="2">By the time you wake up
 </td><td colspan="2">Y cuando te despiertes</td></tr><tr><td colspan="2">I'm the other side of the river
-</td><td colspan="2">Estando al lado  opuesto del río</td></tr><tr><td colspan="2">Kept my face dry
-</td><td colspan="2">Y mantenga mi cara seca</td></tr><tr><td colspan="2">Don't say you feel different now
+</td><td colspan="2">Estando al lado  opuesto del río<a href="#4"><strong>[4]</strong></a></td></tr><tr><td colspan="2">Kept my face dry
+</td><td colspan="2">Y mantenga mi cara seca sin lágrimas<a href="#3"><strong>[5]</strong></a></td></tr><tr><td colspan="2">Don't say you feel different now
 </td><td colspan="2">No digas que te sientes diferente ahora</td></tr><tr><td colspan="2">It's your loss, your loss, your loss
 </td><td colspan="2">Es tu pérdida, tu pérdida, tu pérdida</td></tr><tr><td colspan="2">If you'rе lost
 </td><td colspan="2">Si estás perdida</td></tr><tr><td colspan="2">By the time you wake up
