@@ -530,7 +530,7 @@ layout: default
 > Se refería a 103 grados Fahrenheit, simplemente convertí a centígrados. No creo que una brisa a 40 grados en la que sientes que se te derrite la piel es muy agradable.
 
 > #### 3
-> La traducción directa es “espero que ELLOS no nos encuentren esta noche”, con “ELLOS” se refiere a los demonios, esta vez si decidí simplificarlos a “problemas” como en la primera nota.
+> La traducción directa es “espero que ELLOS no nos encuentren esta noche”, con “ELLOS” se refiere a los demonios, esta vez si decidí simplificarlos a “problemas” como en la primera nota<sub><a href="#1"><strong>[1]</strong></a></sub>.
 
 > #### 4
 > Claro, el final está a unos segundos, pero la cinta sigue en desorden.
