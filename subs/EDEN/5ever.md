@@ -130,7 +130,61 @@ layout: default
             <th colspan="2" class="espanol">Español</th>
         </tr>
         <!-- INICIAR AQUI LA LETRA <td colspan="2"> -->
-        <tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">and we looked like a slasher film</td><td colspan="2">y es que parecíamos una película de terror</td></tr><tr><td colspan="2">playing out of sequence</td><td colspan="2">proyectándose como un completo desastre</td></tr><tr><td colspan="2">baby it's just feedback</td><td colspan="2">y amor, eso es una consecuencia</td></tr><tr><td colspan="2">looping up my demons</td><td colspan="2">de las batallas con mis demonios</td></tr><tr><td colspan="2">told them if i'm gonna die its</td><td colspan="2">les dije que, si es que moriré, será</td></tr><tr><td colspan="2">with you</td><td colspan="2">contigo</td></tr><tr><td colspan="2">but you were like the breeze when</td><td colspan="2">pero tú eras como la brisa cuando</td></tr><tr><td colspan="2">it's one hundred three</td><td colspan="2">estamos a 40 grados</td></tr><tr><td colspan="2">felt like if we don't sleep then</td><td colspan="2">y sentía que si no dormíamos entonces</td></tr><tr><td colspan="2">tomorrows just a dream</td><td colspan="2">el mañana se volvía un sueño que no llegará</td></tr><tr><td colspan="2">oh, i hope they don't find us tonight</td><td colspan="2">espero que los problemas no nos encuentren esta noche</td></tr><tr><td colspan="2">if time could stand still</td><td colspan="2">si el tiempo se pudiera detener</td></tr><tr><td colspan="2">if i could change</td><td colspan="2">si lo pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to say</td><td colspan="2">para decir</td></tr><tr><td colspan="2">i could have stayed</td><td colspan="2">que podría haberme quedado</td></tr><tr><td colspan="2">here forever</td><td colspan="2">aquí para siempre</td></tr><tr><td colspan="2">and we looked like a slasher film</td><td colspan="2">y es que parecíamos una película de terror</td></tr><tr><td colspan="2">cut up out of sequence</td><td colspan="2">una cinta cortada en desorden</td></tr><tr><td colspan="2">running from a crime scene</td><td colspan="2">huyendo de una escena del crimen</td></tr><tr><td colspan="2">baby i'm still bleeding</td><td colspan="2">y cariño, todavía estoy sangrando</td></tr><tr><td colspan="2">and i can never go back</td><td colspan="2">y nunca podré regresar</td></tr><tr><td colspan="2">i just want you to know that</td><td colspan="2">solo quiero que sepas eso</td></tr><tr><td colspan="2">i been staring at the ceiling</td><td colspan="2">he estado mirando el techo</td></tr><tr><td colspan="2">looking for a breach</td><td colspan="2">buscando una salida</td></tr><tr><td colspan="2">even in the silence</td><td colspan="2">incluso en el silencio</td></tr><tr><td colspan="2">i can hear you say the end just seconds away</td><td colspan="2">puedo oírte decir que el final está a tan solo unos segundos</td></tr><tr><td colspan="2">but if time could stand still</td><td colspan="2">pero si el tiempo pudiera detenerse</td></tr><tr><td colspan="2">if i could change</td><td colspan="2">y lo pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">i feel like i could puke my guts up</td><td colspan="2">que siento que podría vomitar mis entrañas</td></tr><tr><td colspan="2">if they weren't already on the floor</td><td colspan="2">si tan solo no estuvieran ya en el suelo</td></tr><tr><td colspan="2">i feel like i'm losing grip on</td><td colspan="2">y es que siento que estoy perdiendo el control</td></tr><tr><td colspan="2">and you can grab my hand as we run off</td><td colspan="2">puedes tomar mi mano mientras corremos</td></tr><tr><td colspan="2">maybe we'll make it after dawn</td><td colspan="2">puede que lo logremos después del amanecer</td></tr><tr><td colspan="2">but in the sunlight well be different</td><td colspan="2">pero en la luz del sol seremos diferentes</td></tr><tr><td colspan="2">if time could stand still</td><td colspan="2">si tan solo el tiempo se pudiera detener</td></tr><tr><td colspan="2">if i could change</td><td colspan="2">si pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">to say</td><td colspan="2">para decir</td></tr><tr><td colspan="2">i could've stayed here fore-(ver)</td><td colspan="2">que podría haberme quedado aquí para siem-(pre)</td></tr><tr><td colspan="2">⠀</td><td colspan="2">⠀</td></tr>
+        <tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">and we looked like a slasher film
+</td><td colspan="2">y es que parecíamos una película de terror</td></tr><tr><td colspan="2">playing out of sequence
+</td><td colspan="2">proyectándose como un completo desastre</td></tr><tr><td colspan="2">baby it's just feedback
+</td><td colspan="2">y amor, eso es una consecuencia</td></tr><tr><td colspan="2">looping up my demons
+</td><td colspan="2">de las batallas con mis demonios<sub><a href="#1"><strong>[1]</strong></a></sub></td></tr><tr><td colspan="2">told them if i'm gonna die its
+</td><td colspan="2">les dije que, si es que moriré, será</td></tr><tr><td colspan="2">with you
+</td><td colspan="2">contigo</td></tr><tr><td colspan="2">but you were like the breeze when
+</td><td colspan="2">pero tú eras como la brisa cuando</td></tr><tr><td colspan="2">it's one hundred three
+</td><td colspan="2">estamos a 40 grados<sub><a href="#2"><strong>[2]</strong></a></sub></td></tr><tr><td colspan="2">felt like if we don't sleep then
+</td><td colspan="2">y sentía que si no dormíamos entonces</td></tr><tr><td colspan="2">tomorrows just a dream
+</td><td colspan="2">el mañana se volvía un sueño que no llegará</td></tr><tr><td colspan="2">oh, i hope they don't find us tonight
+</td><td colspan="2">espero que los problemas no nos encuentren esta noche<sub><a href="#3"><strong>[3]</strong></a></sub></td></tr><tr><td colspan="2">if time could stand still
+</td><td colspan="2">si el tiempo se pudiera detener</td></tr><tr><td colspan="2">if i could change
+</td><td colspan="2">si lo pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words
+</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to say
+</td><td colspan="2">para decir</td></tr><tr><td colspan="2">i could have stayed
+</td><td colspan="2">que podría haberme quedado</td></tr><tr><td colspan="2">here forever
+</td><td colspan="2">aquí para siempre</td></tr><tr><td colspan="2">and we looked like a slasher film
+</td><td colspan="2">y es que parecíamos una película de terror</td></tr><tr><td colspan="2">cut up out of sequence
+</td><td colspan="2">una cinta cortada en desorden</td></tr><tr><td colspan="2">running from a crime scene
+</td><td colspan="2">huyendo de una escena del crimen</td></tr><tr><td colspan="2">baby i'm still bleeding
+</td><td colspan="2">y cariño, todavía estoy sangrando</td></tr><tr><td colspan="2">and i can never go back
+</td><td colspan="2">y nunca podré regresar</td></tr><tr><td colspan="2">i just want you to know that
+</td><td colspan="2">solo quiero que sepas eso</td></tr><tr><td colspan="2">i been staring at the ceiling
+</td><td colspan="2">he estado mirando el techo</td></tr><tr><td colspan="2">looking for a breach
+</td><td colspan="2">buscando una salida</td></tr><tr><td colspan="2">even in the silence
+</td><td colspan="2">incluso en el silencio</td></tr><tr><td colspan="2">i can hear you say the end just seconds away
+</td><td colspan="2">puedo oírte decir que el final está a tan solo unos segundos<sub><a href="#4"><strong>[4]</strong></a></sub></td></tr><tr><td colspan="2">but if time could stand still
+</td><td colspan="2">pero si el tiempo pudiera detenerse</td></tr><tr><td colspan="2">if i could change
+</td><td colspan="2">y lo pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words
+</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">i feel like i could puke my guts up
+</td><td colspan="2">que siento que podría vomitar mis entrañas</td></tr><tr><td colspan="2">if they weren't already on the floor
+</td><td colspan="2">si tan solo no estuvieran ya en el suelo</td></tr><tr><td colspan="2">i feel like i'm losing grip on
+</td><td colspan="2">y es que siento que estoy perdiendo el control</td></tr><tr><td colspan="2">and you can grab my hand as we run off
+</td><td colspan="2">puedes tomar mi mano mientras corremos</td></tr><tr><td colspan="2">maybe we'll make it after dawn
+</td><td colspan="2">puede que lo logremos después del amanecer</td></tr><tr><td colspan="2">but in the sunlight well be different
+</td><td colspan="2">pero en la luz del sol seremos diferentes<sub><a href="#5"><strong>[5]</strong></a></sub></td></tr><tr><td colspan="2">if time could stand still
+</td><td colspan="2">si tan solo el tiempo se pudiera detener</td></tr><tr><td colspan="2">if i could change
+</td><td colspan="2">si pudiera cambiar</td></tr><tr><td colspan="2">maybe i'd have found the words
+</td><td colspan="2">tal vez habría encontrado las palabras</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr><tr><td colspan="2">to tell you
+</td><td colspan="2">para decirte</td></tr><tr><td colspan="2">to say
+</td><td colspan="2">para decir</td></tr><tr><td colspan="2">i could've stayed here fore-(ver)</td><td colspan="2">que podría haberme quedado aquí para siem-(pre)</td></tr><tr><td colspan="2">⠀
+</td><td colspan="2">⠀</td></tr>
         <!-- FINAL DE LA LETRA <td colspan="2"> -->
         <tr>
             <td class="top-align align-left" style="text-align: left;"><span id="spanWallpaper"><b>Wallpaper:</b><span class="mitad-tamano">(Usado
@@ -468,3 +522,18 @@ layout: default
     </script>
 </body>
 ### Notas de traducción
+
+> #### 1
+> “Demonios” lo iba a interpretar originalmente como problemas, pero no quise cambiarlo al final porque demonios suena con más peso.
+
+> #### 2
+> Se refería a 103 grados Fahrenheit, simplemente convertí a centígrados. No creo que una brisa a 40 grados en la que sientes que se te derrite la piel es muy agradable.
+
+> #### 3
+> La traducción directa es “espero que ELLOS no nos encuentren esta noche”, con “ELLOS” se refiere a los demonios, esta vez si decidí simplificarlos a “problemas” como en la primera nota.
+
+> #### 4
+> Claro, el final está a unos segundos, pero la cinta sigue en desorden.
+
+> #### 5
+> Una vez salga el sol y ambos logran sobrevivir huyendo agarrados de las manos, ninguno de los dos serán las mismas personas después de escapar de todos esos problemas.
