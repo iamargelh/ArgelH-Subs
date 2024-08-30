@@ -18,6 +18,32 @@
             "type": "directory",
             "children": [
                 {
+                    "name": "DARK",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "01 Zzz.md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/DARK/01 Zzz"
+                        },
+                        {
+                            "name": "05 Ghost In The Shell.md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/DARK/05 Ghost In The Shell"
+                        },
+                        {
+                            "name": "07 5ever.md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/DARK/07 5ever"
+                        },
+                        {
+                            "name": "13 Pocket (montreal).md",
+                            "type": "file",
+                            "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/DARK/13 Pocket (montreal)"
+                        }
+                    ]
+                },
+                {
                     "name": "5ever.md",
                     "type": "file",
                     "page": "https://iamargelh.github.io/ArgelH-Subs/subs/EDEN/5ever"
